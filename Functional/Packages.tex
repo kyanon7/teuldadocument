@@ -1,0 +1,34 @@
+\usepackage{kotex}
+
+\usepackage{xcolor} % Required for custom red
+
+\usepackage{geometry} % Custom margins
+
+\usepackage{tocloft} % Modifying the table of contents
+
+\usepackage{setspace} % Using one and a half spacing, closer to standard for legal documents
+
+\usepackage{lastpage} % so we can reference total number of pages in arabic page numbering
+
+\usepackage[automark,markcase=upper]{scrlayer-scrpage} % Customising the headers and footers
+
+\usepackage{enumitem} % Customising the numbered lists
+
+\usepackage{xhfill} % Making the pink block not extend beyond the margin
+
+\usepackage{etoolbox} % Allowing for self-reference in the section numbers (Because I had to make custom section headers and remove the default ones)
+
+\usepackage{nameref} % reference the names of the sections
+
+\usepackage[normalem]{ulem} % Dashed lines in appendix
+
+\usepackage{amssymb}
+
+\setsansfont{AritaSans}[UprightFont={*-Medium},BoldFont={*-SemiBold},Scale=MatchUppercase,Ligatures=TeX]
+\setmonofont{Latin Modern Mono}[Scale=MatchLowercase]
+\setmainhangulfont{KoPubBatang}[Ligatures=TeX,Scale=MatchUppercase,UprightFont={*Light},BoldFont={*Bold}]
+\setsanshangulfont{KoPubDotum}[Ligatures=TeX,Scale=MatchUppercase,UprightFont={*Light},BoldFont={*Bold}]
+\setmonohangulfont{KoPubDotum}[Scale=MatchLowercase,UprightFont={*Light},BoldFont={*Bold}]
+\hanjabyhangulfont
+\newfontfamily\fallbackhanjafont{HanaMinA}
+\xetexkofontregime{latin}[puncts=prevfont,cjksymbols=hangul,colons=latin,hyphens=latin]
