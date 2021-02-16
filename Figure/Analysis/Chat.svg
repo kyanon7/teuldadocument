@@ -1,0 +1,1005 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   height="297mm"
+   id="svg550"
+   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)"
+   sodipodi:docname="채팅.svg"
+   version="1.1"
+   width="210mm">
+  <metadata
+     id="metadata554">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     bordercolor="#666666"
+     borderopacity="1"
+     gridtolerance="10"
+     guidetolerance="10"
+     id="namedview552"
+     inkscape:current-layer="svg550"
+     inkscape:cx="754.30565"
+     inkscape:cy="545.72856"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-height="1798"
+     inkscape:window-maximized="1"
+     inkscape:window-width="3360"
+     inkscape:window-x="6708"
+     inkscape:window-y="-12"
+     inkscape:zoom="1.2665685"
+     objecttolerance="10"
+     pagecolor="#ffffff"
+     showgrid="false"
+     units="mm"
+     inkscape:document-rotation="0" />
+  <defs
+     id="defs2" />
+  <g
+     id="g548"
+     transform="matrix(1.1094054,0,0,1.1094054,-0.99355541,159.12289)">
+    <g
+       id="g190"
+       transform="translate(-22,-22)">
+      <rect
+         fill="#c0c0c0"
+         height="29"
+         id="rect188"
+         opacity="0.2"
+         stroke="none"
+         width="167"
+         x="39"
+         y="39" />
+    </g>
+    <g
+       id="g194"
+       transform="translate(-22,-22)">
+      <rect
+         fill="#ffffff"
+         height="29"
+         id="rect192"
+         stroke="none"
+         width="167"
+         x="32"
+         y="32" />
+    </g>
+    <g
+       id="g198"
+       transform="translate(-22,-22)">
+      <path
+         d="M 32,32 H 199 V 61 H 32 Z"
+         fill="none"
+         id="path196"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g206"
+       transform="translate(-22,-22)">
+      <g
+         id="g204">
+        <path
+           d=""
+           fill="none"
+           id="path200"
+           stroke="none" />
+        <text
+           fill="#000000"
+           font-family="Arial"
+           font-size="18px"
+           font-style="normal"
+           font-weight="bold"
+           id="text202"
+           stroke="none"
+           style="text-decoration:none;text-decoration-line:none"
+           text-decoration="none"
+           x="97.5"
+           y="56.5">채팅</text>
+      </g>
+    </g>
+    <g
+       id="g210"
+       transform="translate(-22,-22)">
+      <path
+         d="m 442,221 c 0,-9.38884 64.02327,-17 143,-17 78.97673,0 143,7.61116 143,17 0,9.38884 -64.02327,17 -143,17 -78.97673,0 -143,-7.61116 -143,-17 z"
+         fill="#c0c0c0"
+         id="path208"
+         opacity="0.2"
+         stroke="none" />
+    </g>
+    <g
+       id="g214"
+       transform="translate(-22,-22)">
+      <path
+         d="m 435,214 c 0,-9.38884 64.02327,-17 143,-17 78.97673,0 143,7.61116 143,17 0,9.38884 -64.02327,17 -143,17 -78.97673,0 -143,-7.61116 -143,-17 z"
+         fill="#ffffff"
+         id="path212"
+         stroke="none" />
+    </g>
+    <g
+       id="g218"
+       transform="translate(-22,-22)">
+      <path
+         d="m 435,214 c 0,-9.38884 64.02327,-17 143,-17 78.97673,0 143,7.61116 143,17 0,9.38884 -64.02327,17 -143,17 -78.97673,0 -143,-7.61116 -143,-17 z"
+         fill="none"
+         id="path216"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g226"
+       transform="translate(-22,-22)">
+      <g
+         id="g224">
+        <path
+           d=""
+           fill="none"
+           id="path220"
+           stroke="none" />
+        <text
+           fill="#000000"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="bold"
+           id="text222"
+           stroke="none"
+           style="text-decoration:none;text-decoration-line:none"
+           text-decoration="none"
+           x="543.69409"
+           y="221">채팅방 개설</text>
+      </g>
+    </g>
+    <g
+       id="g230"
+       transform="translate(-22,-22)">
+      <path
+         d="m 442,293 c 0,-9.38884 64.02327,-17 143,-17 78.97673,0 143,7.61116 143,17 0,9.38884 -64.02327,17 -143,17 -78.97673,0 -143,-7.61116 -143,-17 z"
+         fill="#c0c0c0"
+         id="path228"
+         opacity="0.2"
+         stroke="none" />
+    </g>
+    <g
+       id="g234"
+       transform="translate(-22,-22)">
+      <path
+         d="m 435,286 c 0,-9.38884 64.02327,-17 143,-17 78.97673,0 143,7.61116 143,17 0,9.38884 -64.02327,17 -143,17 -78.97673,0 -143,-7.61116 -143,-17 z"
+         fill="#ffffff"
+         id="path232"
+         stroke="none" />
+    </g>
+    <g
+       id="g238"
+       transform="translate(-22,-22)">
+      <path
+         d="m 435,286 c 0,-9.38884 64.02327,-17 143,-17 78.97673,0 143,7.61116 143,17 0,9.38884 -64.02327,17 -143,17 -78.97673,0 -143,-7.61116 -143,-17 z"
+         fill="none"
+         id="path236"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g246"
+       transform="translate(-22,-22)">
+      <g
+         id="g244">
+        <path
+           d=""
+           fill="none"
+           id="path240"
+           stroke="none" />
+        <text
+           fill="#000000"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="bold"
+           id="text242"
+           stroke="none"
+           style="text-decoration:none;text-decoration-line:none"
+           text-decoration="none"
+           x="520.58228"
+           y="293">채팅방 입장 및 퇴장</text>
+      </g>
+    </g>
+    <g
+       id="g250"
+       transform="translate(-22,-22)">
+      <path
+         d="m 442,365 c 0,-9.38884 64.02327,-17 143,-17 78.97673,0 143,7.61116 143,17 0,9.38884 -64.02327,17 -143,17 -78.97673,0 -143,-7.61116 -143,-17 z"
+         fill="#c0c0c0"
+         id="path248"
+         opacity="0.2"
+         stroke="none" />
+    </g>
+    <g
+       id="g254"
+       transform="translate(-22,-22)">
+      <path
+         d="m 435,358 c 0,-9.38884 64.02327,-17 143,-17 78.97673,0 143,7.61116 143,17 0,9.38884 -64.02327,17 -143,17 -78.97673,0 -143,-7.61116 -143,-17 z"
+         fill="#ffffff"
+         id="path252"
+         stroke="none" />
+    </g>
+    <g
+       id="g258"
+       transform="translate(-22,-22)">
+      <path
+         d="m 435,358 c 0,-9.38884 64.02327,-17 143,-17 78.97673,0 143,7.61116 143,17 0,9.38884 -64.02327,17 -143,17 -78.97673,0 -143,-7.61116 -143,-17 z"
+         fill="none"
+         id="path256"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g266"
+       transform="translate(-22,-22)">
+      <g
+         id="g264">
+        <path
+           d=""
+           fill="none"
+           id="path260"
+           stroke="none" />
+        <text
+           fill="#000000"
+           font-family="Arial"
+           font-size="12px"
+           font-style="normal"
+           font-weight="bold"
+           id="text262"
+           stroke="none"
+           style="text-decoration:none;text-decoration-line:none"
+           text-decoration="none"
+           x="483.99805"
+           y="364.5">채팅 내역 보기 및 메시지 주고 받기</text>
+      </g>
+    </g>
+    <g
+       id="g270"
+       transform="translate(-22,-22)">
+      <path
+         d="m 442,437 c 0,-9.38884 64.02327,-17 143,-17 78.97673,0 143,7.61116 143,17 0,9.38884 -64.02327,17 -143,17 -78.97673,0 -143,-7.61116 -143,-17 z"
+         fill="#c0c0c0"
+         id="path268"
+         opacity="0.2"
+         stroke="none" />
+    </g>
+    <g
+       id="g274"
+       transform="translate(-22,-22)">
+      <path
+         d="m 435,430 c 0,-9.38884 64.02327,-17 143,-17 78.97673,0 143,7.61116 143,17 0,9.38884 -64.02327,17 -143,17 -78.97673,0 -143,-7.61116 -143,-17 z"
+         fill="#ffffff"
+         id="path272"
+         stroke="none" />
+    </g>
+    <g
+       id="g278"
+       transform="translate(-22,-22)">
+      <path
+         d="m 435,430 c 0,-9.38884 64.02327,-17 143,-17 78.97673,0 143,7.61116 143,17 0,9.38884 -64.02327,17 -143,17 -78.97673,0 -143,-7.61116 -143,-17 z"
+         fill="none"
+         id="path276"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g286"
+       transform="translate(-22,-22)">
+      <g
+         id="g284">
+        <path
+           d=""
+           fill="none"
+           id="path280"
+           stroke="none" />
+        <text
+           fill="#000000"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="bold"
+           id="text282"
+           stroke="none"
+           style="text-decoration:none;text-decoration-line:none"
+           text-decoration="none"
+           x="505.77637"
+           y="437">현재 채팅방 목록 및 검색</text>
+      </g>
+    </g>
+    <g
+       id="g290"
+       transform="translate(-22,-22)">
+      <path
+         d="m 442,509 c 0,-9.38884 64.02327,-17 143,-17 78.97673,0 143,7.61116 143,17 0,9.38884 -64.02327,17 -143,17 -78.97673,0 -143,-7.61116 -143,-17 z"
+         fill="#c0c0c0"
+         id="path288"
+         opacity="0.2"
+         stroke="none" />
+    </g>
+    <g
+       id="g294"
+       transform="translate(-22,-22)">
+      <path
+         d="m 435,502 c 0,-9.38884 64.02327,-17 143,-17 78.97673,0 143,7.61116 143,17 0,9.38884 -64.02327,17 -143,17 -78.97673,0 -143,-7.61116 -143,-17 z"
+         fill="#ffffff"
+         id="path292"
+         stroke="none" />
+    </g>
+    <g
+       id="g298"
+       transform="translate(-22,-22)">
+      <path
+         d="m 435,502 c 0,-9.38884 64.02327,-17 143,-17 78.97673,0 143,7.61116 143,17 0,9.38884 -64.02327,17 -143,17 -78.97673,0 -143,-7.61116 -143,-17 z"
+         fill="none"
+         id="path296"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g306"
+       transform="translate(-22,-22)">
+      <g
+         id="g304">
+        <path
+           d=""
+           fill="none"
+           id="path300"
+           stroke="none" />
+        <text
+           fill="#000000"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="bold"
+           id="text302"
+           stroke="none"
+           style="text-decoration:none;text-decoration-line:none"
+           text-decoration="none"
+           x="505.77637"
+           y="509">오픈 채팅방 목록 및 검색</text>
+      </g>
+    </g>
+    <g
+       id="g310"
+       transform="translate(-22,-22)">
+      <path
+         d="m 442,653 c 0,-9.38884 64.02327,-17 143,-17 78.97673,0 143,7.61116 143,17 0,9.38884 -64.02327,17 -143,17 -78.97673,0 -143,-7.61116 -143,-17 z"
+         fill="#c0c0c0"
+         id="path308"
+         opacity="0.2"
+         stroke="none" />
+    </g>
+    <g
+       id="g314"
+       transform="translate(-22,-22)">
+      <path
+         d="m 435,646 c 0,-9.38884 64.02327,-17 143,-17 78.97673,0 143,7.61116 143,17 0,9.38884 -64.02327,17 -143,17 -78.97673,0 -143,-7.61116 -143,-17 z"
+         fill="#ffffff"
+         id="path312"
+         stroke="none" />
+    </g>
+    <g
+       id="g318"
+       transform="translate(-22,-22)">
+      <path
+         d="m 435,646 c 0,-9.38884 64.02327,-17 143,-17 78.97673,0 143,7.61116 143,17 0,9.38884 -64.02327,17 -143,17 -78.97673,0 -143,-7.61116 -143,-17 z"
+         fill="none"
+         id="path316"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g326"
+       transform="translate(-22,-22)">
+      <g
+         id="g324">
+        <path
+           d=""
+           fill="none"
+           id="path320"
+           stroke="none" />
+        <text
+           fill="#000000"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="bold"
+           id="text322"
+           stroke="none"
+           style="text-decoration:none;text-decoration-line:none"
+           text-decoration="none"
+           x="484.47046"
+           y="653">채팅방 설정 변경 및 채팅방 삭제</text>
+      </g>
+    </g>
+    <g
+       id="g330"
+       transform="translate(-22,-22)">
+      <path
+         d="m 442,581 c 0,-9.38884 64.02327,-17 143,-17 78.97673,0 143,7.61116 143,17 0,9.38884 -64.02327,17 -143,17 -78.97673,0 -143,-7.61116 -143,-17 z"
+         fill="#c0c0c0"
+         id="path328"
+         opacity="0.2"
+         stroke="none" />
+    </g>
+    <g
+       id="g334"
+       transform="translate(-22,-22)">
+      <path
+         d="m 435,574 c 0,-9.38884 64.02327,-17 143,-17 78.97673,0 143,7.61116 143,17 0,9.38884 -64.02327,17 -143,17 -78.97673,0 -143,-7.61116 -143,-17 z"
+         fill="#ffffff"
+         id="path332"
+         stroke="none" />
+    </g>
+    <g
+       id="g338"
+       transform="translate(-22,-22)">
+      <path
+         d="m 435,574 c 0,-9.38884 64.02327,-17 143,-17 78.97673,0 143,7.61116 143,17 0,9.38884 -64.02327,17 -143,17 -78.97673,0 -143,-7.61116 -143,-17 z"
+         fill="none"
+         id="path336"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g346"
+       transform="translate(-22,-22)">
+      <g
+         id="g344">
+        <path
+           d=""
+           fill="none"
+           id="path340"
+           stroke="none" />
+        <text
+           fill="#000000"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="bold"
+           id="text342"
+           stroke="none"
+           style="text-decoration:none;text-decoration-line:none"
+           text-decoration="none"
+           x="543.69409"
+           y="581">채팅방 정보</text>
+      </g>
+    </g>
+    <g
+       id="g350"
+       transform="translate(-22,-22)">
+      <path
+         d="m 163.42644,353.68 c 0,-4.79383 3.88584,-8.68 8.67927,-8.68 4.79343,0 8.67928,3.88617 8.67928,8.68 0,4.79383 -3.88585,8.68 -8.67928,8.68 -4.79343,0 -8.67927,-3.88617 -8.67927,-8.68 z"
+         fill="#ff7f00"
+         id="path348"
+         stroke="none" />
+    </g>
+    <g
+       id="g354"
+       transform="translate(-22,-22)">
+      <path
+         d="m 163.42644,353.68 c 0,-4.79383 3.88584,-8.68 8.67927,-8.68 4.79343,0 8.67928,3.88617 8.67928,8.68 0,4.79383 -3.88585,8.68 -8.67928,8.68 -4.79343,0 -8.67927,-3.88617 -8.67927,-8.68 z"
+         fill="none"
+         id="path352"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g358"
+       transform="translate(-22,-22)">
+      <path
+         d="m 172.10571,362.36 v 17.28"
+         fill="none"
+         id="path356"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g362"
+       transform="translate(-22,-22)">
+      <path
+         d="m 162.91589,368.84 h 18.37964"
+         fill="none"
+         id="path360"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g366"
+       transform="translate(-22,-22)">
+      <path
+         d="M 172.10571,379.64 159.34208,397"
+         fill="none"
+         id="path364"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g370"
+       transform="translate(-22,-22)">
+      <path
+         d="M 172.10571,379.64 184.86935,397"
+         fill="none"
+         id="path368"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g378"
+       transform="translate(-22,-22)">
+      <g
+         id="g376">
+        <path
+           d=""
+           fill="none"
+           id="path372"
+           stroke="none" />
+        <text
+           fill="#000000"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="bold"
+           id="text374"
+           stroke="none"
+           style="text-decoration:none;text-decoration-line:none"
+           text-decoration="none"
+           x="137.7998"
+           y="417.5">일반 참여자</text>
+      </g>
+    </g>
+    <g
+       id="g386"
+       transform="translate(-22,-22)">
+      <g
+         id="g384">
+        <path
+           d=""
+           fill="none"
+           id="path380"
+           stroke="none" />
+        <text
+           fill="#000000"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           id="text382"
+           stroke="none"
+           style="text-decoration:none;text-decoration-line:none"
+           text-decoration="none"
+           x="119.01392"
+           y="432.5">(from Chat Actors)</text>
+      </g>
+    </g>
+    <g
+       id="g390"
+       transform="translate(-22,-22)">
+      <path
+         d="m 163.42644,606.68 c 0,-4.79383 3.88584,-8.68 8.67927,-8.68 4.79343,0 8.67928,3.88617 8.67928,8.68 0,4.79383 -3.88585,8.68 -8.67928,8.68 -4.79343,0 -8.67927,-3.88617 -8.67927,-8.68 z"
+         fill="#ff7f00"
+         id="path388"
+         stroke="none" />
+    </g>
+    <g
+       id="g394"
+       transform="translate(-22,-22)">
+      <path
+         d="m 163.42644,606.68 c 0,-4.79383 3.88584,-8.68 8.67927,-8.68 4.79343,0 8.67928,3.88617 8.67928,8.68 0,4.79383 -3.88585,8.68 -8.67928,8.68 -4.79343,0 -8.67927,-3.88617 -8.67927,-8.68 z"
+         fill="none"
+         id="path392"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g398"
+       transform="translate(-22,-22)">
+      <path
+         d="m 172.10571,615.36 v 17.28"
+         fill="none"
+         id="path396"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g402"
+       transform="translate(-22,-22)">
+      <path
+         d="m 162.91589,621.84 h 18.37964"
+         fill="none"
+         id="path400"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g406"
+       transform="translate(-22,-22)">
+      <path
+         d="M 172.10571,632.64 159.34208,650"
+         fill="none"
+         id="path404"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g410"
+       transform="translate(-22,-22)">
+      <path
+         d="M 172.10571,632.64 184.86935,650"
+         fill="none"
+         id="path408"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g418"
+       transform="translate(-22,-22)">
+      <g
+         id="g416">
+        <path
+           d=""
+           fill="none"
+           id="path412"
+           stroke="none" />
+        <text
+           fill="#000000"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="bold"
+           id="text414"
+           stroke="none"
+           style="text-decoration:none;text-decoration-line:none"
+           text-decoration="none"
+           x="159.10571"
+           y="670.5">방장</text>
+      </g>
+    </g>
+    <g
+       id="g426"
+       transform="translate(-22,-22)">
+      <g
+         id="g424">
+        <path
+           d=""
+           fill="none"
+           id="path420"
+           stroke="none" />
+        <text
+           fill="#000000"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           id="text422"
+           stroke="none"
+           style="text-decoration:none;text-decoration-line:none"
+           text-decoration="none"
+           x="119.01392"
+           y="685.5">(from Chat Actors)</text>
+      </g>
+    </g>
+    <g
+       id="g430"
+       transform="translate(-22,-22)">
+      <path
+         d="M 172,596 V 439"
+         fill="none"
+         id="path428"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g434"
+       transform="translate(-22,-22)">
+      <path
+         d="M 180.41904,459.32535 172,439 l -8.41904,20.32535"
+         fill="#ffffff"
+         id="path432"
+         stroke="none" />
+    </g>
+    <g
+       id="g438"
+       transform="translate(-22,-22)">
+      <path
+         d="M 180.41904,459.32535 172,439 l -8.41904,20.32535 h 16.83808"
+         fill="none"
+         id="path436"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g442"
+       transform="translate(-22,-22)">
+      <path
+         d="M 232,365 537,232"
+         fill="none"
+         id="path440"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g446"
+       transform="translate(-22,-22)">
+      <path
+         d="M 529.3671,239.92078 537,232 l -10.99812,0.20356"
+         fill="none"
+         id="path444"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g450"
+       transform="translate(-22,-22)">
+      <path
+         d="M 232,375 508,304"
+         fill="none"
+         id="path448"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g454"
+       transform="translate(-22,-22)">
+      <path
+         d="M 499.20651,310.60867 508,304 497.10903,302.45509"
+         fill="none"
+         id="path452"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g458"
+       transform="translate(-22,-22)">
+      <path
+         d="M 232,386 434,370"
+         fill="none"
+         id="path456"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g462"
+       transform="translate(-22,-22)">
+      <path
+         d="M 424.20144,374.99883 434,370 423.53667,366.60608"
+         fill="none"
+         id="path460"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g466"
+       transform="translate(-22,-22)">
+      <path
+         d="m 232,397 202,19"
+         fill="none"
+         id="path464"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g470"
+       transform="translate(-22,-22)">
+      <path
+         d="M 423.48778,419.23932 434,416 l -9.72381,-5.14271"
+         fill="none"
+         id="path468"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g474"
+       transform="translate(-22,-22)">
+      <path
+         d="m 232,407 280,77"
+         fill="none"
+         id="path472"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g478"
+       transform="translate(-22,-22)">
+      <path
+         d="M 501.08491,485.36414 512,484 l -8.68272,-6.75354"
+         fill="none"
+         id="path476"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g482"
+       transform="translate(-22,-22)">
+      <path
+         d="M 232,418 538,556"
+         fill="none"
+         id="path480"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g486"
+       transform="translate(-22,-22)">
+      <path
+         d="M 527.00527,555.65939 538,556 l -7.53359,-8.0153"
+         fill="none"
+         id="path484"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g490"
+       transform="translate(-22,-22)">
+      <path
+         d="m 232,644 202,1"
+         fill="none"
+         id="path488"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g494"
+       transform="translate(-22,-22)">
+      <path
+         d="M 423.81661,649.15916 434,645 423.85829,640.74022"
+         fill="none"
+         id="path492"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g498"
+       transform="translate(-22,-22)">
+      <path
+         d="m 163.42644,121.68 c 0,-4.79383 3.88584,-8.68 8.67927,-8.68 4.79343,0 8.67928,3.88617 8.67928,8.68 0,4.79383 -3.88585,8.68 -8.67928,8.68 -4.79343,0 -8.67927,-3.88617 -8.67927,-8.68 z"
+         fill="#ff0000"
+         id="path496"
+         stroke="none" />
+    </g>
+    <g
+       id="g502"
+       transform="translate(-22,-22)">
+      <path
+         d="m 163.42644,121.68 c 0,-4.79383 3.88584,-8.68 8.67927,-8.68 4.79343,0 8.67928,3.88617 8.67928,8.68 0,4.79383 -3.88585,8.68 -8.67928,8.68 -4.79343,0 -8.67927,-3.88617 -8.67927,-8.68 z"
+         fill="none"
+         id="path500"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g506"
+       transform="translate(-22,-22)">
+      <path
+         d="m 172.10571,130.36 v 17.28"
+         fill="none"
+         id="path504"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g510"
+       transform="translate(-22,-22)">
+      <path
+         d="m 162.91589,136.84 h 18.37964"
+         fill="none"
+         id="path508"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g514"
+       transform="translate(-22,-22)">
+      <path
+         d="M 172.10571,147.64 159.34208,165"
+         fill="none"
+         id="path512"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g518"
+       transform="translate(-22,-22)">
+      <path
+         d="M 172.10571,147.64 184.86935,165"
+         fill="none"
+         id="path516"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g526"
+       transform="translate(-22,-22)">
+      <g
+         id="g524">
+        <path
+           d=""
+           fill="none"
+           id="path520"
+           stroke="none" />
+        <text
+           fill="#000000"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="bold"
+           id="text522"
+           stroke="none"
+           style="text-decoration:none;text-decoration-line:none"
+           text-decoration="none"
+           x="159.10571"
+           y="185.5">회원</text>
+      </g>
+    </g>
+    <g
+       id="g534"
+       transform="translate(-22,-22)">
+      <g
+         id="g532">
+        <path
+           d=""
+           fill="none"
+           id="path528"
+           stroke="none" />
+        <text
+           fill="#000000"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           id="text530"
+           stroke="none"
+           style="text-decoration:none;text-decoration-line:none"
+           text-decoration="none"
+           x="137.7998"
+           y="200.5">(from Actor)</text>
+      </g>
+    </g>
+    <g
+       id="g538"
+       transform="translate(-22,-22)">
+      <path
+         d="M 172,343 V 207"
+         fill="none"
+         id="path536"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g542"
+       transform="translate(-22,-22)">
+      <path
+         d="M 180.41904,227.32535 172,207 l -8.41904,20.32535"
+         fill="#ffffff"
+         id="path540"
+         stroke="none" />
+    </g>
+    <g
+       id="g546"
+       transform="translate(-22,-22)">
+      <path
+         d="M 180.41904,227.32535 172,207 l -8.41904,20.32535 h 16.83808"
+         fill="none"
+         id="path544"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+  </g>
+</svg>

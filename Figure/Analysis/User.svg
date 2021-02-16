@@ -1,0 +1,1808 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   height="297mm"
+   id="svg1062"
+   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)"
+   sodipodi:docname="회원관리.svg"
+   version="1.1"
+   width="210mm">
+  <metadata
+     id="metadata1066">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     bordercolor="#666666"
+     borderopacity="1"
+     gridtolerance="10"
+     guidetolerance="10"
+     id="namedview1064"
+     inkscape:current-layer="svg1062"
+     inkscape:cx="513.41307"
+     inkscape:cy="566.33032"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-height="1798"
+     inkscape:window-maximized="1"
+     inkscape:window-width="3360"
+     inkscape:window-x="6708"
+     inkscape:window-y="-12"
+     inkscape:zoom="1.2435825"
+     objecttolerance="10"
+     pagecolor="#ffffff"
+     showgrid="false"
+     units="mm"
+     inkscape:document-rotation="0" />
+  <defs
+     id="defs2" />
+  <g
+     id="g1060"
+     transform="matrix(0.68020634,0,0,0.68020634,0.5008712,214.04925)">
+    <g
+       id="g402"
+       transform="translate(-54,-166)">
+      <rect
+         fill="#c0c0c0"
+         height="29"
+         id="rect400"
+         opacity="0.2"
+         stroke="none"
+         width="159"
+         x="71"
+         y="183" />
+    </g>
+    <g
+       id="g406"
+       transform="translate(-54,-166)">
+      <rect
+         fill="#ffffff"
+         height="29"
+         id="rect404"
+         stroke="none"
+         width="159"
+         x="64"
+         y="176" />
+    </g>
+    <g
+       id="g410"
+       transform="translate(-54,-166)">
+      <path
+         d="m 64,176 h 159 v 29 H 64 Z"
+         fill="none"
+         id="path408"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g418"
+       transform="translate(-54,-166)">
+      <g
+         id="g416">
+        <path
+           d=""
+           fill="none"
+           id="path412"
+           stroke="none" />
+        <text
+           fill="#000000"
+           font-family="Arial"
+           font-size="18px"
+           font-style="normal"
+           font-weight="bold"
+           id="text414"
+           stroke="none"
+           style="text-decoration:none;text-decoration-line:none"
+           text-decoration="none"
+           x="107.5"
+           y="200.5">회원관리</text>
+      </g>
+    </g>
+    <g
+       id="g422"
+       transform="translate(-54,-166)">
+      <path
+         d="m 130.81829,673.68 c 0,-4.79383 3.88584,-8.68 8.67927,-8.68 4.79343,0 8.67927,3.88617 8.67927,8.68 0,4.79383 -3.88584,8.68 -8.67927,8.68 -4.79343,0 -8.67927,-3.88617 -8.67927,-8.68 z"
+         fill="#ffffff"
+         id="path420"
+         stroke="none" />
+    </g>
+    <g
+       id="g426"
+       transform="translate(-54,-166)">
+      <path
+         d="m 130.81829,673.68 c 0,-4.79383 3.88584,-8.68 8.67927,-8.68 4.79343,0 8.67927,3.88617 8.67927,8.68 0,4.79383 -3.88584,8.68 -8.67927,8.68 -4.79343,0 -8.67927,-3.88617 -8.67927,-8.68 z"
+         fill="none"
+         id="path424"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g430"
+       transform="translate(-54,-166)">
+      <path
+         d="m 139.49756,682.36 v 17.28"
+         fill="none"
+         id="path428"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g434"
+       transform="translate(-54,-166)">
+      <path
+         d="m 130.30774,688.84 h 18.37964"
+         fill="none"
+         id="path432"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g438"
+       transform="translate(-54,-166)">
+      <path
+         d="M 139.49756,699.64 126.73392,717"
+         fill="none"
+         id="path436"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g442"
+       transform="translate(-54,-166)">
+      <path
+         d="M 139.49756,699.64 152.26119,717"
+         fill="none"
+         id="path440"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g450"
+       transform="translate(-54,-166)">
+      <g
+         id="g448">
+        <path
+           d=""
+           fill="none"
+           id="path444"
+           stroke="none" />
+        <text
+           fill="#000000"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="bold"
+           id="text446"
+           stroke="none"
+           style="text-decoration:none;text-decoration-line:none"
+           text-decoration="none"
+           x="126.49756"
+           y="737.5">회원</text>
+      </g>
+    </g>
+    <g
+       id="g458"
+       transform="translate(-54,-166)">
+      <g
+         id="g456">
+        <path
+           d=""
+           fill="none"
+           id="path452"
+           stroke="none" />
+        <text
+           fill="#000000"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           id="text454"
+           stroke="none"
+           style="text-decoration:none;text-decoration-line:none"
+           text-decoration="none"
+           x="105.19165"
+           y="752.5">(from Actor)</text>
+      </g>
+    </g>
+    <g
+       id="g462"
+       transform="translate(-54,-166)">
+      <path
+         d="m 130.81829,1049.68 c 0,-4.7938 3.88584,-8.68 8.67927,-8.68 4.79343,0 8.67927,3.8862 8.67927,8.68 0,4.7938 -3.88584,8.68 -8.67927,8.68 -4.79343,0 -8.67927,-3.8862 -8.67927,-8.68 z"
+         fill="#ffffff"
+         id="path460"
+         stroke="none" />
+    </g>
+    <g
+       id="g466"
+       transform="translate(-54,-166)">
+      <path
+         d="m 130.81829,1049.68 c 0,-4.7938 3.88584,-8.68 8.67927,-8.68 4.79343,0 8.67927,3.8862 8.67927,8.68 0,4.7938 -3.88584,8.68 -8.67927,8.68 -4.79343,0 -8.67927,-3.8862 -8.67927,-8.68 z"
+         fill="none"
+         id="path464"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g470"
+       transform="translate(-54,-166)">
+      <path
+         d="m 139.49756,1058.36 v 17.28"
+         fill="none"
+         id="path468"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g474"
+       transform="translate(-54,-166)">
+      <path
+         d="m 130.30774,1064.84 h 18.37964"
+         fill="none"
+         id="path472"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g478"
+       transform="translate(-54,-166)">
+      <path
+         d="M 139.49756,1075.64 126.73392,1093"
+         fill="none"
+         id="path476"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g482"
+       transform="translate(-54,-166)">
+      <path
+         d="M 139.49756,1075.64 152.26119,1093"
+         fill="none"
+         id="path480"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g490"
+       transform="translate(-54,-166)">
+      <g
+         id="g488">
+        <path
+           d=""
+           fill="none"
+           id="path484"
+           stroke="none" />
+        <text
+           fill="#000000"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="bold"
+           id="text486"
+           stroke="none"
+           style="text-decoration:none;text-decoration-line:none"
+           text-decoration="none"
+           x="119.99756"
+           y="1113.5">관리자</text>
+      </g>
+    </g>
+    <g
+       id="g498"
+       transform="translate(-54,-166)">
+      <g
+         id="g496">
+        <path
+           d=""
+           fill="none"
+           id="path492"
+           stroke="none" />
+        <text
+           fill="#000000"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           id="text494"
+           stroke="none"
+           style="text-decoration:none;text-decoration-line:none"
+           text-decoration="none"
+           x="105.19165"
+           y="1128.5">(from Actor)</text>
+      </g>
+    </g>
+    <g
+       id="g502"
+       transform="translate(-54,-166)">
+      <path
+         d="M 139,1039 V 759"
+         fill="none"
+         id="path500"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g506"
+       transform="translate(-54,-166)">
+      <path
+         d="M 147.41904,779.32535 139,759 l -8.41904,20.32535"
+         fill="#ffffff"
+         id="path504"
+         stroke="none" />
+    </g>
+    <g
+       id="g510"
+       transform="translate(-54,-166)">
+      <path
+         d="M 147.41904,779.32535 139,759 l -8.41904,20.32535 h 16.83808"
+         fill="none"
+         id="path508"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g514"
+       transform="translate(-54,-166)">
+      <path
+         d="m 130.81829,297.68 c 0,-4.79383 3.88584,-8.68 8.67927,-8.68 4.79343,0 8.67927,3.88617 8.67927,8.68 0,4.79383 -3.88584,8.68 -8.67927,8.68 -4.79343,0 -8.67927,-3.88617 -8.67927,-8.68 z"
+         fill="#ffffff"
+         id="path512"
+         stroke="none" />
+    </g>
+    <g
+       id="g518"
+       transform="translate(-54,-166)">
+      <path
+         d="m 130.81829,297.68 c 0,-4.79383 3.88584,-8.68 8.67927,-8.68 4.79343,0 8.67927,3.88617 8.67927,8.68 0,4.79383 -3.88584,8.68 -8.67927,8.68 -4.79343,0 -8.67927,-3.88617 -8.67927,-8.68 z"
+         fill="none"
+         id="path516"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g522"
+       transform="translate(-54,-166)">
+      <path
+         d="m 139.49756,306.36 v 17.28"
+         fill="none"
+         id="path520"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g526"
+       transform="translate(-54,-166)">
+      <path
+         d="m 130.30774,312.84 h 18.37964"
+         fill="none"
+         id="path524"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g530"
+       transform="translate(-54,-166)">
+      <path
+         d="M 139.49756,323.64 126.73392,341"
+         fill="none"
+         id="path528"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g534"
+       transform="translate(-54,-166)">
+      <path
+         d="M 139.49756,323.64 152.26119,341"
+         fill="none"
+         id="path532"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g542"
+       transform="translate(-54,-166)">
+      <g
+         id="g540">
+        <path
+           d=""
+           fill="none"
+           id="path536"
+           stroke="none" />
+        <text
+           fill="#000000"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="bold"
+           id="text538"
+           stroke="none"
+           style="text-decoration:none;text-decoration-line:none"
+           text-decoration="none"
+           x="119.99756"
+           y="361.5">비회원</text>
+      </g>
+    </g>
+    <g
+       id="g550"
+       transform="translate(-54,-166)">
+      <g
+         id="g548">
+        <path
+           d=""
+           fill="none"
+           id="path544"
+           stroke="none" />
+        <text
+           fill="#000000"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           id="text546"
+           stroke="none"
+           style="text-decoration:none;text-decoration-line:none"
+           text-decoration="none"
+           x="105.19165"
+           y="376.5">(from Actor)</text>
+      </g>
+    </g>
+    <g
+       id="g554"
+       transform="translate(-54,-166)">
+      <path
+         d="m 383,343 c 0,-13.25484 45.44309,-24 101.5,-24 56.05691,0 101.5,10.74516 101.5,24 0,13.25484 -45.44309,24 -101.5,24 C 428.44309,367 383,356.25484 383,343 Z"
+         fill="#c0c0c0"
+         id="path552"
+         opacity="0.2"
+         stroke="none" />
+    </g>
+    <g
+       id="g558"
+       transform="translate(-54,-166)">
+      <path
+         d="m 376,336 c 0,-13.25484 45.44309,-24 101.5,-24 56.05691,0 101.5,10.74516 101.5,24 0,13.25484 -45.44309,24 -101.5,24 C 421.44309,360 376,349.25484 376,336 Z"
+         fill="#ffffff"
+         id="path556"
+         stroke="none" />
+    </g>
+    <g
+       id="g562"
+       transform="translate(-54,-166)">
+      <path
+         d="m 376,336 c 0,-13.25484 45.44309,-24 101.5,-24 56.05691,0 101.5,10.74516 101.5,24 0,13.25484 -45.44309,24 -101.5,24 C 421.44309,360 376,349.25484 376,336 Z"
+         fill="none"
+         id="path560"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g570"
+       transform="translate(-54,-166)">
+      <g
+         id="g568">
+        <path
+           d=""
+           fill="none"
+           id="path564"
+           stroke="none" />
+        <text
+           fill="#000000"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="bold"
+           id="text566"
+           stroke="none"
+           style="text-decoration:none;text-decoration-line:none"
+           text-decoration="none"
+           x="451.5"
+           y="343">회원가입</text>
+      </g>
+    </g>
+    <g
+       id="g574"
+       transform="translate(-54,-166)">
+      <path
+         d="m 383,437 c 0,-13.25484 45.44309,-24 101.5,-24 56.05691,0 101.5,10.74516 101.5,24 0,13.25484 -45.44309,24 -101.5,24 C 428.44309,461 383,450.25484 383,437 Z"
+         fill="#c0c0c0"
+         id="path572"
+         opacity="0.2"
+         stroke="none" />
+    </g>
+    <g
+       id="g578"
+       transform="translate(-54,-166)">
+      <path
+         d="m 376,430 c 0,-13.25484 45.44309,-24 101.5,-24 56.05691,0 101.5,10.74516 101.5,24 0,13.25484 -45.44309,24 -101.5,24 C 421.44309,454 376,443.25484 376,430 Z"
+         fill="#ffffff"
+         id="path576"
+         stroke="none" />
+    </g>
+    <g
+       id="g582"
+       transform="translate(-54,-166)">
+      <path
+         d="m 376,430 c 0,-13.25484 45.44309,-24 101.5,-24 56.05691,0 101.5,10.74516 101.5,24 0,13.25484 -45.44309,24 -101.5,24 C 421.44309,454 376,443.25484 376,430 Z"
+         fill="none"
+         id="path580"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g590"
+       transform="translate(-54,-166)">
+      <g
+         id="g588">
+        <path
+           d=""
+           fill="none"
+           id="path584"
+           stroke="none" />
+        <text
+           fill="#000000"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="bold"
+           id="text586"
+           stroke="none"
+           style="text-decoration:none;text-decoration-line:none"
+           text-decoration="none"
+           x="458"
+           y="437">로그인</text>
+      </g>
+    </g>
+    <g
+       id="g594"
+       transform="translate(-54,-166)">
+      <path
+         d="m 383,625 c 0,-13.25484 45.44309,-24 101.5,-24 56.05691,0 101.5,10.74516 101.5,24 0,13.25484 -45.44309,24 -101.5,24 C 428.44309,649 383,638.25484 383,625 Z"
+         fill="#c0c0c0"
+         id="path592"
+         opacity="0.2"
+         stroke="none" />
+    </g>
+    <g
+       id="g598"
+       transform="translate(-54,-166)">
+      <path
+         d="m 376,618 c 0,-13.25484 45.44309,-24 101.5,-24 56.05691,0 101.5,10.74516 101.5,24 0,13.25484 -45.44309,24 -101.5,24 C 421.44309,642 376,631.25484 376,618 Z"
+         fill="#ffffff"
+         id="path596"
+         stroke="none" />
+    </g>
+    <g
+       id="g602"
+       transform="translate(-54,-166)">
+      <path
+         d="m 376,618 c 0,-13.25484 45.44309,-24 101.5,-24 56.05691,0 101.5,10.74516 101.5,24 0,13.25484 -45.44309,24 -101.5,24 C 421.44309,642 376,631.25484 376,618 Z"
+         fill="none"
+         id="path600"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g610"
+       transform="translate(-54,-166)">
+      <g
+         id="g608">
+        <path
+           d=""
+           fill="none"
+           id="path604"
+           stroke="none" />
+        <text
+           fill="#000000"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="bold"
+           id="text606"
+           stroke="none"
+           style="text-decoration:none;text-decoration-line:none"
+           text-decoration="none"
+           x="441.38818"
+           y="625">내 정보 조회</text>
+      </g>
+    </g>
+    <g
+       id="g614"
+       transform="translate(-54,-166)">
+      <path
+         d="m 383,719 c 0,-13.25484 45.44309,-24 101.5,-24 56.05691,0 101.5,10.74516 101.5,24 0,13.25484 -45.44309,24 -101.5,24 C 428.44309,743 383,732.25484 383,719 Z"
+         fill="#c0c0c0"
+         id="path612"
+         opacity="0.2"
+         stroke="none" />
+    </g>
+    <g
+       id="g618"
+       transform="translate(-54,-166)">
+      <path
+         d="m 376,712 c 0,-13.25484 45.44309,-24 101.5,-24 56.05691,0 101.5,10.74516 101.5,24 0,13.25484 -45.44309,24 -101.5,24 C 421.44309,736 376,725.25484 376,712 Z"
+         fill="#ffffff"
+         id="path616"
+         stroke="none" />
+    </g>
+    <g
+       id="g622"
+       transform="translate(-54,-166)">
+      <path
+         d="m 376,712 c 0,-13.25484 45.44309,-24 101.5,-24 56.05691,0 101.5,10.74516 101.5,24 0,13.25484 -45.44309,24 -101.5,24 C 421.44309,736 376,725.25484 376,712 Z"
+         fill="none"
+         id="path620"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g630"
+       transform="translate(-54,-166)">
+      <g
+         id="g628">
+        <path
+           d=""
+           fill="none"
+           id="path624"
+           stroke="none" />
+        <text
+           fill="#000000"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="bold"
+           id="text626"
+           stroke="none"
+           style="text-decoration:none;text-decoration-line:none"
+           text-decoration="none"
+           x="441.38818"
+           y="719">내 정보 수정</text>
+      </g>
+    </g>
+    <g
+       id="g634"
+       transform="translate(-54,-166)">
+      <path
+         d="m 383,1001 c 0,-13.25484 45.44309,-24 101.5,-24 56.05691,0 101.5,10.74516 101.5,24 0,13.2548 -45.44309,24 -101.5,24 -56.05691,0 -101.5,-10.7452 -101.5,-24 z"
+         fill="#c0c0c0"
+         id="path632"
+         opacity="0.2"
+         stroke="none" />
+    </g>
+    <g
+       id="g638"
+       transform="translate(-54,-166)">
+      <path
+         d="m 376,994 c 0,-13.25484 45.44309,-24 101.5,-24 56.05691,0 101.5,10.74516 101.5,24 0,13.2548 -45.44309,24 -101.5,24 -56.05691,0 -101.5,-10.7452 -101.5,-24 z"
+         fill="#ffffff"
+         id="path636"
+         stroke="none" />
+    </g>
+    <g
+       id="g642"
+       transform="translate(-54,-166)">
+      <path
+         d="m 376,994 c 0,-13.25484 45.44309,-24 101.5,-24 56.05691,0 101.5,10.74516 101.5,24 0,13.2548 -45.44309,24 -101.5,24 -56.05691,0 -101.5,-10.7452 -101.5,-24 z"
+         fill="none"
+         id="path640"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g650"
+       transform="translate(-54,-166)">
+      <g
+         id="g648">
+        <path
+           d=""
+           fill="none"
+           id="path644"
+           stroke="none" />
+        <text
+           fill="#000000"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="bold"
+           id="text646"
+           stroke="none"
+           style="text-decoration:none;text-decoration-line:none"
+           text-decoration="none"
+           x="421.88818"
+           y="1001">회원정보 목록 조회</text>
+      </g>
+    </g>
+    <g
+       id="g654"
+       transform="translate(-54,-166)">
+      <path
+         d="m 1032.9281,865.68 c 0,-4.79383 3.8859,-8.68 8.6793,-8.68 4.7935,0 8.6793,3.88617 8.6793,8.68 0,4.79383 -3.8858,8.68 -8.6793,8.68 -4.7934,0 -8.6793,-3.88617 -8.6793,-8.68 z"
+         fill="#ffffff"
+         id="path652"
+         stroke="none" />
+    </g>
+    <g
+       id="g658"
+       transform="translate(-54,-166)">
+      <path
+         d="m 1032.9281,865.68 c 0,-4.79383 3.8859,-8.68 8.6793,-8.68 4.7935,0 8.6793,3.88617 8.6793,8.68 0,4.79383 -3.8858,8.68 -8.6793,8.68 -4.7934,0 -8.6793,-3.88617 -8.6793,-8.68 z"
+         fill="none"
+         id="path656"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g662"
+       transform="translate(-54,-166)">
+      <path
+         d="m 1041.6074,874.36 v 17.28"
+         fill="none"
+         id="path660"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g666"
+       transform="translate(-54,-166)">
+      <path
+         d="m 1032.4176,880.84 h 18.3796"
+         fill="none"
+         id="path664"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g670"
+       transform="translate(-54,-166)">
+      <path
+         d="M 1041.6074,891.64 1028.8438,909"
+         fill="none"
+         id="path668"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g674"
+       transform="translate(-54,-166)">
+      <path
+         d="M 1041.6074,891.64 1054.3711,909"
+         fill="none"
+         id="path672"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g682"
+       transform="translate(-54,-166)">
+      <g
+         id="g680">
+        <path
+           d=""
+           fill="none"
+           id="path676"
+           stroke="none" />
+        <text
+           fill="#000000"
+           font-family="Arial"
+           font-size="9px"
+           font-style="normal"
+           font-weight="bold"
+           id="text678"
+           stroke="none"
+           style="text-decoration:none;text-decoration-line:none"
+           text-decoration="none"
+           x="1005.5986"
+           y="925.5">청기와 Lab - SMS</text>
+      </g>
+    </g>
+    <g
+       id="g690"
+       transform="translate(-54,-166)">
+      <g
+         id="g688">
+        <path
+           d=""
+           fill="none"
+           id="path684"
+           stroke="none" />
+        <text
+           fill="#000000"
+           font-family="Arial"
+           font-size="9px"
+           font-style="normal"
+           font-weight="normal"
+           id="text686"
+           stroke="none"
+           style="text-decoration:none;text-decoration-line:none"
+           text-decoration="none"
+           x="1007.6069"
+           y="936.5">(from 타 System)</text>
+      </g>
+    </g>
+    <g
+       id="g694"
+       transform="translate(-54,-166)">
+      <path
+         d="m 1037.3219,401.68 c 0,-4.79383 3.8859,-8.68 8.6793,-8.68 4.7935,0 8.6793,3.88617 8.6793,8.68 0,4.79383 -3.8858,8.68 -8.6793,8.68 -4.7934,0 -8.6793,-3.88617 -8.6793,-8.68 z"
+         fill="#ffffff"
+         id="path692"
+         stroke="none" />
+    </g>
+    <g
+       id="g698"
+       transform="translate(-54,-166)">
+      <path
+         d="m 1037.3219,401.68 c 0,-4.79383 3.8859,-8.68 8.6793,-8.68 4.7935,0 8.6793,3.88617 8.6793,8.68 0,4.79383 -3.8858,8.68 -8.6793,8.68 -4.7934,0 -8.6793,-3.88617 -8.6793,-8.68 z"
+         fill="none"
+         id="path696"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g702"
+       transform="translate(-54,-166)">
+      <path
+         d="m 1046.0012,410.36 v 17.28"
+         fill="none"
+         id="path700"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g706"
+       transform="translate(-54,-166)">
+      <path
+         d="m 1036.8114,416.84 h 18.3796"
+         fill="none"
+         id="path704"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g710"
+       transform="translate(-54,-166)">
+      <path
+         d="M 1046.0012,427.64 1033.2376,445"
+         fill="none"
+         id="path708"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g714"
+       transform="translate(-54,-166)">
+      <path
+         d="M 1046.0012,427.64 1058.7649,445"
+         fill="none"
+         id="path712"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g722"
+       transform="translate(-54,-166)">
+      <g
+         id="g720">
+        <path
+           d=""
+           fill="none"
+           id="path716"
+           stroke="none" />
+        <text
+           fill="#000000"
+           font-family="Arial"
+           font-size="9px"
+           font-style="normal"
+           font-weight="bold"
+           id="text718"
+           stroke="none"
+           style="text-decoration:none;text-decoration-line:none"
+           text-decoration="none"
+           x="1016.9863"
+           y="461.5">소셜 Login Api</text>
+      </g>
+    </g>
+    <g
+       id="g730"
+       transform="translate(-54,-166)">
+      <g
+         id="g728">
+        <path
+           d=""
+           fill="none"
+           id="path724"
+           stroke="none" />
+        <text
+           fill="#000000"
+           font-family="Arial"
+           font-size="9px"
+           font-style="normal"
+           font-weight="normal"
+           id="text726"
+           stroke="none"
+           style="text-decoration:none;text-decoration-line:none"
+           text-decoration="none"
+           x="1012.0007"
+           y="472.5">(from 타 System)</text>
+      </g>
+    </g>
+    <g
+       id="g734"
+       transform="translate(-54,-166)">
+      <path
+         d="m 933,231 c 0,-13.25484 53.72582,-24 120,-24 66.2742,0 120,10.74516 120,24 0,13.25484 -53.7258,24 -120,24 -66.27418,0 -120,-10.74516 -120,-24 z"
+         fill="#c0c0c0"
+         id="path732"
+         opacity="0.2"
+         stroke="none" />
+    </g>
+    <g
+       id="g738"
+       transform="translate(-54,-166)">
+      <path
+         d="m 926,224 c 0,-13.25484 53.72582,-24 120,-24 66.2742,0 120,10.74516 120,24 0,13.25484 -53.7258,24 -120,24 -66.27418,0 -120,-10.74516 -120,-24 z"
+         fill="#ffffff"
+         id="path736"
+         stroke="none" />
+    </g>
+    <g
+       id="g742"
+       transform="translate(-54,-166)">
+      <path
+         d="m 926,224 c 0,-13.25484 53.72582,-24 120,-24 66.2742,0 120,10.74516 120,24 0,13.25484 -53.7258,24 -120,24 -66.27418,0 -120,-10.74516 -120,-24 z"
+         fill="none"
+         id="path740"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g750"
+       transform="translate(-54,-166)">
+      <g
+         id="g748">
+        <path
+           d=""
+           fill="none"
+           id="path744"
+           stroke="none" />
+        <text
+           fill="#000000"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="bold"
+           id="text746"
+           stroke="none"
+           style="text-decoration:none;text-decoration-line:none"
+           text-decoration="none"
+           x="1011.6941"
+           y="231">이메일 인증</text>
+      </g>
+    </g>
+    <g
+       id="g754"
+       transform="translate(-54,-166)">
+      <path
+         d="m 933,287 c 0,-13.25484 53.72582,-24 120,-24 66.2742,0 120,10.74516 120,24 0,13.25484 -53.7258,24 -120,24 -66.27418,0 -120,-10.74516 -120,-24 z"
+         fill="#c0c0c0"
+         id="path752"
+         opacity="0.2"
+         stroke="none" />
+    </g>
+    <g
+       id="g758"
+       transform="translate(-54,-166)">
+      <path
+         d="m 926,280 c 0,-13.25484 53.72582,-24 120,-24 66.2742,0 120,10.74516 120,24 0,13.25484 -53.7258,24 -120,24 -66.27418,0 -120,-10.74516 -120,-24 z"
+         fill="#ffffff"
+         id="path756"
+         stroke="none" />
+    </g>
+    <g
+       id="g762"
+       transform="translate(-54,-166)">
+      <path
+         d="m 926,280 c 0,-13.25484 53.72582,-24 120,-24 66.2742,0 120,10.74516 120,24 0,13.25484 -53.7258,24 -120,24 -66.27418,0 -120,-10.74516 -120,-24 z"
+         fill="none"
+         id="path760"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g770"
+       transform="translate(-54,-166)">
+      <g
+         id="g768">
+        <path
+           d=""
+           fill="none"
+           id="path764"
+           stroke="none" />
+        <text
+           fill="#000000"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="bold"
+           id="text766"
+           stroke="none"
+           style="text-decoration:none;text-decoration-line:none"
+           text-decoration="none"
+           x="969.08228"
+           y="287">닉네임 및 이메일 중복체크</text>
+      </g>
+    </g>
+    <g
+       id="g774"
+       transform="translate(-54,-166)">
+      <path
+         d="m 933,343 c 0,-13.25484 53.72582,-24 120,-24 66.2742,0 120,10.74516 120,24 0,13.25484 -53.7258,24 -120,24 -66.27418,0 -120,-10.74516 -120,-24 z"
+         fill="#c0c0c0"
+         id="path772"
+         opacity="0.2"
+         stroke="none" />
+    </g>
+    <g
+       id="g778"
+       transform="translate(-54,-166)">
+      <path
+         d="m 926,336 c 0,-13.25484 53.72582,-24 120,-24 66.2742,0 120,10.74516 120,24 0,13.25484 -53.7258,24 -120,24 -66.27418,0 -120,-10.74516 -120,-24 z"
+         fill="#ffffff"
+         id="path776"
+         stroke="none" />
+    </g>
+    <g
+       id="g782"
+       transform="translate(-54,-166)">
+      <path
+         d="m 926,336 c 0,-13.25484 53.72582,-24 120,-24 66.2742,0 120,10.74516 120,24 0,13.25484 -53.7258,24 -120,24 -66.27418,0 -120,-10.74516 -120,-24 z"
+         fill="none"
+         id="path780"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g790"
+       transform="translate(-54,-166)">
+      <g
+         id="g788">
+        <path
+           d=""
+           fill="none"
+           id="path784"
+           stroke="none" />
+        <text
+           fill="#000000"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="bold"
+           id="text786"
+           stroke="none"
+           style="text-decoration:none;text-decoration-line:none"
+           text-decoration="none"
+           x="1018.1941"
+           y="343">문자 인증</text>
+      </g>
+    </g>
+    <g
+       id="g794"
+       transform="translate(-54,-166)">
+      <path
+         d="M 580,336 H 925"
+         fill="none"
+         id="path792"
+         stroke="#000000"
+         stroke-dasharray="3"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g798"
+       transform="translate(-54,-166)">
+      <path
+         d="M 914.83733,340.20952 925,336 914.83733,331.79048"
+         fill="none"
+         id="path796"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g806"
+       transform="translate(-54,-166)">
+      <g
+         id="g804">
+        <path
+           d=""
+           fill="none"
+           id="path800"
+           stroke="none" />
+        <text
+           fill="#000000"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           id="text802"
+           stroke="none"
+           style="text-decoration:none;text-decoration-line:none"
+           text-decoration="none"
+           x="764.51434"
+           y="332.5">«include»</text>
+      </g>
+    </g>
+    <g
+       id="g810"
+       transform="translate(-54,-166)">
+      <path
+         d="M 580,316 925,248"
+         fill="none"
+         id="path808"
+         stroke="#000000"
+         stroke-dasharray="3"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g814"
+       transform="translate(-54,-166)">
+      <path
+         d="M 915.8432,254.09533 925,248 914.21512,245.83521"
+         fill="none"
+         id="path812"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g822"
+       transform="translate(-54,-166)">
+      <g
+         id="g820">
+        <path
+           d=""
+           fill="none"
+           id="path816"
+           stroke="none" />
+        <text
+           fill="#000000"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           id="text818"
+           stroke="none"
+           style="text-decoration:none;text-decoration-line:none"
+           text-decoration="none"
+           x="718.51434"
+           y="278.5">«include»</text>
+      </g>
+    </g>
+    <g
+       id="g826"
+       transform="translate(-54,-166)">
+      <path
+         d="M 580,326 925,292"
+         fill="none"
+         id="path824"
+         stroke="#000000"
+         stroke-dasharray="3"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g830"
+       transform="translate(-54,-166)">
+      <path
+         d="M 915.29917,297.18593 925,292 914.47347,288.80749"
+         fill="none"
+         id="path828"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g838"
+       transform="translate(-54,-166)">
+      <g
+         id="g836">
+        <path
+           d=""
+           fill="none"
+           id="path832"
+           stroke="none" />
+        <text
+           fill="#000000"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           id="text834"
+           stroke="none"
+           style="text-decoration:none;text-decoration-line:none"
+           text-decoration="none"
+           x="780.51434"
+           y="301.5">«include»</text>
+      </g>
+    </g>
+    <g
+       id="g842"
+       transform="translate(-54,-166)">
+      <path
+         d="m 580,354 425,74"
+         fill="none"
+         id="path840"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g846"
+       transform="translate(-54,-166)">
+      <path
+         d="M 994.26587,430.40385 1005,428 l -9.28995,-5.8904"
+         fill="none"
+         id="path844"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g850"
+       transform="translate(-54,-166)">
+      <path
+         d="M 502,361 999,857"
+         fill="none"
+         id="path848"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g854"
+       transform="translate(-54,-166)">
+      <path
+         d="M 988.83309,852.80072 999,857 994.78025,846.84157"
+         fill="none"
+         id="path852"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g858"
+       transform="translate(-54,-166)">
+      <path
+         d="m 580,431 425,4"
+         fill="none"
+         id="path856"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g862"
+       transform="translate(-54,-166)">
+      <path
+         d="M 994.79816,439.11369 1005,435 994.87739,430.69502"
+         fill="none"
+         id="path860"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g866"
+       transform="translate(-54,-166)">
+      <path
+         d="m 383,907 c 0,-13.25484 48.35324,-24 108,-24 59.64676,0 108,10.74516 108,24 0,13.25484 -48.35324,24 -108,24 -59.64676,0 -108,-10.74516 -108,-24 z"
+         fill="#c0c0c0"
+         id="path864"
+         opacity="0.2"
+         stroke="none" />
+    </g>
+    <g
+       id="g870"
+       transform="translate(-54,-166)">
+      <path
+         d="m 376,900 c 0,-13.25484 48.35324,-24 108,-24 59.64676,0 108,10.74516 108,24 0,13.25484 -48.35324,24 -108,24 -59.64676,0 -108,-10.74516 -108,-24 z"
+         fill="#ffffff"
+         id="path868"
+         stroke="none" />
+    </g>
+    <g
+       id="g874"
+       transform="translate(-54,-166)">
+      <path
+         d="m 376,900 c 0,-13.25484 48.35324,-24 108,-24 59.64676,0 108,10.74516 108,24 0,13.25484 -48.35324,24 -108,24 -59.64676,0 -108,-10.74516 -108,-24 z"
+         fill="none"
+         id="path872"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g882"
+       transform="translate(-54,-166)">
+      <g
+         id="g880">
+        <path
+           d=""
+           fill="none"
+           id="path876"
+           stroke="none" />
+        <text
+           fill="#000000"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="bold"
+           id="text878"
+           stroke="none"
+           style="text-decoration:none;text-decoration-line:none"
+           text-decoration="none"
+           x="413.58228"
+           y="907">아이디 및 비밀번호 찾기</text>
+      </g>
+    </g>
+    <g
+       id="g886"
+       transform="translate(-54,-166)">
+      <path
+         d="m 933,535 c 0,-13.25484 62.00856,-24 138.5,-24 76.4914,0 138.5,10.74516 138.5,24 0,13.25484 -62.0086,24 -138.5,24 C 995.00856,559 933,548.25484 933,535 Z"
+         fill="#c0c0c0"
+         id="path884"
+         opacity="0.2"
+         stroke="none" />
+    </g>
+    <g
+       id="g890"
+       transform="translate(-54,-166)">
+      <path
+         d="m 926,528 c 0,-13.25484 62.00856,-24 138.5,-24 76.4914,0 138.5,10.74516 138.5,24 0,13.25484 -62.0086,24 -138.5,24 C 988.00856,552 926,541.25484 926,528 Z"
+         fill="#ffffff"
+         id="path888"
+         stroke="none" />
+    </g>
+    <g
+       id="g894"
+       transform="translate(-54,-166)">
+      <path
+         d="m 926,528 c 0,-13.25484 62.00856,-24 138.5,-24 76.4914,0 138.5,10.74516 138.5,24 0,13.25484 -62.0086,24 -138.5,24 C 988.00856,552 926,541.25484 926,528 Z"
+         fill="none"
+         id="path892"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g902"
+       transform="translate(-54,-166)">
+      <g
+         id="g900">
+        <path
+           d=""
+           fill="none"
+           id="path896"
+           stroke="none" />
+        <text
+           fill="#000000"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="bold"
+           id="text898"
+           stroke="none"
+           style="text-decoration:none;text-decoration-line:none"
+           text-decoration="none"
+           x="972.77637"
+           y="535">아이디 저장 및 로그인상태 유지</text>
+      </g>
+    </g>
+    <g
+       id="g906"
+       transform="translate(-54,-166)">
+      <path
+         d="m 383,531 c 0,-13.25484 45.44309,-24 101.5,-24 56.05691,0 101.5,10.74516 101.5,24 0,13.25484 -45.44309,24 -101.5,24 C 428.44309,555 383,544.25484 383,531 Z"
+         fill="#c0c0c0"
+         id="path904"
+         opacity="0.2"
+         stroke="none" />
+    </g>
+    <g
+       id="g910"
+       transform="translate(-54,-166)">
+      <path
+         d="m 376,524 c 0,-13.25484 45.44309,-24 101.5,-24 56.05691,0 101.5,10.74516 101.5,24 0,13.25484 -45.44309,24 -101.5,24 C 421.44309,548 376,537.25484 376,524 Z"
+         fill="#ffffff"
+         id="path908"
+         stroke="none" />
+    </g>
+    <g
+       id="g914"
+       transform="translate(-54,-166)">
+      <path
+         d="m 376,524 c 0,-13.25484 45.44309,-24 101.5,-24 56.05691,0 101.5,10.74516 101.5,24 0,13.25484 -45.44309,24 -101.5,24 C 421.44309,548 376,537.25484 376,524 Z"
+         fill="none"
+         id="path912"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g922"
+       transform="translate(-54,-166)">
+      <g
+         id="g920">
+        <path
+           d=""
+           fill="none"
+           id="path916"
+           stroke="none" />
+        <text
+           fill="#000000"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="bold"
+           id="text918"
+           stroke="none"
+           style="text-decoration:none;text-decoration-line:none"
+           text-decoration="none"
+           x="451.5"
+           y="531">로그아웃</text>
+      </g>
+    </g>
+    <g
+       id="g926"
+       transform="translate(-54,-166)">
+      <path
+         d="m 383,813 c 0,-13.25484 45.44309,-24 101.5,-24 56.05691,0 101.5,10.74516 101.5,24 0,13.25484 -45.44309,24 -101.5,24 C 428.44309,837 383,826.25484 383,813 Z"
+         fill="#c0c0c0"
+         id="path924"
+         opacity="0.2"
+         stroke="none" />
+    </g>
+    <g
+       id="g930"
+       transform="translate(-54,-166)">
+      <path
+         d="m 376,806 c 0,-13.25484 45.44309,-24 101.5,-24 56.05691,0 101.5,10.74516 101.5,24 0,13.25484 -45.44309,24 -101.5,24 C 421.44309,830 376,819.25484 376,806 Z"
+         fill="#ffffff"
+         id="path928"
+         stroke="none" />
+    </g>
+    <g
+       id="g934"
+       transform="translate(-54,-166)">
+      <path
+         d="m 376,806 c 0,-13.25484 45.44309,-24 101.5,-24 56.05691,0 101.5,10.74516 101.5,24 0,13.25484 -45.44309,24 -101.5,24 C 421.44309,830 376,819.25484 376,806 Z"
+         fill="none"
+         id="path932"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g942"
+       transform="translate(-54,-166)">
+      <g
+         id="g940">
+        <path
+           d=""
+           fill="none"
+           id="path936"
+           stroke="none" />
+        <text
+           fill="#000000"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="bold"
+           id="text938"
+           stroke="none"
+           style="text-decoration:none;text-decoration-line:none"
+           text-decoration="none"
+           x="449.69409"
+           y="813">회원 탈퇴</text>
+      </g>
+    </g>
+    <g
+       id="g946"
+       transform="translate(-54,-166)">
+      <path
+         d="m 383,1095 c 0,-13.2548 52.38268,-24 117,-24 64.61732,0 117,10.7452 117,24 0,13.2548 -52.38268,24 -117,24 -64.61732,0 -117,-10.7452 -117,-24 z"
+         fill="#c0c0c0"
+         id="path944"
+         opacity="0.2"
+         stroke="none" />
+    </g>
+    <g
+       id="g950"
+       transform="translate(-54,-166)">
+      <path
+         d="m 376,1088 c 0,-13.2548 52.38268,-24 117,-24 64.61732,0 117,10.7452 117,24 0,13.2548 -52.38268,24 -117,24 -64.61732,0 -117,-10.7452 -117,-24 z"
+         fill="#ffffff"
+         id="path948"
+         stroke="none" />
+    </g>
+    <g
+       id="g954"
+       transform="translate(-54,-166)">
+      <path
+         d="m 376,1088 c 0,-13.2548 52.38268,-24 117,-24 64.61732,0 117,10.7452 117,24 0,13.2548 -52.38268,24 -117,24 -64.61732,0 -117,-10.7452 -117,-24 z"
+         fill="none"
+         id="path952"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g962"
+       transform="translate(-54,-166)">
+      <g
+         id="g960">
+        <path
+           d=""
+           fill="none"
+           id="path956"
+           stroke="none" />
+        <text
+           fill="#000000"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="bold"
+           id="text958"
+           stroke="none"
+           style="text-decoration:none;text-decoration-line:none"
+           text-decoration="none"
+           x="416.08228"
+           y="1095">블랙리스트 회원 계정 정지</text>
+      </g>
+    </g>
+    <g
+       id="g966"
+       transform="translate(-54,-166)">
+      <path
+         d="m 593,900 406,-1"
+         fill="none"
+         id="path964"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g970"
+       transform="translate(-54,-166)">
+      <path
+         d="M 988.84772,903.23454 999,899 988.82699,894.81553"
+         fill="none"
+         id="path968"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g974"
+       transform="translate(-54,-166)">
+      <path
+         d="M 925,505 580,447"
+         fill="none"
+         id="path972"
+         stroke="#000000"
+         stroke-dasharray="3"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g978"
+       transform="translate(-54,-166)">
+      <path
+         d="M 590.71993,444.5336 580,447 l 9.32414,5.83613"
+         fill="none"
+         id="path976"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g986"
+       transform="translate(-54,-166)">
+      <g
+         id="g984">
+        <path
+           d=""
+           fill="none"
+           id="path980"
+           stroke="none" />
+        <text
+           fill="#000000"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           id="text982"
+           stroke="none"
+           style="text-decoration:none;text-decoration-line:none"
+           text-decoration="none"
+           x="788.90112"
+           y="482.5">«extend»</text>
+      </g>
+    </g>
+    <g
+       id="g990"
+       transform="translate(-54,-166)">
+      <path
+         d="M 181,699 386,643"
+         fill="none"
+         id="path988"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g994"
+       transform="translate(-54,-166)">
+      <path
+         d="M 377.3058,649.73876 386,643 375.08725,641.61729"
+         fill="none"
+         id="path992"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g998"
+       transform="translate(-54,-166)">
+      <path
+         d="m 181,711 194,1"
+         fill="none"
+         id="path996"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g1002"
+       transform="translate(-54,-166)">
+      <path
+         d="M 364.81576,716.15708 375,712 364.85916,707.73815"
+         fill="none"
+         id="path1000"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g1006"
+       transform="translate(-54,-166)">
+      <path
+         d="m 181,723 207,58"
+         fill="none"
+         id="path1004"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g1010"
+       transform="translate(-54,-166)">
+      <path
+         d="M 377.07846,782.3115 388,781 l -8.65006,-6.79533"
+         fill="none"
+         id="path1008"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g1014"
+       transform="translate(-54,-166)">
+      <path
+         d="M 181,734 438,875"
+         fill="none"
+         id="path1012"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g1018"
+       transform="translate(-54,-166)">
+      <path
+         d="M 427.0654,873.8023 438,875 l -6.88503,-8.57883"
+         fill="none"
+         id="path1016"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g1022"
+       transform="translate(-54,-166)">
+      <path
+         d="m 181,335 194,1"
+         fill="none"
+         id="path1020"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g1026"
+       transform="translate(-54,-166)">
+      <path
+         d="M 364.81576,340.15708 375,336 364.85916,331.73815"
+         fill="none"
+         id="path1024"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g1030"
+       transform="translate(-54,-166)">
+      <path
+         d="m 181,1087 194,1"
+         fill="none"
+         id="path1028"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g1034"
+       transform="translate(-54,-166)">
+      <path
+         d="M 364.81576,1092.1571 375,1088 l -10.14084,-4.2618"
+         fill="none"
+         id="path1032"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g1038"
+       transform="translate(-54,-166)">
+      <path
+         d="M 181,676 447,455"
+         fill="none"
+         id="path1036"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g1042"
+       transform="translate(-54,-166)">
+      <path
+         d="M 441.87327,464.73225 447,455 l -10.50688,3.25659"
+         fill="none"
+         id="path1040"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g1046"
+       transform="translate(-54,-166)">
+      <path
+         d="M 181,688 432,549"
+         fill="none"
+         id="path1044"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g1050"
+       transform="translate(-54,-166)">
+      <path
+         d="M 425.14889,557.60594 432,549 l -10.92979,1.24085"
+         fill="none"
+         id="path1048"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g1054"
+       transform="translate(-54,-166)">
+      <path
+         d="M 181,746 447,969"
+         fill="none"
+         id="path1052"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g1058"
+       transform="translate(-54,-166)">
+      <path
+         d="M 436.50765,965.69688 447,969 l -5.08355,-9.75487"
+         fill="none"
+         id="path1056"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+  </g>
+</svg>
