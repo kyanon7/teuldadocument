@@ -1,0 +1,1978 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   height="297mm"
+   id="svg2506"
+   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)"
+   sodipodi:docname="Review_ClassDiagram.svg"
+   version="1.1"
+   width="210mm">
+  <metadata
+     id="metadata2510">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     bordercolor="#666666"
+     borderopacity="1"
+     gridtolerance="10"
+     guidetolerance="10"
+     id="namedview2508"
+     inkscape:current-layer="svg2506"
+     inkscape:cx="328.09678"
+     inkscape:cy="395.32223"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-height="1027"
+     inkscape:window-maximized="1"
+     inkscape:window-width="1920"
+     inkscape:window-x="1912"
+     inkscape:window-y="-5"
+     inkscape:zoom="0.53343143"
+     objecttolerance="10"
+     pagecolor="#ffffff"
+     showgrid="false"
+     units="mm"
+     inkscape:document-rotation="0" />
+  <defs
+     id="defs2" />
+  <g
+     id="g2504"
+     transform="matrix(0.35100445,0,0,0.35100445,-3.714695,167.79753)">
+    <g
+       id="g1830"
+       transform="translate(-210,-158)">
+      <path
+         d="m 313.9,249 c 0,-35.78806 29.01194,-64.8 64.8,-64.8 35.78806,0 64.8,29.01194 64.8,64.8 0,35.78806 -29.01194,64.8 -64.8,64.8 -35.78806,0 -64.8,-29.01194 -64.8,-64.8 z"
+         fill="#ffffff"
+         id="path1828"
+         stroke="none" />
+    </g>
+    <g
+       id="g1834"
+       transform="translate(-210,-158)">
+      <path
+         d="m 313.9,249 c 0,-35.78806 29.01194,-64.8 64.8,-64.8 35.78806,0 64.8,29.01194 64.8,64.8 0,35.78806 -29.01194,64.8 -64.8,64.8 -35.78806,0 -64.8,-29.01194 -64.8,-64.8 z"
+         fill="none"
+         id="path1832"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g1838"
+       transform="translate(-210,-158)">
+      <path
+         d="M 281.5,184.2 V 313.8"
+         fill="none"
+         id="path1836"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g1842"
+       transform="translate(-210,-158)">
+      <path
+         d="m 281.5,249 h 32.4"
+         fill="none"
+         id="path1840"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g1850"
+       transform="translate(-210,-158)">
+      <g
+         id="g1848">
+        <path
+           d=""
+           fill="none"
+           id="path1844"
+           stroke="none" />
+        <text
+           fill="#000000"
+           font-family="Arial"
+           font-size="26px"
+           font-style="normal"
+           font-weight="bold"
+           id="text1846"
+           stroke="none"
+           style="text-decoration:none;text-decoration-line:none"
+           text-decoration="none"
+           x="278.67285"
+           y="362.5">addReview.jsp</text>
+      </g>
+    </g>
+    <g
+       id="g1854"
+       transform="translate(-210,-158)">
+      <path
+         d="m 313.9,1407 c 0,-35.7881 29.01194,-64.8 64.8,-64.8 35.78806,0 64.8,29.0119 64.8,64.8 0,35.7881 -29.01194,64.8 -64.8,64.8 -35.78806,0 -64.8,-29.0119 -64.8,-64.8 z"
+         fill="#ffffff"
+         id="path1852"
+         stroke="none" />
+    </g>
+    <g
+       id="g1858"
+       transform="translate(-210,-158)">
+      <path
+         d="m 313.9,1407 c 0,-35.7881 29.01194,-64.8 64.8,-64.8 35.78806,0 64.8,29.0119 64.8,64.8 0,35.7881 -29.01194,64.8 -64.8,64.8 -35.78806,0 -64.8,-29.0119 -64.8,-64.8 z"
+         fill="none"
+         id="path1856"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g1862"
+       transform="translate(-210,-158)">
+      <path
+         d="m 281.5,1342.2 v 129.6"
+         fill="none"
+         id="path1860"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g1866"
+       transform="translate(-210,-158)">
+      <path
+         d="m 281.5,1407 h 32.4"
+         fill="none"
+         id="path1864"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g1874"
+       transform="translate(-210,-158)">
+      <g
+         id="g1872">
+        <path
+           d=""
+           fill="none"
+           id="path1868"
+           stroke="none" />
+        <text
+           fill="#000000"
+           font-family="Arial"
+           font-size="26px"
+           font-style="normal"
+           font-weight="bold"
+           id="text1870"
+           stroke="none"
+           style="text-decoration:none;text-decoration-line:none"
+           text-decoration="none"
+           x="284.47461"
+           y="1520.5">listReview.jsp</text>
+      </g>
+    </g>
+    <g
+       id="g1878"
+       transform="translate(-210,-158)">
+      <path
+         d="m 892.57666,851.5 c 0,-31.27313 25.35187,-56.625 56.625,-56.625 31.27313,0 56.62504,25.35187 56.62504,56.625 0,31.27313 -25.35191,56.625 -56.62504,56.625 -31.27313,0 -56.625,-25.35187 -56.625,-56.625 z"
+         fill="#ffffff"
+         id="path1876"
+         stroke="none" />
+    </g>
+    <g
+       id="g1882"
+       transform="translate(-210,-158)">
+      <path
+         d="m 892.57666,851.5 c 0,-31.27313 25.35187,-56.625 56.625,-56.625 31.27313,0 56.62504,25.35187 56.62504,56.625 0,31.27313 -25.35191,56.625 -56.62504,56.625 -31.27313,0 -56.625,-25.35187 -56.625,-56.625 z"
+         fill="none"
+         id="path1880"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g1886"
+       transform="translate(-210,-158)">
+      <path
+         d="M 949.20166,794.875 968.07666,776"
+         fill="none"
+         id="path1884"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g1890"
+       transform="translate(-210,-158)">
+      <path
+         d="m 949.20166,794.875 18.875,18.875"
+         fill="none"
+         id="path1888"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g1894"
+       transform="translate(-210,-158)">
+      <path
+         d="m 763,965 h 372.4033"
+         fill="none"
+         id="path1892"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g1898"
+       transform="translate(-210,-158)">
+      <path
+         d="m 763,1001 h 372.4033"
+         fill="none"
+         id="path1896"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g1906"
+       transform="translate(-210,-158)">
+      <g
+         id="g1904">
+        <path
+           d=""
+           fill="none"
+           id="path1900"
+           stroke="none" />
+        <text
+           fill="#000000"
+           font-family="Arial"
+           font-size="26px"
+           font-style="normal"
+           font-weight="bold"
+           id="text1902"
+           stroke="none"
+           style="text-decoration:none;text-decoration-line:none"
+           text-decoration="none"
+           x="850.22266"
+           y="959.5">ReviewController</text>
+      </g>
+    </g>
+    <g
+       id="g1914"
+       transform="translate(-210,-158)">
+      <g
+         id="g1912">
+        <path
+           d=""
+           fill="none"
+           id="path1908"
+           stroke="none" />
+        <text
+           fill="#000000"
+           font-family="Arial"
+           font-size="26px"
+           font-style="normal"
+           font-weight="normal"
+           id="text1910"
+           stroke="none"
+           style="text-decoration:none;text-decoration-line:none"
+           text-decoration="none"
+           x="768"
+           y="995.5">+reviewService: ReviewService</text>
+      </g>
+    </g>
+    <g
+       id="g1922"
+       transform="translate(-210,-158)">
+      <g
+         id="g1920">
+        <path
+           d=""
+           fill="none"
+           id="path1916"
+           stroke="none" />
+        <text
+           fill="#000000"
+           font-family="Arial"
+           font-size="26px"
+           font-style="normal"
+           font-weight="normal"
+           id="text1918"
+           stroke="none"
+           style="text-decoration:none;text-decoration-line:none"
+           text-decoration="none"
+           x="768"
+           y="1031.5">+addReview()</text>
+      </g>
+    </g>
+    <g
+       id="g1930"
+       transform="translate(-210,-158)">
+      <g
+         id="g1928">
+        <path
+           d=""
+           fill="none"
+           id="path1924"
+           stroke="none" />
+        <text
+           fill="#000000"
+           font-family="Arial"
+           font-size="26px"
+           font-style="normal"
+           font-weight="normal"
+           id="text1926"
+           stroke="none"
+           style="text-decoration:none;text-decoration-line:none"
+           text-decoration="none"
+           x="768"
+           y="1059.5">+getReview()</text>
+      </g>
+    </g>
+    <g
+       id="g1938"
+       transform="translate(-210,-158)">
+      <g
+         id="g1936">
+        <path
+           d=""
+           fill="none"
+           id="path1932"
+           stroke="none" />
+        <text
+           fill="#000000"
+           font-family="Arial"
+           font-size="26px"
+           font-style="normal"
+           font-weight="normal"
+           id="text1934"
+           stroke="none"
+           style="text-decoration:none;text-decoration-line:none"
+           text-decoration="none"
+           x="768"
+           y="1087.5">+listReview()</text>
+      </g>
+    </g>
+    <g
+       id="g1946"
+       transform="translate(-210,-158)">
+      <g
+         id="g1944">
+        <path
+           d=""
+           fill="none"
+           id="path1940"
+           stroke="none" />
+        <text
+           fill="#000000"
+           font-family="Arial"
+           font-size="26px"
+           font-style="normal"
+           font-weight="normal"
+           id="text1942"
+           stroke="none"
+           style="text-decoration:none;text-decoration-line:none"
+           text-decoration="none"
+           x="768"
+           y="1115.5">+updateReview()</text>
+      </g>
+    </g>
+    <g
+       id="g1954"
+       transform="translate(-210,-158)">
+      <g
+         id="g1952">
+        <path
+           d=""
+           fill="none"
+           id="path1948"
+           stroke="none" />
+        <text
+           fill="#000000"
+           font-family="Arial"
+           font-size="26px"
+           font-style="normal"
+           font-weight="normal"
+           id="text1950"
+           stroke="none"
+           style="text-decoration:none;text-decoration-line:none"
+           text-decoration="none"
+           x="768"
+           y="1143.5">+listTotalReview()</text>
+      </g>
+    </g>
+    <g
+       id="g1958"
+       transform="translate(-210,-158)">
+      <path
+         d="m 888.07666,1569.5 c 0,-33.7584 27.36659,-61.125 61.125,-61.125 33.75841,0 61.12504,27.3666 61.12504,61.125 0,33.7584 -27.36663,61.125 -61.12504,61.125 -33.75841,0 -61.125,-27.3666 -61.125,-61.125 z"
+         fill="#ffffff"
+         id="path1956"
+         stroke="none" />
+    </g>
+    <g
+       id="g1962"
+       transform="translate(-210,-158)">
+      <path
+         d="m 888.07666,1569.5 c 0,-33.7584 27.36659,-61.125 61.125,-61.125 33.75841,0 61.12504,27.3666 61.12504,61.125 0,33.7584 -27.36663,61.125 -61.12504,61.125 -33.75841,0 -61.125,-27.3666 -61.125,-61.125 z"
+         fill="none"
+         id="path1960"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g1966"
+       transform="translate(-210,-158)">
+      <path
+         d="M 949.20166,1508.375 969.57666,1488"
+         fill="none"
+         id="path1964"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g1970"
+       transform="translate(-210,-158)">
+      <path
+         d="m 949.20166,1508.375 20.375,20.375"
+         fill="none"
+         id="path1968"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g1974"
+       transform="translate(-210,-158)">
+      <path
+         d="m 763,1689 h 372.4033"
+         fill="none"
+         id="path1972"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g1978"
+       transform="translate(-210,-158)">
+      <path
+         d="m 763,1725 h 372.4033"
+         fill="none"
+         id="path1976"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g1986"
+       transform="translate(-210,-158)">
+      <g
+         id="g1984">
+        <path
+           d=""
+           fill="none"
+           id="path1980"
+           stroke="none" />
+        <text
+           fill="#000000"
+           font-family="Arial"
+           font-size="26px"
+           font-style="normal"
+           font-weight="bold"
+           id="text1982"
+           stroke="none"
+           style="text-decoration:none;text-decoration-line:none"
+           text-decoration="none"
+           x="823.49268"
+           y="1683.5">ReviewRestController</text>
+      </g>
+    </g>
+    <g
+       id="g1994"
+       transform="translate(-210,-158)">
+      <g
+         id="g1992">
+        <path
+           d=""
+           fill="none"
+           id="path1988"
+           stroke="none" />
+        <text
+           fill="#000000"
+           font-family="Arial"
+           font-size="26px"
+           font-style="normal"
+           font-weight="normal"
+           id="text1990"
+           stroke="none"
+           style="text-decoration:none;text-decoration-line:none"
+           text-decoration="none"
+           x="768"
+           y="1719.5">+reviewService: ReviewService</text>
+      </g>
+    </g>
+    <g
+       id="g2002"
+       transform="translate(-210,-158)">
+      <g
+         id="g2000">
+        <path
+           d=""
+           fill="none"
+           id="path1996"
+           stroke="none" />
+        <text
+           fill="#000000"
+           font-family="Arial"
+           font-size="26px"
+           font-style="normal"
+           font-weight="normal"
+           id="text1998"
+           stroke="none"
+           style="text-decoration:none;text-decoration-line:none"
+           text-decoration="none"
+           x="768"
+           y="1755.5">+deleteReview()</text>
+      </g>
+    </g>
+    <g
+       id="g2010"
+       transform="translate(-210,-158)">
+      <g
+         id="g2008">
+        <path
+           d=""
+           fill="none"
+           id="path2004"
+           stroke="none" />
+        <text
+           fill="#000000"
+           font-family="Arial"
+           font-size="26px"
+           font-style="normal"
+           font-weight="normal"
+           id="text2006"
+           stroke="none"
+           style="text-decoration:none;text-decoration-line:none"
+           text-decoration="none"
+           x="768"
+           y="1783.5">+listTotalReview()</text>
+      </g>
+    </g>
+    <g
+       id="g2014"
+       transform="translate(-210,-158)">
+      <path
+         d="M 490,1325 762,1110"
+         fill="none"
+         id="path2012"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g2018"
+       transform="translate(-210,-158)">
+      <path
+         d="m 506,1478 256,92"
+         fill="none"
+         id="path2016"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g2022"
+       transform="translate(-210,-158)">
+      <path
+         d="M 447,369 791,775"
+         fill="none"
+         id="path2020"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g2026"
+       transform="translate(-210,-158)">
+      <rect
+         fill="#c0c0c0"
+         height="277"
+         id="rect2024"
+         opacity="0.2"
+         stroke="none"
+         width="372.40332"
+         x="1422"
+         y="1119" />
+    </g>
+    <g
+       id="g2030"
+       transform="translate(-210,-158)">
+      <rect
+         fill="#ffffff"
+         height="277"
+         id="rect2028"
+         stroke="none"
+         width="372.40332"
+         x="1415"
+         y="1112" />
+    </g>
+    <g
+       id="g2034"
+       transform="translate(-210,-158)">
+      <path
+         d="m 1415,1112 h 372.4033 v 277 H 1415 Z"
+         fill="none"
+         id="path2032"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g2038"
+       transform="translate(-210,-158)">
+      <path
+         d="m 1415,1176 h 372.4033"
+         fill="none"
+         id="path2036"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g2046"
+       transform="translate(-210,-158)">
+      <g
+         id="g2044">
+        <path
+           d=""
+           fill="none"
+           id="path2040"
+           stroke="none" />
+        <text
+           fill="#000000"
+           font-family="Arial"
+           font-size="26px"
+           font-style="normal"
+           font-weight="normal"
+           id="text2042"
+           stroke="none"
+           style="text-decoration:none;text-decoration-line:none"
+           text-decoration="none"
+           x="1536.8809"
+           y="1142.5">«interface»</text>
+      </g>
+    </g>
+    <g
+       id="g2054"
+       transform="translate(-210,-158)">
+      <g
+         id="g2052">
+        <path
+           d=""
+           fill="none"
+           id="path2048"
+           stroke="none" />
+        <text
+           fill="#000000"
+           font-family="Arial"
+           font-size="26px"
+           font-style="normal"
+           font-weight="bold"
+           id="text2050"
+           stroke="none"
+           style="text-decoration:none;text-decoration-line:none"
+           text-decoration="none"
+           x="1515.229"
+           y="1170.5">ReviewService</text>
+      </g>
+    </g>
+    <g
+       id="g2062"
+       transform="translate(-210,-158)">
+      <g
+         id="g2060">
+        <path
+           d=""
+           fill="none"
+           id="path2056"
+           stroke="none" />
+        <text
+           fill="#000000"
+           font-family="Arial"
+           font-size="26px"
+           font-style="normal"
+           font-weight="normal"
+           id="text2058"
+           stroke="none"
+           style="text-decoration:none;text-decoration-line:none"
+           text-decoration="none"
+           x="1420"
+           y="1206.5">+addReview()</text>
+      </g>
+    </g>
+    <g
+       id="g2070"
+       transform="translate(-210,-158)">
+      <g
+         id="g2068">
+        <path
+           d=""
+           fill="none"
+           id="path2064"
+           stroke="none" />
+        <text
+           fill="#000000"
+           font-family="Arial"
+           font-size="26px"
+           font-style="normal"
+           font-weight="normal"
+           id="text2066"
+           stroke="none"
+           style="text-decoration:none;text-decoration-line:none"
+           text-decoration="none"
+           x="1420"
+           y="1234.5">+getReview()</text>
+      </g>
+    </g>
+    <g
+       id="g2078"
+       transform="translate(-210,-158)">
+      <g
+         id="g2076">
+        <path
+           d=""
+           fill="none"
+           id="path2072"
+           stroke="none" />
+        <text
+           fill="#000000"
+           font-family="Arial"
+           font-size="26px"
+           font-style="normal"
+           font-weight="normal"
+           id="text2074"
+           stroke="none"
+           style="text-decoration:none;text-decoration-line:none"
+           text-decoration="none"
+           x="1420"
+           y="1262.5">+getLastMyReview()</text>
+      </g>
+    </g>
+    <g
+       id="g2086"
+       transform="translate(-210,-158)">
+      <g
+         id="g2084">
+        <path
+           d=""
+           fill="none"
+           id="path2080"
+           stroke="none" />
+        <text
+           fill="#000000"
+           font-family="Arial"
+           font-size="26px"
+           font-style="normal"
+           font-weight="normal"
+           id="text2082"
+           stroke="none"
+           style="text-decoration:none;text-decoration-line:none"
+           text-decoration="none"
+           x="1420"
+           y="1290.5">+getReviewList()</text>
+      </g>
+    </g>
+    <g
+       id="g2094"
+       transform="translate(-210,-158)">
+      <g
+         id="g2092">
+        <path
+           d=""
+           fill="none"
+           id="path2088"
+           stroke="none" />
+        <text
+           fill="#000000"
+           font-family="Arial"
+           font-size="26px"
+           font-style="normal"
+           font-weight="normal"
+           id="text2090"
+           stroke="none"
+           style="text-decoration:none;text-decoration-line:none"
+           text-decoration="none"
+           x="1420"
+           y="1318.5">+updateReview()</text>
+      </g>
+    </g>
+    <g
+       id="g2102"
+       transform="translate(-210,-158)">
+      <g
+         id="g2100">
+        <path
+           d=""
+           fill="none"
+           id="path2096"
+           stroke="none" />
+        <text
+           fill="#000000"
+           font-family="Arial"
+           font-size="26px"
+           font-style="normal"
+           font-weight="normal"
+           id="text2098"
+           stroke="none"
+           style="text-decoration:none;text-decoration-line:none"
+           text-decoration="none"
+           x="1420"
+           y="1346.5">+deleteReview()</text>
+      </g>
+    </g>
+    <g
+       id="g2110"
+       transform="translate(-210,-158)">
+      <g
+         id="g2108">
+        <path
+           d=""
+           fill="none"
+           id="path2104"
+           stroke="none" />
+        <text
+           fill="#000000"
+           font-family="Arial"
+           font-size="26px"
+           font-style="normal"
+           font-weight="normal"
+           id="text2106"
+           stroke="none"
+           style="text-decoration:none;text-decoration-line:none"
+           text-decoration="none"
+           x="1420"
+           y="1374.5">+uploadFile()</text>
+      </g>
+    </g>
+    <g
+       id="g2114"
+       transform="translate(-210,-158)">
+      <rect
+         fill="#c0c0c0"
+         height="277"
+         id="rect2112"
+         opacity="0.2"
+         stroke="none"
+         width="372.40332"
+         x="1423"
+         y="1631" />
+    </g>
+    <g
+       id="g2118"
+       transform="translate(-210,-158)">
+      <rect
+         fill="#ffffff"
+         height="277"
+         id="rect2116"
+         stroke="none"
+         width="372.40332"
+         x="1416"
+         y="1624" />
+    </g>
+    <g
+       id="g2122"
+       transform="translate(-210,-158)">
+      <path
+         d="m 1416,1624 h 372.4033 v 277 H 1416 Z"
+         fill="none"
+         id="path2120"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g2126"
+       transform="translate(-210,-158)">
+      <path
+         d="m 1416,1662 h 372.4033"
+         fill="none"
+         id="path2124"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g2130"
+       transform="translate(-210,-158)">
+      <path
+         d="m 1416,1698 h 372.4033"
+         fill="none"
+         id="path2128"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g2138"
+       transform="translate(-210,-158)">
+      <g
+         id="g2136">
+        <path
+           d=""
+           fill="none"
+           id="path2132"
+           stroke="none" />
+        <text
+           fill="#000000"
+           font-family="Arial"
+           font-size="26px"
+           font-style="normal"
+           font-weight="bold"
+           id="text2134"
+           stroke="none"
+           style="text-decoration:none;text-decoration-line:none"
+           text-decoration="none"
+           x="1491.6699"
+           y="1656.5">ReviewServiceImpl</text>
+      </g>
+    </g>
+    <g
+       id="g2146"
+       transform="translate(-210,-158)">
+      <g
+         id="g2144">
+        <path
+           d=""
+           fill="none"
+           id="path2140"
+           stroke="none" />
+        <text
+           fill="#000000"
+           font-family="Arial"
+           font-size="26px"
+           font-style="normal"
+           font-weight="normal"
+           id="text2142"
+           stroke="none"
+           style="text-decoration:none;text-decoration-line:none"
+           text-decoration="none"
+           x="1421"
+           y="1692.5">+reviewDao: ReviewDao</text>
+      </g>
+    </g>
+    <g
+       id="g2150"
+       transform="translate(-210,-158)">
+      <path
+         d="m 1602,1623 -1,-233"
+         fill="none"
+         id="path2148"
+         stroke="#000000"
+         stroke-dasharray="3"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g2154"
+       transform="translate(-210,-158)">
+      <path
+         d="M 1609.5062,1410.289 1601,1390 l -8.3317,20.3613"
+         fill="#ffffff"
+         id="path2152"
+         stroke="none" />
+    </g>
+    <g
+       id="g2158"
+       transform="translate(-210,-158)">
+      <path
+         d="M 1609.5062,1410.289 1601,1390 l -8.3317,20.3613 16.8379,-0.072"
+         fill="none"
+         id="path2156"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g2162"
+       transform="translate(-210,-158)">
+      <rect
+         fill="#c0c0c0"
+         height="277"
+         id="rect2160"
+         opacity="0.2"
+         stroke="none"
+         width="372.40332"
+         x="2060"
+         y="1631" />
+    </g>
+    <g
+       id="g2166"
+       transform="translate(-210,-158)">
+      <rect
+         fill="#ffffff"
+         height="277"
+         id="rect2164"
+         stroke="none"
+         width="372.40332"
+         x="2053"
+         y="1624" />
+    </g>
+    <g
+       id="g2170"
+       transform="translate(-210,-158)">
+      <path
+         d="m 2053,1624 h 372.4033 v 277 H 2053 Z"
+         fill="none"
+         id="path2168"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g2174"
+       transform="translate(-210,-158)">
+      <path
+         d="m 2053,1688 h 372.4033"
+         fill="none"
+         id="path2172"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g2182"
+       transform="translate(-210,-158)">
+      <g
+         id="g2180">
+        <path
+           d=""
+           fill="none"
+           id="path2176"
+           stroke="none" />
+        <text
+           fill="#000000"
+           font-family="Arial"
+           font-size="26px"
+           font-style="normal"
+           font-weight="normal"
+           id="text2178"
+           stroke="none"
+           style="text-decoration:none;text-decoration-line:none"
+           text-decoration="none"
+           x="2174.8809"
+           y="1654.5">«interface»</text>
+      </g>
+    </g>
+    <g
+       id="g2190"
+       transform="translate(-210,-158)">
+      <g
+         id="g2188">
+        <path
+           d=""
+           fill="none"
+           id="path2184"
+           stroke="none" />
+        <text
+           fill="#000000"
+           font-family="Arial"
+           font-size="26px"
+           font-style="normal"
+           font-weight="bold"
+           id="text2186"
+           stroke="none"
+           style="text-decoration:none;text-decoration-line:none"
+           text-decoration="none"
+           x="2172.729"
+           y="1682.5">ReviewDao</text>
+      </g>
+    </g>
+    <g
+       id="g2198"
+       transform="translate(-210,-158)">
+      <g
+         id="g2196">
+        <path
+           d=""
+           fill="none"
+           id="path2192"
+           stroke="none" />
+        <text
+           fill="#000000"
+           font-family="Arial"
+           font-size="26px"
+           font-style="normal"
+           font-weight="normal"
+           id="text2194"
+           stroke="none"
+           style="text-decoration:none;text-decoration-line:none"
+           text-decoration="none"
+           x="2058"
+           y="1718.5">+addReview()</text>
+      </g>
+    </g>
+    <g
+       id="g2206"
+       transform="translate(-210,-158)">
+      <g
+         id="g2204">
+        <path
+           d=""
+           fill="none"
+           id="path2200"
+           stroke="none" />
+        <text
+           fill="#000000"
+           font-family="Arial"
+           font-size="26px"
+           font-style="normal"
+           font-weight="normal"
+           id="text2202"
+           stroke="none"
+           style="text-decoration:none;text-decoration-line:none"
+           text-decoration="none"
+           x="2058"
+           y="1746.5">+getReview()</text>
+      </g>
+    </g>
+    <g
+       id="g2214"
+       transform="translate(-210,-158)">
+      <g
+         id="g2212">
+        <path
+           d=""
+           fill="none"
+           id="path2208"
+           stroke="none" />
+        <text
+           fill="#000000"
+           font-family="Arial"
+           font-size="26px"
+           font-style="normal"
+           font-weight="normal"
+           id="text2210"
+           stroke="none"
+           style="text-decoration:none;text-decoration-line:none"
+           text-decoration="none"
+           x="2058"
+           y="1774.5">+getLastMyReview()</text>
+      </g>
+    </g>
+    <g
+       id="g2222"
+       transform="translate(-210,-158)">
+      <g
+         id="g2220">
+        <path
+           d=""
+           fill="none"
+           id="path2216"
+           stroke="none" />
+        <text
+           fill="#000000"
+           font-family="Arial"
+           font-size="26px"
+           font-style="normal"
+           font-weight="normal"
+           id="text2218"
+           stroke="none"
+           style="text-decoration:none;text-decoration-line:none"
+           text-decoration="none"
+           x="2058"
+           y="1802.5">+getReviewList()</text>
+      </g>
+    </g>
+    <g
+       id="g2230"
+       transform="translate(-210,-158)">
+      <g
+         id="g2228">
+        <path
+           d=""
+           fill="none"
+           id="path2224"
+           stroke="none" />
+        <text
+           fill="#000000"
+           font-family="Arial"
+           font-size="26px"
+           font-style="normal"
+           font-weight="normal"
+           id="text2226"
+           stroke="none"
+           style="text-decoration:none;text-decoration-line:none"
+           text-decoration="none"
+           x="2058"
+           y="1830.5">+updateReview()</text>
+      </g>
+    </g>
+    <g
+       id="g2238"
+       transform="translate(-210,-158)">
+      <g
+         id="g2236">
+        <path
+           d=""
+           fill="none"
+           id="path2232"
+           stroke="none" />
+        <text
+           fill="#000000"
+           font-family="Arial"
+           font-size="26px"
+           font-style="normal"
+           font-weight="normal"
+           id="text2234"
+           stroke="none"
+           style="text-decoration:none;text-decoration-line:none"
+           text-decoration="none"
+           x="2058"
+           y="1858.5">+deleteReview()</text>
+      </g>
+    </g>
+    <g
+       id="g2246"
+       transform="translate(-210,-158)">
+      <g
+         id="g2244">
+        <path
+           d=""
+           fill="none"
+           id="path2240"
+           stroke="none" />
+        <text
+           fill="#000000"
+           font-family="Arial"
+           font-size="26px"
+           font-style="normal"
+           font-weight="normal"
+           id="text2242"
+           stroke="none"
+           style="text-decoration:none;text-decoration-line:none"
+           text-decoration="none"
+           x="2058"
+           y="1886.5">+getTotalCount()</text>
+      </g>
+    </g>
+    <g
+       id="g2250"
+       transform="translate(-210,-158)">
+      <rect
+         fill="#c0c0c0"
+         height="277"
+         id="rect2248"
+         opacity="0.2"
+         stroke="none"
+         width="372.40332"
+         x="2060"
+         y="2158" />
+    </g>
+    <g
+       id="g2254"
+       transform="translate(-210,-158)">
+      <rect
+         fill="#ffffff"
+         height="277"
+         id="rect2252"
+         stroke="none"
+         width="372.40332"
+         x="2053"
+         y="2151" />
+    </g>
+    <g
+       id="g2258"
+       transform="translate(-210,-158)">
+      <path
+         d="m 2053,2151 h 372.4033 v 277 H 2053 Z"
+         fill="none"
+         id="path2256"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g2262"
+       transform="translate(-210,-158)">
+      <path
+         d="m 2053,2189 h 372.4033"
+         fill="none"
+         id="path2260"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g2266"
+       transform="translate(-210,-158)">
+      <path
+         d="m 2053,2199 h 372.4033"
+         fill="none"
+         id="path2264"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g2274"
+       transform="translate(-210,-158)">
+      <g
+         id="g2272">
+        <path
+           d=""
+           fill="none"
+           id="path2268"
+           stroke="none" />
+        <text
+           fill="#000000"
+           font-family="Arial"
+           font-size="26px"
+           font-style="normal"
+           font-weight="bold"
+           id="text2270"
+           stroke="none"
+           style="text-decoration:none;text-decoration-line:none"
+           text-decoration="none"
+           x="2148.1699"
+           y="2183.5">ReviewDaoImpl</text>
+      </g>
+    </g>
+    <g
+       id="g2278"
+       transform="translate(-210,-158)">
+      <path
+         d="M 2239,2150 V 1902"
+         fill="none"
+         id="path2276"
+         stroke="#000000"
+         stroke-dasharray="3"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g2282"
+       transform="translate(-210,-158)">
+      <path
+         d="M 2247.419,1922.3253 2239,1902 l -8.419,20.3253"
+         fill="#ffffff"
+         id="path2280"
+         stroke="none" />
+    </g>
+    <g
+       id="g2286"
+       transform="translate(-210,-158)">
+      <path
+         d="M 2247.419,1922.3253 2239,1902 l -8.419,20.3253 h 16.838"
+         fill="none"
+         id="path2284"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g2290"
+       transform="translate(-210,-158)">
+      <path
+         d="m 1789,1762 h 263"
+         fill="none"
+         id="path2288"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g2294"
+       transform="translate(-210,-158)">
+      <path
+         d="M 2041.8373,1766.2095 2052,1762 l -10.1627,-4.2095"
+         fill="none"
+         id="path2292"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g2298"
+       transform="translate(-210,-158)">
+      <rect
+         fill="#c0c0c0"
+         height="333"
+         id="rect2296"
+         opacity="0.2"
+         stroke="none"
+         width="372.40332"
+         x="807"
+         y="2087" />
+    </g>
+    <g
+       id="g2302"
+       transform="translate(-210,-158)">
+      <rect
+         fill="#ffffff"
+         height="333"
+         id="rect2300"
+         stroke="none"
+         width="372.40332"
+         x="800"
+         y="2080" />
+    </g>
+    <g
+       id="g2306"
+       transform="translate(-210,-158)">
+      <path
+         d="m 800,2080 h 372.4033 v 333 H 800 Z"
+         fill="none"
+         id="path2304"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g2310"
+       transform="translate(-210,-158)">
+      <path
+         d="m 800,2118 h 372.4033"
+         fill="none"
+         id="path2308"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g2314"
+       transform="translate(-210,-158)">
+      <path
+         d="m 800,2378 h 372.4033"
+         fill="none"
+         id="path2312"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g2322"
+       transform="translate(-210,-158)">
+      <g
+         id="g2320">
+        <path
+           d=""
+           fill="none"
+           id="path2316"
+           stroke="none" />
+        <text
+           fill="#000000"
+           font-family="Arial"
+           font-size="26px"
+           font-style="normal"
+           font-weight="bold"
+           id="text2318"
+           stroke="none"
+           style="text-decoration:none;text-decoration-line:none"
+           text-decoration="none"
+           x="943.57715"
+           y="2112.5">Review</text>
+      </g>
+    </g>
+    <g
+       id="g2330"
+       transform="translate(-210,-158)">
+      <g
+         id="g2328">
+        <path
+           d=""
+           fill="none"
+           id="path2324"
+           stroke="none" />
+        <text
+           fill="#000000"
+           font-family="Arial"
+           font-size="26px"
+           font-style="normal"
+           font-weight="normal"
+           id="text2326"
+           stroke="none"
+           style="text-decoration:none;text-decoration-line:none"
+           text-decoration="none"
+           x="805"
+           y="2148.5">+reviewNo: int</text>
+      </g>
+    </g>
+    <g
+       id="g2338"
+       transform="translate(-210,-158)">
+      <g
+         id="g2336">
+        <path
+           d=""
+           fill="none"
+           id="path2332"
+           stroke="none" />
+        <text
+           fill="#000000"
+           font-family="Arial"
+           font-size="26px"
+           font-style="normal"
+           font-weight="normal"
+           id="text2334"
+           stroke="none"
+           style="text-decoration:none;text-decoration-line:none"
+           text-decoration="none"
+           x="805"
+           y="2176.5">+nickname: String</text>
+      </g>
+    </g>
+    <g
+       id="g2346"
+       transform="translate(-210,-158)">
+      <g
+         id="g2344">
+        <path
+           d=""
+           fill="none"
+           id="path2340"
+           stroke="none" />
+        <text
+           fill="#000000"
+           font-family="Arial"
+           font-size="26px"
+           font-style="normal"
+           font-weight="normal"
+           id="text2342"
+           stroke="none"
+           style="text-decoration:none;text-decoration-line:none"
+           text-decoration="none"
+           x="805"
+           y="2204.5">+reviewPlace: String</text>
+      </g>
+    </g>
+    <g
+       id="g2354"
+       transform="translate(-210,-158)">
+      <g
+         id="g2352">
+        <path
+           d=""
+           fill="none"
+           id="path2348"
+           stroke="none" />
+        <text
+           fill="#000000"
+           font-family="Arial"
+           font-size="26px"
+           font-style="normal"
+           font-weight="normal"
+           id="text2350"
+           stroke="none"
+           style="text-decoration:none;text-decoration-line:none"
+           text-decoration="none"
+           x="805"
+           y="2232.5">+reviewContents: String</text>
+      </g>
+    </g>
+    <g
+       id="g2362"
+       transform="translate(-210,-158)">
+      <g
+         id="g2360">
+        <path
+           d=""
+           fill="none"
+           id="path2356"
+           stroke="none" />
+        <text
+           fill="#000000"
+           font-family="Arial"
+           font-size="26px"
+           font-style="normal"
+           font-weight="normal"
+           id="text2358"
+           stroke="none"
+           style="text-decoration:none;text-decoration-line:none"
+           text-decoration="none"
+           x="805"
+           y="2260.5">+reviewPhoto: String</text>
+      </g>
+    </g>
+    <g
+       id="g2370"
+       transform="translate(-210,-158)">
+      <g
+         id="g2368">
+        <path
+           d=""
+           fill="none"
+           id="path2364"
+           stroke="none" />
+        <text
+           fill="#000000"
+           font-family="Arial"
+           font-size="26px"
+           font-style="normal"
+           font-weight="normal"
+           id="text2366"
+           stroke="none"
+           style="text-decoration:none;text-decoration-line:none"
+           text-decoration="none"
+           x="805"
+           y="2288.5">+stars: int</text>
+      </g>
+    </g>
+    <g
+       id="g2378"
+       transform="translate(-210,-158)">
+      <g
+         id="g2376">
+        <path
+           d=""
+           fill="none"
+           id="path2372"
+           stroke="none" />
+        <text
+           fill="#000000"
+           font-family="Arial"
+           font-size="26px"
+           font-style="normal"
+           font-weight="normal"
+           id="text2374"
+           stroke="none"
+           style="text-decoration:none;text-decoration-line:none"
+           text-decoration="none"
+           x="805"
+           y="2316.5">+reviewDate: Timestamp</text>
+      </g>
+    </g>
+    <g
+       id="g2386"
+       transform="translate(-210,-158)">
+      <g
+         id="g2384">
+        <path
+           d=""
+           fill="none"
+           id="path2380"
+           stroke="none" />
+        <text
+           fill="#000000"
+           font-family="Arial"
+           font-size="26px"
+           font-style="normal"
+           font-weight="normal"
+           id="text2382"
+           stroke="none"
+           style="text-decoration:none;text-decoration-line:none"
+           text-decoration="none"
+           x="805"
+           y="2344.5">+star: int</text>
+      </g>
+    </g>
+    <g
+       id="g2394"
+       transform="translate(-210,-158)">
+      <g
+         id="g2392">
+        <path
+           d=""
+           fill="none"
+           id="path2388"
+           stroke="none" />
+        <text
+           fill="#000000"
+           font-family="Arial"
+           font-size="26px"
+           font-style="normal"
+           font-weight="normal"
+           id="text2390"
+           stroke="none"
+           style="text-decoration:none;text-decoration-line:none"
+           text-decoration="none"
+           x="805"
+           y="2372.5">+isAllowed: char</text>
+      </g>
+    </g>
+    <g
+       id="g2402"
+       transform="translate(-210,-158)">
+      <g
+         id="g2400">
+        <path
+           d=""
+           fill="none"
+           id="path2396"
+           stroke="none" />
+        <text
+           fill="#000000"
+           font-family="Arial"
+           font-size="26px"
+           font-style="normal"
+           font-weight="normal"
+           id="text2398"
+           stroke="none"
+           style="text-decoration:none;text-decoration-line:none"
+           text-decoration="none"
+           x="805"
+           y="2408.5">+toString()</text>
+      </g>
+    </g>
+    <g
+       id="g2406"
+       transform="translate(-210,-158)">
+      <path
+         d="m 1136,1045 278,122"
+         fill="none"
+         id="path2404"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g2410"
+       transform="translate(-210,-158)">
+      <path
+         d="M 1403.0024,1166.7707 1414,1167 l -7.6144,-7.9386"
+         fill="none"
+         id="path2408"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g2414"
+       transform="translate(-210,-158)">
+      <path
+         d="m 1136,1526 278,-165"
+         fill="none"
+         id="path2412"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g2418"
+       transform="translate(-210,-158)">
+      <path
+         d="M 1407.4092,1369.8069 1414,1361 l -10.8878,1.5671"
+         fill="none"
+         id="path2416"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g2422"
+       transform="translate(-210,-158)">
+      <path
+         d="m 313.9,1021 c 0,-35.78806 29.01194,-64.8 64.8,-64.8 35.78806,0 64.8,29.01194 64.8,64.8 0,35.7881 -29.01194,64.8 -64.8,64.8 -35.78806,0 -64.8,-29.0119 -64.8,-64.8 z"
+         fill="#ffffff"
+         id="path2420"
+         stroke="none" />
+    </g>
+    <g
+       id="g2426"
+       transform="translate(-210,-158)">
+      <path
+         d="m 313.9,1021 c 0,-35.78806 29.01194,-64.8 64.8,-64.8 35.78806,0 64.8,29.01194 64.8,64.8 0,35.7881 -29.01194,64.8 -64.8,64.8 -35.78806,0 -64.8,-29.0119 -64.8,-64.8 z"
+         fill="none"
+         id="path2424"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g2430"
+       transform="translate(-210,-158)">
+      <path
+         d="m 281.5,956.2 v 129.6"
+         fill="none"
+         id="path2428"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g2434"
+       transform="translate(-210,-158)">
+      <path
+         d="m 281.5,1021 h 32.4"
+         fill="none"
+         id="path2432"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g2442"
+       transform="translate(-210,-158)">
+      <g
+         id="g2440">
+        <path
+           d=""
+           fill="none"
+           id="path2436"
+           stroke="none" />
+        <text
+           fill="#000000"
+           font-family="Arial"
+           font-size="26px"
+           font-style="normal"
+           font-weight="bold"
+           id="text2438"
+           stroke="none"
+           style="text-decoration:none;text-decoration-line:none"
+           text-decoration="none"
+           x="260.60107"
+           y="1134.5">updateReview.jsp</text>
+      </g>
+    </g>
+    <g
+       id="g2446"
+       transform="translate(-210,-158)">
+      <path
+         d="m 313.9,635 c 0,-35.78806 29.01194,-64.8 64.8,-64.8 35.78806,0 64.8,29.01194 64.8,64.8 0,35.78806 -29.01194,64.8 -64.8,64.8 -35.78806,0 -64.8,-29.01194 -64.8,-64.8 z"
+         fill="#ffffff"
+         id="path2444"
+         stroke="none" />
+    </g>
+    <g
+       id="g2450"
+       transform="translate(-210,-158)">
+      <path
+         d="m 313.9,635 c 0,-35.78806 29.01194,-64.8 64.8,-64.8 35.78806,0 64.8,29.01194 64.8,64.8 0,35.78806 -29.01194,64.8 -64.8,64.8 -35.78806,0 -64.8,-29.01194 -64.8,-64.8 z"
+         fill="none"
+         id="path2448"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g2454"
+       transform="translate(-210,-158)">
+      <path
+         d="M 281.5,570.2 V 699.8"
+         fill="none"
+         id="path2452"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g2458"
+       transform="translate(-210,-158)">
+      <path
+         d="m 281.5,635 h 32.4"
+         fill="none"
+         id="path2456"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g2466"
+       transform="translate(-210,-158)">
+      <g
+         id="g2464">
+        <path
+           d=""
+           fill="none"
+           id="path2460"
+           stroke="none" />
+        <text
+           fill="#000000"
+           font-family="Arial"
+           font-size="26px"
+           font-style="normal"
+           font-weight="bold"
+           id="text2462"
+           stroke="none"
+           style="text-decoration:none;text-decoration-line:none"
+           text-decoration="none"
+           x="282.29102"
+           y="748.5">getReview.jsp</text>
+      </g>
+    </g>
+    <g
+       id="g2470"
+       transform="translate(-210,-158)">
+      <path
+         d="M 506,730 762,864"
+         fill="none"
+         id="path2468"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g2474"
+       transform="translate(-210,-158)">
+      <path
+         d="M 506,1021 762,987"
+         fill="none"
+         id="path2472"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g2478"
+       transform="translate(-210,-158)">
+      <path
+         d="m 313.9,1793 c 0,-35.7881 29.01194,-64.8 64.8,-64.8 35.78806,0 64.8,29.0119 64.8,64.8 0,35.7881 -29.01194,64.8 -64.8,64.8 -35.78806,0 -64.8,-29.0119 -64.8,-64.8 z"
+         fill="#ffffff"
+         id="path2476"
+         stroke="none" />
+    </g>
+    <g
+       id="g2482"
+       transform="translate(-210,-158)">
+      <path
+         d="m 313.9,1793 c 0,-35.7881 29.01194,-64.8 64.8,-64.8 35.78806,0 64.8,29.0119 64.8,64.8 0,35.7881 -29.01194,64.8 -64.8,64.8 -35.78806,0 -64.8,-29.0119 -64.8,-64.8 z"
+         fill="none"
+         id="path2480"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g2486"
+       transform="translate(-210,-158)">
+      <path
+         d="m 281.5,1728.2 v 129.6"
+         fill="none"
+         id="path2484"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g2490"
+       transform="translate(-210,-158)">
+      <path
+         d="m 281.5,1793 h 32.4"
+         fill="none"
+         id="path2488"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g2498"
+       transform="translate(-210,-158)">
+      <g
+         id="g2496">
+        <path
+           d=""
+           fill="none"
+           id="path2492"
+           stroke="none" />
+        <text
+           fill="#000000"
+           font-family="Arial"
+           font-size="26px"
+           font-style="normal"
+           font-weight="bold"
+           id="text2494"
+           stroke="none"
+           style="text-decoration:none;text-decoration-line:none"
+           text-decoration="none"
+           x="257.01465"
+           y="1906.5">listTotalReview.jsp</text>
+      </g>
+    </g>
+    <g
+       id="g2502"
+       transform="translate(-210,-158)">
+      <path
+         d="M 819,1150 432,1711"
+         fill="none"
+         id="path2500"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+  </g>
+  <g
+     id="g306-6"
+     transform="translate(-246.01259,251.87282)">
+    <rect
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.3393;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect1020-8"
+       width="84.49987"
+       height="24.913252"
+       x="649.30939"
+       y="45.10849" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:22.0366px;line-height:1.25;font-family:'Arita-buri(OTF)';-inkscape-font-specification:'Arita-buri(OTF), Semi-Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.550915;stroke-opacity:1"
+       x="650.60431"
+       y="65.299454"
+       id="text1869-0"><tspan
+         sodipodi:role="line"
+         x="650.60431"
+         y="65.299454"
+         id="tspan1871-7"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:22.0366px;font-family:'Arita-buri(OTF)';-inkscape-font-specification:'Arita-buri(OTF), Semi-Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.550915;stroke-opacity:1">후기관리</tspan></text>
+  </g>
+</svg>

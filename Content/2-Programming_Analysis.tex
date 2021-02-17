@@ -14,9 +14,7 @@
     \hiddensection{업무 분석: Use Case Modeling}
     \SectionTitle{\thesection}{업무 분석 : Use Case Modeling}
 
-    % \begin{itemize}
-    %     \item[] \textbf{현업 요구사항 정의서}
-    % \end{itemize}
+    \hiddensubsection{현업 요구사항 정의서}
 
     \small
     \arrayrulecolor{black}
@@ -131,6 +129,7 @@
     % \end{itemize}
     
 \renewcommand{\arraystretch}{1.8}
+\hiddensubsection{요구사항 추적표}
 \begin{longtable}
     {
         |>{\centering\hspace{0pt}}m{0.200\linewidth}
@@ -234,6 +233,7 @@
 \end{longtable}
 \newpage
 
+\hiddensubsection{Use Case 유형정의}
 \begin{longtable}
     {
         |>{\centering\hspace{0pt}}m{0.200\linewidth}
@@ -370,6 +370,7 @@
 
 \small
 
+\hiddensubsection{Use Case Diagram}
 \begin{longtable}
     {
         |>{\centering\hspace{0pt}}m{0.300\linewidth}
@@ -383,9 +384,9 @@
     \hline
     \rowcolor{aliceblue} 
     {\normalsize{시스템 명: Travel Diary}}
-    & {\normalsize{작성일: 2020년 12월 21일}}
+    & {\normalsize{작성일: 2021년 1월 13일}}
     & \multicolumn{1}{r|}{\normalsize{작성자: 왕밤빵}} \\ \hline
-    \multicolumn{3}{|c|}{\includegraphics[width=16cm]{./Figure/Analysis/MainUseCaseDiagram.pdf}} \\
+    \multicolumn{3}{|c|}{\includegraphics[width=16cm]{./Figure/Analysis/UseCase/MainUseCaseDiagram.pdf}} \\
     \hline
 \end{longtable}
 \newpage
@@ -403,9 +404,9 @@
     \hline
     \rowcolor{aliceblue} 
     {\normalsize{시스템 명: Travel Diary}}
-    & {\normalsize{작성일: 2020년 12월 21일}}
+    & {\normalsize{작성일: 2021년 1월 13일}}
     & \multicolumn{1}{r|}{\normalsize{작성자: 왕밤빵}} \\ \hline
-    \multicolumn{3}{|c|}{\includegraphics[width=16cm]{./Figure/Analysis/User.pdf}} \\
+    \multicolumn{3}{|c|}{\includegraphics[width=16cm]{./Figure/Analysis/UseCase/User.pdf}} \\
     \hline
 \end{longtable}
 \newpage
@@ -423,9 +424,9 @@
     \hline
     \rowcolor{aliceblue} 
     {\normalsize{시스템 명: Travel Diary}}
-    & {\normalsize{작성일: 2020년 12월 21일}}
+    & {\normalsize{작성일: 2021년 1월 13일}}
     & \multicolumn{1}{r|}{\normalsize{작성자: 왕밤빵}} \\ \hline
-    \multicolumn{3}{|c|}{\includegraphics[width=16cm]{./Figure/Analysis/Diary.pdf}} \\
+    \multicolumn{3}{|c|}{\includegraphics[width=16cm]{./Figure/Analysis/UseCase/Diary.pdf}} \\
     \hline
 \end{longtable}
 \newpage
@@ -443,9 +444,9 @@
     \hline
     \rowcolor{aliceblue} 
     {\normalsize{시스템 명: Travel Diary}}
-    & {\normalsize{작성일: 2020년 12월 21일}}
+    & {\normalsize{작성일: 2021년 1월 13일}}
     & \multicolumn{1}{r|}{\normalsize{작성자: 왕밤빵}} \\ \hline
-    \multicolumn{3}{|c|}{\includegraphics[width=16cm]{./Figure/Analysis/Photo.pdf}} \\
+    \multicolumn{3}{|c|}{\includegraphics[width=16cm]{./Figure/Analysis/UseCase/Photo.pdf}} \\
     \hline
 \end{longtable}
 \newpage
@@ -463,9 +464,9 @@
     \hline
     \rowcolor{aliceblue} 
     {\normalsize{시스템 명: Travel Diary}}
-    & {\normalsize{작성일: 2020년 12월 21일}}
+    & {\normalsize{작성일: 2021년 1월 13일}}
     & \multicolumn{1}{r|}{\normalsize{작성자: 왕밤빵}} \\ \hline
-    \multicolumn{3}{|c|}{\includegraphics[width=16cm]{./Figure/Analysis/Community.pdf}} \\
+    \multicolumn{3}{|c|}{\includegraphics[width=16cm]{./Figure/Analysis/UseCase/Community.pdf}} \\
     \hline
 \end{longtable}
 \newpage
@@ -483,61 +484,223 @@
     \hline
     \rowcolor{aliceblue} 
     {\normalsize{시스템 명: Travel Diary}}
-    & {\normalsize{작성일: 2020년 12월 21일}}
+    & {\normalsize{작성일: 2021년 1월 13일}}
     & \multicolumn{1}{r|}{\normalsize{작성자: 왕밤빵}} \\ \hline
-    \multicolumn{3}{|c|}{\includegraphics[width=16cm]{./Figure/Analysis/Chat.pdf}} \\
+    \multicolumn{3}{|c|}{\includegraphics[width=16cm]{./Figure/Analysis/UseCase/Chat.pdf}} \\
     \hline
 \end{longtable}
-\newpage
-
-
 \normalsize
+\newpage
+
+\hiddensubsection{Use Case 정의서}
+\input{Content/2-1-Use_Case_Definitions}
+
+\newpage
+
 \hiddensection{업무 분석: Application Modeling}
 \SectionTitle{\thesection}{업무 분석: Application Modeling}
-\begin{enumerate}
-    \item In these rules:
-    \begin{enumerate}
-        \item ...
-        \begin{enumerate}
-            \item ...
-        \end{enumerate}
-    \end{enumerate}    
-\end{enumerate}
+
+\small
+
+\hiddensubsection{Class Diagram}
+\begin{longtable}
+    {
+        |>{\centering\hspace{0pt}}m{0.300\linewidth}
+        >{\raggedleft\hspace{0pt}}m{0.300\linewidth}
+        >{\hspace{0pt}}m{0.200\linewidth}|
+    } 
+    \hline
+    \multicolumn{3}{|c|}{\cellcolor{aliceblue}{}} \\
+    \multicolumn{3}{|c|}{\cellcolor{aliceblue}{\Large\textbf{Class Diagram}}} \\
+    \multicolumn{3}{|c|}{\cellcolor{aliceblue}{}} \\
+    \hline
+    \rowcolor{aliceblue} 
+    {\normalsize{시스템 명: Travel Diary}}
+    & {\normalsize{작성일: 2021년 1월 13일}}
+    & \multicolumn{1}{r|}{\normalsize{작성자: 왕밤빵}} \\ \hline
+    \multicolumn{3}{|c|}{\includegraphics[width=15.9cm]{./Figure/Analysis/Class_n_VOPC/Diary_ClassDiagram.pdf}} \\
+    \hline
+\end{longtable}
+\newpage
+
+\begin{longtable}
+    {
+        |>{\centering\hspace{0pt}}m{0.300\linewidth}
+        >{\raggedleft\hspace{0pt}}m{0.300\linewidth}
+        >{\hspace{0pt}}m{0.200\linewidth}|
+    } 
+    \hline
+    \multicolumn{3}{|c|}{\cellcolor{aliceblue}{}} \\
+    \multicolumn{3}{|c|}{\cellcolor{aliceblue}{\Large\textbf{Class Diagram}}} \\
+    \multicolumn{3}{|c|}{\cellcolor{aliceblue}{}} \\
+    \hline
+    \rowcolor{aliceblue} 
+    {\normalsize{시스템 명: Travel Diary}}
+    & {\normalsize{작성일: 2021년 1월 13일}}
+    & \multicolumn{1}{r|}{\normalsize{작성자: 왕밤빵}} \\ \hline
+    \multicolumn{3}{|c|}{\includegraphics[width=16cm]{./Figure/Analysis/Class_n_VOPC/Community_ClassDiagram1.pdf}} \\
+    \hline
+\end{longtable}
+\newpage
+
+
+\hiddensubsection{VOPC {\small(View Of Participating Class)} Diagram}
+\begin{longtable}
+    {
+        |>{\centering\hspace{0pt}}m{0.300\linewidth}
+        >{\raggedleft\hspace{0pt}}m{0.300\linewidth}
+        >{\hspace{0pt}}m{0.200\linewidth}|
+    } 
+    \hline
+    \multicolumn{3}{|c|}{\cellcolor{aliceblue}{}} \\
+    \multicolumn{3}{|c|}{\cellcolor{aliceblue}{\Large\textbf{Class Diagram}}} \\
+    \multicolumn{3}{|c|}{\cellcolor{aliceblue}{}} \\
+    \hline
+    \rowcolor{aliceblue} 
+    {\normalsize{시스템 명: Travel Diary}}
+    & {\normalsize{작성일: 2021년 1월 13일}}
+    & \multicolumn{1}{r|}{\normalsize{작성자: 왕밤빵}} \\ \hline
+    \multicolumn{3}{|c|}{\includegraphics[width=16cm]{./Figure/Analysis/Class_n_VOPC/Community_ClassDiagram2.pdf}} \\
+    \hline
+\end{longtable}
+\normalsize
+\newpage
+
+\begin{longtable}
+    {
+        |>{\centering\hspace{0pt}}m{0.300\linewidth}
+        >{\raggedleft\hspace{0pt}}m{0.300\linewidth}
+        >{\hspace{0pt}}m{0.200\linewidth}|
+    } 
+    \hline
+    \multicolumn{3}{|c|}{\cellcolor{aliceblue}{}} \\
+    \multicolumn{3}{|c|}{\cellcolor{aliceblue}{\Large\textbf{VOPC\normalsize{(View Of Participating Class)} \Large{Diagram}}}} \\
+    \multicolumn{3}{|c|}{\cellcolor{aliceblue}{}} \\
+    \hline
+    \rowcolor{aliceblue} 
+    {\normalsize{시스템 명: Travel Diary}}
+    & {\normalsize{작성일: 2021년 1월 13일}}
+    & \multicolumn{1}{r|}{\normalsize{작성자: 왕밤빵}} \\ \hline
+    \multicolumn{3}{|c|}{\includegraphics[width=16cm]{./Figure/Analysis/Class_n_VOPC/Diary_VOPC.pdf}} \\
+    \hline
+\end{longtable}
+\normalsize
+\newpage
+
+\begin{longtable}
+    {
+        |>{\centering\hspace{0pt}}m{0.300\linewidth}
+        >{\raggedleft\hspace{0pt}}m{0.300\linewidth}
+        >{\hspace{0pt}}m{0.200\linewidth}|
+    } 
+    \hline
+    \multicolumn{3}{|c|}{\cellcolor{aliceblue}{}} \\
+    \multicolumn{3}{|c|}{\cellcolor{aliceblue}{\Large\textbf{VOPC\normalsize{(View Of Participating Class)} \Large{Diagram}}}} \\
+    \multicolumn{3}{|c|}{\cellcolor{aliceblue}{}} \\
+    \hline
+    \rowcolor{aliceblue} 
+    {\normalsize{시스템 명: Travel Diary}}
+    & {\normalsize{작성일: 2021년 1월 13일}}
+    & \multicolumn{1}{r|}{\normalsize{작성자: 왕밤빵}} \\ \hline
+    \multicolumn{3}{|c|}{\includegraphics[width=16cm]{./Figure/Analysis/Class_n_VOPC/Community_VOPC.pdf}} \\
+    \hline
+\end{longtable}
+\normalsize
+\newpage
+
+\begin{longtable}
+    {
+        |>{\centering\hspace{0pt}}m{0.300\linewidth}
+        >{\raggedleft\hspace{0pt}}m{0.300\linewidth}
+        >{\hspace{0pt}}m{0.200\linewidth}|
+    } 
+    \hline
+    \multicolumn{3}{|c|}{\cellcolor{aliceblue}{}} \\
+    \multicolumn{3}{|c|}{\cellcolor{aliceblue}{\Large\textbf{Class \& VOPC\normalsize{(View Of Participating Class)} \Large{Diagram}}}} \\
+    \multicolumn{3}{|c|}{\cellcolor{aliceblue}{}} \\
+    \hline
+    \rowcolor{aliceblue} 
+    {\normalsize{시스템 명: Travel Diary}}
+    & {\normalsize{작성일: 2021년 1월 13일}}
+    & \multicolumn{1}{r|}{\normalsize{작성자: 왕밤빵}} \\ \hline
+    \multicolumn{3}{|c|}{\includegraphics[width=16cm]{./Figure/Analysis/Class_n_VOPC/User_ClassDiagram.pdf}} \\
+    \hline
+\end{longtable}
+\normalsize
+\newpage
+
+\begin{longtable}
+    {
+        |>{\centering\hspace{0pt}}m{0.300\linewidth}
+        >{\raggedleft\hspace{0pt}}m{0.300\linewidth}
+        >{\hspace{0pt}}m{0.200\linewidth}|
+    } 
+    \hline
+    \multicolumn{3}{|c|}{\cellcolor{aliceblue}{}} \\
+    \multicolumn{3}{|c|}{\cellcolor{aliceblue}{\Large\textbf{Class \& VOPC\normalsize{(View Of Participating Class)} \Large{Diagram}}}} \\
+    \multicolumn{3}{|c|}{\cellcolor{aliceblue}{}} \\
+    \hline
+    \rowcolor{aliceblue} 
+    {\normalsize{시스템 명: Travel Diary}}
+    & {\normalsize{작성일: 2021년 1월 13일}}
+    & \multicolumn{1}{r|}{\normalsize{작성자: 왕밤빵}} \\ \hline
+    \multicolumn{3}{|c|}{\includegraphics[width=16cm]{./Figure/Analysis/Class_n_VOPC/Photo_ClassDiagram.pdf}} \\
+    \hline
+\end{longtable}
+\normalsize
+\newpage
+
+\begin{longtable}
+    {
+        |>{\centering\hspace{0pt}}m{0.300\linewidth}
+        >{\raggedleft\hspace{0pt}}m{0.300\linewidth}
+        >{\hspace{0pt}}m{0.200\linewidth}|
+    } 
+    \hline
+    \multicolumn{3}{|c|}{\cellcolor{aliceblue}{}} \\
+    \multicolumn{3}{|c|}{\cellcolor{aliceblue}{\Large\textbf{Class \& VOPC\normalsize{(View Of Participating Class)} \Large{Diagram}}}} \\
+    \multicolumn{3}{|c|}{\cellcolor{aliceblue}{}} \\
+    \hline
+    \rowcolor{aliceblue} 
+    {\normalsize{시스템 명: Travel Diary}}
+    & {\normalsize{작성일: 2021년 1월 13일}}
+    & \multicolumn{1}{r|}{\normalsize{작성자: 왕밤빵}} \\ \hline
+    \multicolumn{3}{|c|}{\includegraphics[width=16cm]{./Figure/Analysis/Class_n_VOPC/Chat_ClassDiagram.pdf}} \\
+    \hline
+\end{longtable}
+\normalsize
+\newpage
 
 \hiddensection{화면 분석}
 \SectionTitle{\thesection}{화면 분석}
 
-\begin{enumerate}
-    \item In these rules:
-    \begin{enumerate}
-        \item ...
-        \begin{enumerate}
-            \item ...
-        \end{enumerate}
-    \end{enumerate}    
-\end{enumerate}
+\hiddensubsection{화면 정의서}
+\input{Content/2-3-Display_Definitions}
 
+\newpage
 
 \hiddensection{데이터 분석(Logical)}
 \SectionTitle{\thesection}{데이터 분석(Logical)}
 
-\begin{enumerate}
-    \item In these rules:
-    \begin{enumerate}
-        \item ...
-        \begin{enumerate}
-            \item ...
-        \end{enumerate}
-    \end{enumerate}    
-\end{enumerate}
-
-\begin{enumerate}
-    \item In these rules:
-    \begin{enumerate}
-        \item ...
-        \begin{enumerate}
-            \item ...
-        \end{enumerate}
-    \end{enumerate}    
-\end{enumerate}
-
+\normalsize
+\hiddensubsection{ERD{\small(Logical)}}
+\begin{longtable}
+    {
+        |>{\centering\hspace{0pt}}m{0.300\linewidth}
+        >{\raggedleft\hspace{0pt}}m{0.300\linewidth}
+        >{\hspace{0pt}}m{0.200\linewidth}|
+    } 
+    \hline
+    \multicolumn{3}{|c|}{\cellcolor{aliceblue}{}} \\
+    \multicolumn{3}{|c|}{\cellcolor{aliceblue}{\Large\textbf{Entity Relationship Diagram\normalsize{(Logical)}}}} \\
+    \multicolumn{3}{|c|}{\cellcolor{aliceblue}{}} \\
+    \hline
+    \rowcolor{aliceblue} 
+    {\normalsize{시스템 명: Travel Diary}}
+    & {\normalsize{작성일: 2021년 1월 13일}}
+    & \multicolumn{1}{r|}{\normalsize{작성자: 왕밤빵}} \\ \hline
+    \multicolumn{3}{|c|}{\includegraphics[width=15.75cm]{./Figure/Analysis/ERDDiagram(Logical).pdf}} \\
+    \hline
+\end{longtable}
+\normalsize
+\newpage

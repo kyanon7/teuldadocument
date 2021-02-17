@@ -1,0 +1,1186 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   height="297mm"
+   version="1.1"
+   width="210mm"
+   id="svg430"
+   sodipodi:docname="Community_VOPC.svg"
+   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)">
+  <metadata
+     id="metadata434">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1027"
+     id="namedview432"
+     showgrid="false"
+     units="mm"
+     inkscape:zoom="0.54637865"
+     inkscape:cx="390.40374"
+     inkscape:cy="338.9697"
+     inkscape:window-x="1912"
+     inkscape:window-y="-5"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg430"
+     inkscape:document-rotation="0" />
+  <defs
+     id="defs2" />
+  <g
+     id="g428"
+     transform="matrix(0.71505305,0,0,0.71505305,7.301205,-1.3737767)">
+    <g
+       transform="translate(-93,-110)"
+       id="g6">
+      <path
+         d="m 207.3,304.5 c 0,-17.4522 14.1478,-31.6 31.6,-31.6 17.4522,0 31.6,14.1478 31.6,31.6 0,17.4522 -14.1478,31.6 -31.6,31.6 -17.4522,0 -31.6,-14.1478 -31.6,-31.6 z"
+         fill="#ffffff"
+         stroke="none"
+         id="path4" />
+    </g>
+    <g
+       transform="translate(-93,-110)"
+       id="g10">
+      <path
+         d="m 207.3,304.5 c 0,-17.4522 14.1478,-31.6 31.6,-31.6 17.4522,0 31.6,14.1478 31.6,31.6 0,17.4522 -14.1478,31.6 -31.6,31.6 -17.4522,0 -31.6,-14.1478 -31.6,-31.6 z"
+         fill="none"
+         stroke="#000000"
+         stroke-miterlimit="10"
+         id="path8" />
+    </g>
+    <g
+       transform="translate(-93,-110)"
+       id="g14">
+      <path
+         d="m 191.5,272.9 v 63.2"
+         fill="none"
+         stroke="#000000"
+         stroke-miterlimit="10"
+         id="path12" />
+    </g>
+    <g
+       transform="translate(-93,-110)"
+       id="g18">
+      <path
+         d="m 191.5,304.5 h 15.8"
+         fill="none"
+         stroke="#000000"
+         stroke-miterlimit="10"
+         id="path16" />
+    </g>
+    <g
+       transform="translate(-93,-110)"
+       id="g26">
+      <g
+         id="g24">
+        <path
+           fill="none"
+           stroke="none"
+           id="path20"
+           d="" />
+        <text
+           fill="#000000"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="bold"
+           stroke="none"
+           text-decoration="none"
+           x="167.08228"
+           y="363.5"
+           id="text22"
+           style="text-decoration:none;text-decoration-line:none">내 게시글 상세조회 UI</text>
+      </g>
+    </g>
+    <g
+       transform="translate(-93,-110)"
+       id="g30">
+      <path
+         d="m 207.3,884.5 c 0,-17.4522 14.1478,-31.6 31.6,-31.6 17.4522,0 31.6,14.1478 31.6,31.6 0,17.4522 -14.1478,31.6 -31.6,31.6 -17.4522,0 -31.6,-14.1478 -31.6,-31.6 z"
+         fill="#ffffff"
+         stroke="none"
+         id="path28" />
+    </g>
+    <g
+       transform="translate(-93,-110)"
+       id="g34">
+      <path
+         d="m 207.3,884.5 c 0,-17.4522 14.1478,-31.6 31.6,-31.6 17.4522,0 31.6,14.1478 31.6,31.6 0,17.4522 -14.1478,31.6 -31.6,31.6 -17.4522,0 -31.6,-14.1478 -31.6,-31.6 z"
+         fill="none"
+         stroke="#000000"
+         stroke-miterlimit="10"
+         id="path32" />
+    </g>
+    <g
+       transform="translate(-93,-110)"
+       id="g38">
+      <path
+         d="m 191.5,852.9 v 63.2"
+         fill="none"
+         stroke="#000000"
+         stroke-miterlimit="10"
+         id="path36" />
+    </g>
+    <g
+       transform="translate(-93,-110)"
+       id="g42">
+      <path
+         d="m 191.5,884.5 h 15.8"
+         fill="none"
+         stroke="#000000"
+         stroke-miterlimit="10"
+         id="path40" />
+    </g>
+    <g
+       transform="translate(-93,-110)"
+       id="g50">
+      <g
+         id="g48">
+        <path
+           fill="none"
+           stroke="none"
+           id="path44"
+           d="" />
+        <text
+           fill="#000000"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="bold"
+           stroke="none"
+           text-decoration="none"
+           x="188.38818"
+           y="943.5"
+           id="text46"
+           style="text-decoration:none;text-decoration-line:none">내 댓글 목록UI</text>
+      </g>
+    </g>
+    <g
+       transform="translate(-93,-110)"
+       id="g54">
+      <path
+         d="m 207.3,159.5 c 0,-17.4522 14.1478,-31.6 31.6,-31.6 17.4522,0 31.6,14.1478 31.6,31.6 0,17.4522 -14.1478,31.6 -31.6,31.6 -17.4522,0 -31.6,-14.1478 -31.6,-31.6 z"
+         fill="#ffffff"
+         stroke="none"
+         id="path52" />
+    </g>
+    <g
+       transform="translate(-93,-110)"
+       id="g58">
+      <path
+         d="m 207.3,159.5 c 0,-17.4522 14.1478,-31.6 31.6,-31.6 17.4522,0 31.6,14.1478 31.6,31.6 0,17.4522 -14.1478,31.6 -31.6,31.6 -17.4522,0 -31.6,-14.1478 -31.6,-31.6 z"
+         fill="none"
+         stroke="#000000"
+         stroke-miterlimit="10"
+         id="path56" />
+    </g>
+    <g
+       transform="translate(-93,-110)"
+       id="g62">
+      <path
+         d="m 191.5,127.9 v 63.2"
+         fill="none"
+         stroke="#000000"
+         stroke-miterlimit="10"
+         id="path60" />
+    </g>
+    <g
+       transform="translate(-93,-110)"
+       id="g66">
+      <path
+         d="m 191.5,159.5 h 15.8"
+         fill="none"
+         stroke="#000000"
+         stroke-miterlimit="10"
+         id="path64" />
+    </g>
+    <g
+       transform="translate(-93,-110)"
+       id="g74">
+      <g
+         id="g72">
+        <path
+           fill="none"
+           stroke="none"
+           id="path68"
+           d="" />
+        <text
+           fill="#000000"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="bold"
+           stroke="none"
+           text-decoration="none"
+           x="177.19409"
+           y="218.5"
+           id="text70"
+           style="text-decoration:none;text-decoration-line:none">자유게시글 목록UI</text>
+      </g>
+    </g>
+    <g
+       transform="translate(-93,-110)"
+       id="g78">
+      <path
+         d="m 207.3,739.5 c 0,-17.4522 14.1478,-31.6 31.6,-31.6 17.4522,0 31.6,14.1478 31.6,31.6 0,17.4522 -14.1478,31.6 -31.6,31.6 -17.4522,0 -31.6,-14.1478 -31.6,-31.6 z"
+         fill="#ffffff"
+         stroke="none"
+         id="path76" />
+    </g>
+    <g
+       transform="translate(-93,-110)"
+       id="g82">
+      <path
+         d="m 207.3,739.5 c 0,-17.4522 14.1478,-31.6 31.6,-31.6 17.4522,0 31.6,14.1478 31.6,31.6 0,17.4522 -14.1478,31.6 -31.6,31.6 -17.4522,0 -31.6,-14.1478 -31.6,-31.6 z"
+         fill="none"
+         stroke="#000000"
+         stroke-miterlimit="10"
+         id="path80" />
+    </g>
+    <g
+       transform="translate(-93,-110)"
+       id="g86">
+      <path
+         d="m 191.5,707.9 v 63.2"
+         fill="none"
+         stroke="#000000"
+         stroke-miterlimit="10"
+         id="path84" />
+    </g>
+    <g
+       transform="translate(-93,-110)"
+       id="g90">
+      <path
+         d="m 191.5,739.5 h 15.8"
+         fill="none"
+         stroke="#000000"
+         stroke-miterlimit="10"
+         id="path88" />
+    </g>
+    <g
+       transform="translate(-93,-110)"
+       id="g98">
+      <g
+         id="g96">
+        <path
+           fill="none"
+           stroke="none"
+           id="path92"
+           d="" />
+        <text
+           fill="#000000"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="bold"
+           stroke="none"
+           text-decoration="none"
+           x="190.19409"
+           y="798.5"
+           id="text94"
+           style="text-decoration:none;text-decoration-line:none">게시글 수정UI</text>
+      </g>
+    </g>
+    <g
+       transform="translate(-93,-110)"
+       id="g102">
+      <path
+         d="m 207.3,1029.5 c 0,-17.4522 14.1478,-31.6 31.6,-31.6 17.4522,0 31.6,14.1478 31.6,31.6 0,17.4522 -14.1478,31.6 -31.6,31.6 -17.4522,0 -31.6,-14.1478 -31.6,-31.6 z"
+         fill="#ffffff"
+         stroke="none"
+         id="path100" />
+    </g>
+    <g
+       transform="translate(-93,-110)"
+       id="g106">
+      <path
+         d="m 207.3,1029.5 c 0,-17.4522 14.1478,-31.6 31.6,-31.6 17.4522,0 31.6,14.1478 31.6,31.6 0,17.4522 -14.1478,31.6 -31.6,31.6 -17.4522,0 -31.6,-14.1478 -31.6,-31.6 z"
+         fill="none"
+         stroke="#000000"
+         stroke-miterlimit="10"
+         id="path104" />
+    </g>
+    <g
+       transform="translate(-93,-110)"
+       id="g110">
+      <path
+         d="m 191.5,997.9 v 63.2"
+         fill="none"
+         stroke="#000000"
+         stroke-miterlimit="10"
+         id="path108" />
+    </g>
+    <g
+       transform="translate(-93,-110)"
+       id="g114">
+      <path
+         d="m 191.5,1029.5 h 15.8"
+         fill="none"
+         stroke="#000000"
+         stroke-miterlimit="10"
+         id="path112" />
+    </g>
+    <g
+       transform="translate(-93,-110)"
+       id="g122">
+      <g
+         id="g120">
+        <path
+           fill="none"
+           stroke="none"
+           id="path116"
+           d="" />
+        <text
+           fill="#000000"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="bold"
+           stroke="none"
+           text-decoration="none"
+           x="196.69409"
+           y="1088.5"
+           id="text118"
+           style="text-decoration:none;text-decoration-line:none">댓글 수정UI</text>
+      </g>
+    </g>
+    <g
+       transform="translate(-93,-110)"
+       id="g126">
+      <path
+         d="m 605.25,859 c 0,-21.12489 17.12511,-38.25 38.25,-38.25 21.12489,0 38.25,17.12511 38.25,38.25 0,21.12489 -17.12511,38.25 -38.25,38.25 -21.12489,0 -38.25,-17.12511 -38.25,-38.25 z"
+         fill="#ffffff"
+         stroke="none"
+         id="path124" />
+    </g>
+    <g
+       transform="translate(-93,-110)"
+       id="g130">
+      <path
+         d="m 605.25,859 c 0,-21.12489 17.12511,-38.25 38.25,-38.25 21.12489,0 38.25,17.12511 38.25,38.25 0,21.12489 -17.12511,38.25 -38.25,38.25 -21.12489,0 -38.25,-17.12511 -38.25,-38.25 z"
+         fill="none"
+         stroke="#000000"
+         stroke-miterlimit="10"
+         id="path128" />
+    </g>
+    <g
+       transform="translate(-93,-110)"
+       id="g134">
+      <path
+         d="M 643.5,820.75 656.25,808"
+         fill="none"
+         stroke="#000000"
+         stroke-miterlimit="10"
+         id="path132" />
+    </g>
+    <g
+       transform="translate(-93,-110)"
+       id="g138">
+      <path
+         d="m 643.5,820.75 12.75,12.75"
+         fill="none"
+         stroke="#000000"
+         stroke-miterlimit="10"
+         id="path136" />
+    </g>
+    <g
+       transform="translate(-93,-110)"
+       id="g146">
+      <g
+         id="g144">
+        <path
+           fill="none"
+           stroke="none"
+           id="path140"
+           d="" />
+        <text
+           fill="#000000"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="bold"
+           stroke="none"
+           text-decoration="none"
+           x="590.77954"
+           y="929.5"
+           id="text142"
+           style="text-decoration:none;text-decoration-line:none">커뮤니티 관리 Ctrl</text>
+      </g>
+    </g>
+    <g
+       transform="translate(-93,-110)"
+       id="g150">
+      <path
+         d="M 262,225 605,807"
+         fill="none"
+         stroke="#000000"
+         stroke-miterlimit="10"
+         id="path148" />
+    </g>
+    <g
+       transform="translate(-93,-110)"
+       id="g154">
+      <path
+         d="M 270,370 595,807"
+         fill="none"
+         stroke="#000000"
+         stroke-miterlimit="10"
+         id="path152" />
+    </g>
+    <g
+       transform="translate(-93,-110)"
+       id="g158">
+      <path
+         d="M 360,889 551,877"
+         fill="none"
+         stroke="#000000"
+         stroke-miterlimit="10"
+         id="path156" />
+    </g>
+    <g
+       transform="translate(-93,-110)"
+       id="g162">
+      <path
+         d="m 360,789 191,55"
+         fill="none"
+         stroke="#000000"
+         stroke-miterlimit="10"
+         id="path160" />
+    </g>
+    <g
+       transform="translate(-93,-110)"
+       id="g166">
+      <path
+         d="m 1047.9,495 c 0,-20.76591 16.8341,-37.6 37.6,-37.6 20.7659,0 37.6,16.83409 37.6,37.6 0,20.76591 -16.8341,37.6 -37.6,37.6 -20.7659,0 -37.6,-16.83409 -37.6,-37.6 z"
+         fill="#ffffff"
+         stroke="none"
+         id="path164" />
+    </g>
+    <g
+       transform="translate(-93,-110)"
+       id="g170">
+      <path
+         d="m 1047.9,495 c 0,-20.76591 16.8341,-37.6 37.6,-37.6 20.7659,0 37.6,16.83409 37.6,37.6 0,20.76591 -16.8341,37.6 -37.6,37.6 -20.7659,0 -37.6,-16.83409 -37.6,-37.6 z"
+         fill="none"
+         stroke="#000000"
+         stroke-miterlimit="10"
+         id="path168" />
+    </g>
+    <g
+       transform="translate(-93,-110)"
+       id="g174">
+      <path
+         d="m 1047.9,532.6 h 75.2"
+         fill="none"
+         stroke="#000000"
+         stroke-miterlimit="10"
+         id="path172" />
+    </g>
+    <g
+       transform="translate(-93,-110)"
+       id="g182">
+      <g
+         id="g180">
+        <path
+           fill="none"
+           stroke="none"
+           id="path176"
+           d="" />
+        <text
+           fill="#000000"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="bold"
+           stroke="none"
+           text-decoration="none"
+           x="1066"
+           y="561.5"
+           id="text178"
+           style="text-decoration:none;text-decoration-line:none">게시글</text>
+      </g>
+    </g>
+    <g
+       transform="translate(-93,-110)"
+       id="g186">
+      <path
+         d="M 721,807 1011,568"
+         fill="none"
+         stroke="#000000"
+         stroke-miterlimit="10"
+         id="path184" />
+    </g>
+    <g
+       transform="translate(-93,-110)"
+       id="g190">
+      <path
+         d="m 1047.9,731 c 0,-20.76591 16.8341,-37.6 37.6,-37.6 20.7659,0 37.6,16.83409 37.6,37.6 0,20.76591 -16.8341,37.6 -37.6,37.6 -20.7659,0 -37.6,-16.83409 -37.6,-37.6 z"
+         fill="#ffffff"
+         stroke="none"
+         id="path188" />
+    </g>
+    <g
+       transform="translate(-93,-110)"
+       id="g194">
+      <path
+         d="m 1047.9,731 c 0,-20.76591 16.8341,-37.6 37.6,-37.6 20.7659,0 37.6,16.83409 37.6,37.6 0,20.76591 -16.8341,37.6 -37.6,37.6 -20.7659,0 -37.6,-16.83409 -37.6,-37.6 z"
+         fill="none"
+         stroke="#000000"
+         stroke-miterlimit="10"
+         id="path192" />
+    </g>
+    <g
+       transform="translate(-93,-110)"
+       id="g198">
+      <path
+         d="m 1047.9,768.6 h 75.2"
+         fill="none"
+         stroke="#000000"
+         stroke-miterlimit="10"
+         id="path196" />
+    </g>
+    <g
+       transform="translate(-93,-110)"
+       id="g206">
+      <g
+         id="g204">
+        <path
+           fill="none"
+           stroke="none"
+           id="path200"
+           d="" />
+        <text
+           fill="#000000"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="bold"
+           stroke="none"
+           text-decoration="none"
+           x="1072.5"
+           y="797.5"
+           id="text202"
+           style="text-decoration:none;text-decoration-line:none">댓글</text>
+      </g>
+    </g>
+    <g
+       transform="translate(-93,-110)"
+       id="g210">
+      <path
+         d="M 359,989 551,909"
+         fill="none"
+         stroke="#000000"
+         stroke-miterlimit="10"
+         id="path208" />
+    </g>
+    <g
+       transform="translate(-93,-110)"
+       id="g214">
+      <path
+         d="M 736,844 981,773"
+         fill="none"
+         stroke="#000000"
+         stroke-miterlimit="10"
+         id="path212" />
+    </g>
+    <g
+       transform="translate(-93,-110)"
+       id="g218">
+      <path
+         d="m 207.3,594.5 c 0,-17.4522 14.1478,-31.6 31.6,-31.6 17.4522,0 31.6,14.1478 31.6,31.6 0,17.4522 -14.1478,31.6 -31.6,31.6 -17.4522,0 -31.6,-14.1478 -31.6,-31.6 z"
+         fill="#ffffff"
+         stroke="none"
+         id="path216" />
+    </g>
+    <g
+       transform="translate(-93,-110)"
+       id="g222">
+      <path
+         d="m 207.3,594.5 c 0,-17.4522 14.1478,-31.6 31.6,-31.6 17.4522,0 31.6,14.1478 31.6,31.6 0,17.4522 -14.1478,31.6 -31.6,31.6 -17.4522,0 -31.6,-14.1478 -31.6,-31.6 z"
+         fill="none"
+         stroke="#000000"
+         stroke-miterlimit="10"
+         id="path220" />
+    </g>
+    <g
+       transform="translate(-93,-110)"
+       id="g226">
+      <path
+         d="m 191.5,562.9 v 63.2"
+         fill="none"
+         stroke="#000000"
+         stroke-miterlimit="10"
+         id="path224" />
+    </g>
+    <g
+       transform="translate(-93,-110)"
+       id="g230">
+      <path
+         d="m 191.5,594.5 h 15.8"
+         fill="none"
+         stroke="#000000"
+         stroke-miterlimit="10"
+         id="path228" />
+    </g>
+    <g
+       transform="translate(-93,-110)"
+       id="g238">
+      <g
+         id="g236">
+        <path
+           fill="none"
+           stroke="none"
+           id="path232"
+           d="" />
+        <text
+           fill="#000000"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="bold"
+           stroke="none"
+           text-decoration="none"
+           x="188.38818"
+           y="653.5"
+           id="text234"
+           style="text-decoration:none;text-decoration-line:none">게시글 작성 UI</text>
+      </g>
+    </g>
+    <g
+       transform="translate(-93,-110)"
+       id="g242">
+      <path
+         d="m 207.3,1174.5 c 0,-17.4522 14.1478,-31.6 31.6,-31.6 17.4522,0 31.6,14.1478 31.6,31.6 0,17.4522 -14.1478,31.6 -31.6,31.6 -17.4522,0 -31.6,-14.1478 -31.6,-31.6 z"
+         fill="#ffffff"
+         stroke="none"
+         id="path240" />
+    </g>
+    <g
+       transform="translate(-93,-110)"
+       id="g246">
+      <path
+         d="m 207.3,1174.5 c 0,-17.4522 14.1478,-31.6 31.6,-31.6 17.4522,0 31.6,14.1478 31.6,31.6 0,17.4522 -14.1478,31.6 -31.6,31.6 -17.4522,0 -31.6,-14.1478 -31.6,-31.6 z"
+         fill="none"
+         stroke="#000000"
+         stroke-miterlimit="10"
+         id="path244" />
+    </g>
+    <g
+       transform="translate(-93,-110)"
+       id="g250">
+      <path
+         d="m 191.5,1142.9 v 63.2"
+         fill="none"
+         stroke="#000000"
+         stroke-miterlimit="10"
+         id="path248" />
+    </g>
+    <g
+       transform="translate(-93,-110)"
+       id="g254">
+      <path
+         d="m 191.5,1174.5 h 15.8"
+         fill="none"
+         stroke="#000000"
+         stroke-miterlimit="10"
+         id="path252" />
+    </g>
+    <g
+       transform="translate(-93,-110)"
+       id="g262">
+      <g
+         id="g260">
+        <path
+           fill="none"
+           stroke="none"
+           id="path256"
+           d="" />
+        <text
+           fill="#000000"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="bold"
+           stroke="none"
+           text-decoration="none"
+           x="194.88818"
+           y="1233.5"
+           id="text258"
+           style="text-decoration:none;text-decoration-line:none">통합 검색 UI</text>
+      </g>
+    </g>
+    <g
+       transform="translate(-93,-110)"
+       id="g266">
+      <path
+         d="m 207.3,449.5 c 0,-17.4522 14.1478,-31.6 31.6,-31.6 17.4522,0 31.6,14.1478 31.6,31.6 0,17.4522 -14.1478,31.6 -31.6,31.6 -17.4522,0 -31.6,-14.1478 -31.6,-31.6 z"
+         fill="#ffffff"
+         stroke="none"
+         id="path264" />
+    </g>
+    <g
+       transform="translate(-93,-110)"
+       id="g270">
+      <path
+         d="m 207.3,449.5 c 0,-17.4522 14.1478,-31.6 31.6,-31.6 17.4522,0 31.6,14.1478 31.6,31.6 0,17.4522 -14.1478,31.6 -31.6,31.6 -17.4522,0 -31.6,-14.1478 -31.6,-31.6 z"
+         fill="none"
+         stroke="#000000"
+         stroke-miterlimit="10"
+         id="path268" />
+    </g>
+    <g
+       transform="translate(-93,-110)"
+       id="g274">
+      <path
+         d="m 191.5,417.9 v 63.2"
+         fill="none"
+         stroke="#000000"
+         stroke-miterlimit="10"
+         id="path272" />
+    </g>
+    <g
+       transform="translate(-93,-110)"
+       id="g278">
+      <path
+         d="m 191.5,449.5 h 15.8"
+         fill="none"
+         stroke="#000000"
+         stroke-miterlimit="10"
+         id="path276" />
+    </g>
+    <g
+       transform="translate(-93,-110)"
+       id="g286">
+      <g
+         id="g284">
+        <path
+           fill="none"
+           stroke="none"
+           id="path280"
+           d="" />
+        <text
+           fill="#000000"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="bold"
+           stroke="none"
+           text-decoration="none"
+           x="152.27637"
+           y="508.5"
+           id="text282"
+           style="text-decoration:none;text-decoration-line:none">타 회원 게시글 상세조회 UI</text>
+      </g>
+    </g>
+    <g
+       transform="translate(-93,-110)"
+       id="g290">
+      <path
+         d="m 207.3,1319.5 c 0,-17.4522 14.1478,-31.6 31.6,-31.6 17.4522,0 31.6,14.1478 31.6,31.6 0,17.4522 -14.1478,31.6 -31.6,31.6 -17.4522,0 -31.6,-14.1478 -31.6,-31.6 z"
+         fill="#ffffff"
+         stroke="none"
+         id="path288" />
+    </g>
+    <g
+       transform="translate(-93,-110)"
+       id="g294">
+      <path
+         d="m 207.3,1319.5 c 0,-17.4522 14.1478,-31.6 31.6,-31.6 17.4522,0 31.6,14.1478 31.6,31.6 0,17.4522 -14.1478,31.6 -31.6,31.6 -17.4522,0 -31.6,-14.1478 -31.6,-31.6 z"
+         fill="none"
+         stroke="#000000"
+         stroke-miterlimit="10"
+         id="path292" />
+    </g>
+    <g
+       transform="translate(-93,-110)"
+       id="g298">
+      <path
+         d="m 191.5,1287.9 v 63.2"
+         fill="none"
+         stroke="#000000"
+         stroke-miterlimit="10"
+         id="path296" />
+    </g>
+    <g
+       transform="translate(-93,-110)"
+       id="g302">
+      <path
+         d="m 191.5,1319.5 h 15.8"
+         fill="none"
+         stroke="#000000"
+         stroke-miterlimit="10"
+         id="path300" />
+    </g>
+    <g
+       transform="translate(-93,-110)"
+       id="g310">
+      <g
+         id="g308">
+        <path
+           fill="none"
+           stroke="none"
+           id="path304"
+           d="" />
+        <text
+           fill="#000000"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="bold"
+           stroke="none"
+           text-decoration="none"
+           x="194.88818"
+           y="1378.5"
+           id="text306"
+           style="text-decoration:none;text-decoration-line:none">구독 목록 UI</text>
+      </g>
+    </g>
+    <g
+       transform="translate(-93,-110)"
+       id="g314">
+      <path
+         d="m 207.3,1464.5 c 0,-17.4522 14.1478,-31.6 31.6,-31.6 17.4522,0 31.6,14.1478 31.6,31.6 0,17.4522 -14.1478,31.6 -31.6,31.6 -17.4522,0 -31.6,-14.1478 -31.6,-31.6 z"
+         fill="#ffffff"
+         stroke="none"
+         id="path312" />
+    </g>
+    <g
+       transform="translate(-93,-110)"
+       id="g318">
+      <path
+         d="m 207.3,1464.5 c 0,-17.4522 14.1478,-31.6 31.6,-31.6 17.4522,0 31.6,14.1478 31.6,31.6 0,17.4522 -14.1478,31.6 -31.6,31.6 -17.4522,0 -31.6,-14.1478 -31.6,-31.6 z"
+         fill="none"
+         stroke="#000000"
+         stroke-miterlimit="10"
+         id="path316" />
+    </g>
+    <g
+       transform="translate(-93,-110)"
+       id="g322">
+      <path
+         d="m 191.5,1432.9 v 63.2"
+         fill="none"
+         stroke="#000000"
+         stroke-miterlimit="10"
+         id="path320" />
+    </g>
+    <g
+       transform="translate(-93,-110)"
+       id="g326">
+      <path
+         d="m 191.5,1464.5 h 15.8"
+         fill="none"
+         stroke="#000000"
+         stroke-miterlimit="10"
+         id="path324" />
+    </g>
+    <g
+       transform="translate(-93,-110)"
+       id="g334">
+      <g
+         id="g332">
+        <path
+           fill="none"
+           stroke="none"
+           id="path328"
+           d="" />
+        <text
+           fill="#000000"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="bold"
+           stroke="none"
+           text-decoration="none"
+           x="194.88818"
+           y="1523.5"
+           id="text330"
+           style="text-decoration:none;text-decoration-line:none">도장 찍기 UI</text>
+      </g>
+    </g>
+    <g
+       transform="translate(-93,-110)"
+       id="g338">
+      <path
+         d="m 207.3,1609.5 c 0,-17.4522 14.1478,-31.6 31.6,-31.6 17.4522,0 31.6,14.1478 31.6,31.6 0,17.4522 -14.1478,31.6 -31.6,31.6 -17.4522,0 -31.6,-14.1478 -31.6,-31.6 z"
+         fill="#ffffff"
+         stroke="none"
+         id="path336" />
+    </g>
+    <g
+       transform="translate(-93,-110)"
+       id="g342">
+      <path
+         d="m 207.3,1609.5 c 0,-17.4522 14.1478,-31.6 31.6,-31.6 17.4522,0 31.6,14.1478 31.6,31.6 0,17.4522 -14.1478,31.6 -31.6,31.6 -17.4522,0 -31.6,-14.1478 -31.6,-31.6 z"
+         fill="none"
+         stroke="#000000"
+         stroke-miterlimit="10"
+         id="path340" />
+    </g>
+    <g
+       transform="translate(-93,-110)"
+       id="g346">
+      <path
+         d="m 191.5,1577.9 v 63.2"
+         fill="none"
+         stroke="#000000"
+         stroke-miterlimit="10"
+         id="path344" />
+    </g>
+    <g
+       transform="translate(-93,-110)"
+       id="g350">
+      <path
+         d="m 191.5,1609.5 h 15.8"
+         fill="none"
+         stroke="#000000"
+         stroke-miterlimit="10"
+         id="path348" />
+    </g>
+    <g
+       transform="translate(-93,-110)"
+       id="g358">
+      <g
+         id="g356">
+        <path
+           fill="none"
+           stroke="none"
+           id="path352"
+           d="" />
+        <text
+           fill="#000000"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="bold"
+           stroke="none"
+           text-decoration="none"
+           x="181.88818"
+           y="1668.5"
+           id="text354"
+           style="text-decoration:none;text-decoration-line:none">랜드마크 목록 UI</text>
+      </g>
+    </g>
+    <g
+       transform="translate(-93,-110)"
+       id="g362">
+      <path
+         d="M 300,1134 558,936"
+         fill="none"
+         stroke="#000000"
+         stroke-miterlimit="10"
+         id="path360" />
+    </g>
+    <g
+       transform="translate(-93,-110)"
+       id="g366">
+      <path
+         d="M 278,1279 585,936"
+         fill="none"
+         stroke="#000000"
+         stroke-miterlimit="10"
+         id="path364" />
+    </g>
+    <g
+       transform="translate(-93,-110)"
+       id="g370">
+      <path
+         d="M 314,660 551,812"
+         fill="none"
+         stroke="#000000"
+         stroke-miterlimit="10"
+         id="path368" />
+    </g>
+    <g
+       transform="translate(-93,-110)"
+       id="g374">
+      <path
+         d="M 267,1424 599,936"
+         fill="none"
+         stroke="#000000"
+         stroke-miterlimit="10"
+         id="path372" />
+    </g>
+    <g
+       transform="translate(-93,-110)"
+       id="g378">
+      <path
+         d="M 260,1569 607,936"
+         fill="none"
+         stroke="#000000"
+         stroke-miterlimit="10"
+         id="path376" />
+    </g>
+    <g
+       transform="translate(-93,-110)"
+       id="g382">
+      <path
+         d="m 1047.9,967 c 0,-20.76591 16.8341,-37.6 37.6,-37.6 20.7659,0 37.6,16.83409 37.6,37.6 0,20.76591 -16.8341,37.6 -37.6,37.6 -20.7659,0 -37.6,-16.83409 -37.6,-37.6 z"
+         fill="#ffffff"
+         stroke="none"
+         id="path380" />
+    </g>
+    <g
+       transform="translate(-93,-110)"
+       id="g386">
+      <path
+         d="m 1047.9,967 c 0,-20.76591 16.8341,-37.6 37.6,-37.6 20.7659,0 37.6,16.83409 37.6,37.6 0,20.76591 -16.8341,37.6 -37.6,37.6 -20.7659,0 -37.6,-16.83409 -37.6,-37.6 z"
+         fill="none"
+         stroke="#000000"
+         stroke-miterlimit="10"
+         id="path384" />
+    </g>
+    <g
+       transform="translate(-93,-110)"
+       id="g390">
+      <path
+         d="m 1047.9,1004.6 h 75.2"
+         fill="none"
+         stroke="#000000"
+         stroke-miterlimit="10"
+         id="path388" />
+    </g>
+    <g
+       transform="translate(-93,-110)"
+       id="g398">
+      <g
+         id="g396">
+        <path
+           fill="none"
+           stroke="none"
+           id="path392"
+           d="" />
+        <text
+           fill="#000000"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="bold"
+           stroke="none"
+           text-decoration="none"
+           x="1072.5"
+           y="1033.5"
+           id="text394"
+           style="text-decoration:none;text-decoration-line:none">도장</text>
+      </g>
+    </g>
+    <g
+       transform="translate(-93,-110)"
+       id="g402">
+      <path
+         d="m 1047.9,1203 c 0,-20.7659 16.8341,-37.6 37.6,-37.6 20.7659,0 37.6,16.8341 37.6,37.6 0,20.7659 -16.8341,37.6 -37.6,37.6 -20.7659,0 -37.6,-16.8341 -37.6,-37.6 z"
+         fill="#ffffff"
+         stroke="none"
+         id="path400" />
+    </g>
+    <g
+       transform="translate(-93,-110)"
+       id="g406">
+      <path
+         d="m 1047.9,1203 c 0,-20.7659 16.8341,-37.6 37.6,-37.6 20.7659,0 37.6,16.8341 37.6,37.6 0,20.7659 -16.8341,37.6 -37.6,37.6 -20.7659,0 -37.6,-16.8341 -37.6,-37.6 z"
+         fill="none"
+         stroke="#000000"
+         stroke-miterlimit="10"
+         id="path404" />
+    </g>
+    <g
+       transform="translate(-93,-110)"
+       id="g410">
+      <path
+         d="m 1047.9,1240.6 h 75.2"
+         fill="none"
+         stroke="#000000"
+         stroke-miterlimit="10"
+         id="path408" />
+    </g>
+    <g
+       transform="translate(-93,-110)"
+       id="g418">
+      <g
+         id="g416">
+        <path
+           fill="none"
+           stroke="none"
+           id="path412"
+           d="" />
+        <text
+           fill="#000000"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="bold"
+           stroke="none"
+           text-decoration="none"
+           x="1059.5"
+           y="1269.5"
+           id="text414"
+           style="text-decoration:none;text-decoration-line:none">랜드마크</text>
+      </g>
+    </g>
+    <g
+       transform="translate(-93,-110)"
+       id="g422">
+      <path
+         d="m 736,894 245,60"
+         fill="none"
+         stroke="#000000"
+         stroke-miterlimit="10"
+         id="path420" />
+    </g>
+    <g
+       transform="translate(-93,-110)"
+       id="g426">
+      <path
+         d="m 727,936 281,219"
+         fill="none"
+         stroke="#000000"
+         stroke-miterlimit="10"
+         id="path424" />
+    </g>
+  </g>
+  <g
+     id="g265"
+     transform="translate(-292.40893,5.9665936)">
+    <rect
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.78337;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect1020-4"
+       width="152.54362"
+       height="24.469181"
+       x="846.25787"
+       y="39.770027" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:22.0366px;line-height:1.25;font-family:'Arita-buri(OTF)';-inkscape-font-specification:'Arita-buri(OTF), Semi-Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.550915;stroke-opacity:1"
+       x="847.33075"
+       y="59.738956"
+       id="text1869-8"><tspan
+         sodipodi:role="line"
+         x="847.33075"
+         y="59.738956"
+         id="tspan1871-3"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:22.0366px;font-family:'Arita-buri(OTF)';-inkscape-font-specification:'Arita-buri(OTF), Semi-Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.550915;stroke-opacity:1">커뮤니티 VOPC</tspan></text>
+  </g>
+</svg>

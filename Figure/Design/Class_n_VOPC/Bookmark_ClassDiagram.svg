@@ -1,0 +1,1463 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   height="297mm"
+   id="svg1142"
+   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)"
+   sodipodi:docname="북마크관리ClassDiagram.svg"
+   version="1.1"
+   width="210mm">
+  <metadata
+     id="metadata1146">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     bordercolor="#666666"
+     borderopacity="1"
+     gridtolerance="10"
+     guidetolerance="10"
+     id="namedview1144"
+     inkscape:current-layer="svg1142"
+     inkscape:cx="499.17594"
+     inkscape:cy="188.10161"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-height="1044"
+     inkscape:window-maximized="0"
+     inkscape:window-width="1304"
+     inkscape:window-x="2121"
+     inkscape:window-y="27"
+     inkscape:zoom="1.2536443"
+     objecttolerance="10"
+     pagecolor="#ffffff"
+     showgrid="false"
+     units="mm"
+     inkscape:document-rotation="0" />
+  <defs
+     id="defs2" />
+  <g
+     id="g1140"
+     transform="matrix(0.61932091,0,0,0.61932091,-15.043333,151.94812)">
+    <g
+       id="g650"
+       transform="translate(-34,-134)">
+      <path
+         d="m 91.1,643.5 c 0,-22.75413 18.44587,-41.2 41.2,-41.2 22.75413,0 41.2,18.44587 41.2,41.2 0,22.75413 -18.44587,41.2 -41.2,41.2 -22.75413,0 -41.2,-18.44587 -41.2,-41.2 z"
+         fill="#ffffff"
+         id="path648"
+         stroke="none" />
+    </g>
+    <g
+       id="g654"
+       transform="translate(-34,-134)">
+      <path
+         d="m 91.1,643.5 c 0,-22.75413 18.44587,-41.2 41.2,-41.2 22.75413,0 41.2,18.44587 41.2,41.2 0,22.75413 -18.44587,41.2 -41.2,41.2 -22.75413,0 -41.2,-18.44587 -41.2,-41.2 z"
+         fill="none"
+         id="path652"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g658"
+       transform="translate(-34,-134)">
+      <path
+         d="m 70.5,602.3 v 82.4"
+         fill="none"
+         id="path656"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g662"
+       transform="translate(-34,-134)">
+      <path
+         d="M 70.5,643.5 H 91.1"
+         fill="none"
+         id="path660"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g670"
+       transform="translate(-34,-134)">
+      <g
+         id="g668">
+        <path
+           d=""
+           fill="none"
+           id="path664"
+           stroke="none" />
+        <text
+           fill="#000000"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="bold"
+           id="text666"
+           stroke="none"
+           style="text-decoration:none;text-decoration-line:none"
+           text-decoration="none"
+           x="74.681396"
+           y="714.5">listBookmark.jsp</text>
+      </g>
+    </g>
+    <g
+       id="g674"
+       transform="translate(-34,-134)">
+      <path
+         d="m 405.625,616.5 c 0,-26.71678 21.65822,-48.375 48.375,-48.375 26.71678,0 48.375,21.65822 48.375,48.375 0,26.71678 -21.65822,48.375 -48.375,48.375 -26.71678,0 -48.375,-21.65822 -48.375,-48.375 z"
+         fill="#ffffff"
+         id="path672"
+         stroke="none" />
+    </g>
+    <g
+       id="g678"
+       transform="translate(-34,-134)">
+      <path
+         d="m 405.625,616.5 c 0,-26.71678 21.65822,-48.375 48.375,-48.375 26.71678,0 48.375,21.65822 48.375,48.375 0,26.71678 -21.65822,48.375 -48.375,48.375 -26.71678,0 -48.375,-21.65822 -48.375,-48.375 z"
+         fill="none"
+         id="path676"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g682"
+       transform="translate(-34,-134)">
+      <path
+         d="M 454,568.125 470.125,552"
+         fill="none"
+         id="path680"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g686"
+       transform="translate(-34,-134)">
+      <path
+         d="m 454,568.125 16.125,16.125"
+         fill="none"
+         id="path684"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g690"
+       transform="translate(-34,-134)">
+      <path
+         d="M 330,706 H 578"
+         fill="none"
+         id="path688"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g694"
+       transform="translate(-34,-134)">
+      <path
+         d="M 330,729 H 578"
+         fill="none"
+         id="path692"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g702"
+       transform="translate(-34,-134)">
+      <g
+         id="g700">
+        <path
+           d=""
+           fill="none"
+           id="path696"
+           stroke="none" />
+        <text
+           fill="#000000"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="bold"
+           id="text698"
+           stroke="none"
+           style="text-decoration:none;text-decoration-line:none"
+           text-decoration="none"
+           x="396.56323"
+           y="700.5">BookmarkController</text>
+      </g>
+    </g>
+    <g
+       id="g710"
+       transform="translate(-34,-134)">
+      <g
+         id="g708">
+        <path
+           d=""
+           fill="none"
+           id="path704"
+           stroke="none" />
+        <text
+           fill="#000000"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           id="text706"
+           stroke="none"
+           style="text-decoration:none;text-decoration-line:none"
+           text-decoration="none"
+           x="335"
+           y="723.5">+BookmarkService: BookmarkService</text>
+      </g>
+    </g>
+    <g
+       id="g718"
+       transform="translate(-34,-134)">
+      <g
+         id="g716">
+        <path
+           d=""
+           fill="none"
+           id="path712"
+           stroke="none" />
+        <text
+           fill="#000000"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           id="text714"
+           stroke="none"
+           style="text-decoration:none;text-decoration-line:none"
+           text-decoration="none"
+           x="335"
+           y="746.5">+listBookmark()</text>
+      </g>
+    </g>
+    <g
+       id="g722"
+       transform="translate(-34,-134)">
+      <path
+         d="m 417.875,193.5 c 0,-20.50357 16.62143,-37.125 37.125,-37.125 20.50357,0 37.125,16.62143 37.125,37.125 0,20.50357 -16.62143,37.125 -37.125,37.125 -20.50357,0 -37.125,-16.62143 -37.125,-37.125 z"
+         fill="#ffffff"
+         id="path720"
+         stroke="none" />
+    </g>
+    <g
+       id="g726"
+       transform="translate(-34,-134)">
+      <path
+         d="m 417.875,193.5 c 0,-20.50357 16.62143,-37.125 37.125,-37.125 20.50357,0 37.125,16.62143 37.125,37.125 0,20.50357 -16.62143,37.125 -37.125,37.125 -20.50357,0 -37.125,-16.62143 -37.125,-37.125 z"
+         fill="none"
+         id="path724"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g730"
+       transform="translate(-34,-134)">
+      <path
+         d="M 455,156.375 467.375,144"
+         fill="none"
+         id="path728"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g734"
+       transform="translate(-34,-134)">
+      <path
+         d="m 455,156.375 12.375,12.375"
+         fill="none"
+         id="path732"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g738"
+       transform="translate(-34,-134)">
+      <path
+         d="M 331,268 H 579"
+         fill="none"
+         id="path736"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g742"
+       transform="translate(-34,-134)">
+      <path
+         d="M 331,306 H 579"
+         fill="none"
+         id="path740"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g750"
+       transform="translate(-34,-134)">
+      <g
+         id="g748">
+        <path
+           d=""
+           fill="none"
+           id="path744"
+           stroke="none" />
+        <text
+           fill="#000000"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="bold"
+           id="text746"
+           stroke="none"
+           style="text-decoration:none;text-decoration-line:none"
+           text-decoration="none"
+           x="384.19824"
+           y="262.5">BookmarkRestController</text>
+      </g>
+    </g>
+    <g
+       id="g758"
+       transform="translate(-34,-134)">
+      <g
+         id="g756">
+        <path
+           d=""
+           fill="none"
+           id="path752"
+           stroke="none" />
+        <text
+           fill="#000000"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           id="text754"
+           stroke="none"
+           style="text-decoration:none;text-decoration-line:none"
+           text-decoration="none"
+           x="336"
+           y="285.5">+BookmarkService: BookmarkService</text>
+      </g>
+    </g>
+    <g
+       id="g766"
+       transform="translate(-34,-134)">
+      <g
+         id="g764">
+        <path
+           d=""
+           fill="none"
+           id="path760"
+           stroke="none" />
+        <text
+           fill="#000000"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           id="text762"
+           stroke="none"
+           style="text-decoration:none;text-decoration-line:none"
+           text-decoration="none"
+           x="336"
+           y="300.5">+DiaryService: DiaryService</text>
+      </g>
+    </g>
+    <g
+       id="g774"
+       transform="translate(-34,-134)">
+      <g
+         id="g772">
+        <path
+           d=""
+           fill="none"
+           id="path768"
+           stroke="none" />
+        <text
+           fill="#000000"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           id="text770"
+           stroke="none"
+           style="text-decoration:none;text-decoration-line:none"
+           text-decoration="none"
+           x="336"
+           y="323.5">+addBookmark()</text>
+      </g>
+    </g>
+    <g
+       id="g782"
+       transform="translate(-34,-134)">
+      <g
+         id="g780">
+        <path
+           d=""
+           fill="none"
+           id="path776"
+           stroke="none" />
+        <text
+           fill="#000000"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           id="text778"
+           stroke="none"
+           style="text-decoration:none;text-decoration-line:none"
+           text-decoration="none"
+           x="336"
+           y="338.5">+deleteBookmark()</text>
+      </g>
+    </g>
+    <g
+       id="g786"
+       transform="translate(-34,-134)">
+      <path
+         d="m 91.1,227.5 c 0,-22.75413 18.44587,-41.2 41.2,-41.2 22.75413,0 41.2,18.44587 41.2,41.2 0,22.75413 -18.44587,41.2 -41.2,41.2 -22.75413,0 -41.2,-18.44587 -41.2,-41.2 z"
+         fill="#ffffff"
+         id="path784"
+         stroke="none" />
+    </g>
+    <g
+       id="g790"
+       transform="translate(-34,-134)">
+      <path
+         d="m 91.1,227.5 c 0,-22.75413 18.44587,-41.2 41.2,-41.2 22.75413,0 41.2,18.44587 41.2,41.2 0,22.75413 -18.44587,41.2 -41.2,41.2 -22.75413,0 -41.2,-18.44587 -41.2,-41.2 z"
+         fill="none"
+         id="path788"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g794"
+       transform="translate(-34,-134)">
+      <path
+         d="m 70.5,186.3 v 82.4"
+         fill="none"
+         id="path792"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g798"
+       transform="translate(-34,-134)">
+      <path
+         d="M 70.5,227.5 H 91.1"
+         fill="none"
+         id="path796"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g806"
+       transform="translate(-34,-134)">
+      <g
+         id="g804">
+        <path
+           d=""
+           fill="none"
+           id="path800"
+           stroke="none" />
+        <text
+           fill="#000000"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="bold"
+           id="text802"
+           stroke="none"
+           style="text-decoration:none;text-decoration-line:none"
+           text-decoration="none"
+           x="88.163818"
+           y="298.5">getDiary.jsp</text>
+      </g>
+    </g>
+    <g
+       id="g810"
+       transform="translate(-34,-134)">
+      <path
+         d="M 200,241 H 331"
+         fill="none"
+         id="path808"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g814"
+       transform="translate(-34,-134)">
+      <path
+         d="M 200,652 H 330"
+         fill="none"
+         id="path812"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g818"
+       transform="translate(-34,-134)">
+      <rect
+         fill="#c0c0c0"
+         height="208"
+         id="rect816"
+         opacity="0.2"
+         stroke="none"
+         width="208"
+         x="695"
+         y="567" />
+    </g>
+    <g
+       id="g822"
+       transform="translate(-34,-134)">
+      <rect
+         fill="#ffffff"
+         height="208"
+         id="rect820"
+         stroke="none"
+         width="208"
+         x="688"
+         y="560" />
+    </g>
+    <g
+       id="g826"
+       transform="translate(-34,-134)">
+      <path
+         d="M 688,560 H 896 V 768 H 688 Z"
+         fill="none"
+         id="path824"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g830"
+       transform="translate(-34,-134)">
+      <path
+         d="M 688,598 H 896"
+         fill="none"
+         id="path828"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g838"
+       transform="translate(-34,-134)">
+      <g
+         id="g836">
+        <path
+           d=""
+           fill="none"
+           id="path832"
+           stroke="none" />
+        <text
+           fill="#000000"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           id="text834"
+           stroke="none"
+           style="text-decoration:none;text-decoration-line:none"
+           text-decoration="none"
+           x="759.8396"
+           y="577.5">«interface»</text>
+      </g>
+    </g>
+    <g
+       id="g846"
+       transform="translate(-34,-134)">
+      <g
+         id="g844">
+        <path
+           d=""
+           fill="none"
+           id="path840"
+           stroke="none" />
+        <text
+           fill="#000000"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="bold"
+           id="text842"
+           stroke="none"
+           style="text-decoration:none;text-decoration-line:none"
+           text-decoration="none"
+           x="741.06641"
+           y="592.5">BookmarkService</text>
+      </g>
+    </g>
+    <g
+       id="g854"
+       transform="translate(-34,-134)">
+      <g
+         id="g852">
+        <path
+           d=""
+           fill="none"
+           id="path848"
+           stroke="none" />
+        <text
+           fill="#000000"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           id="text850"
+           stroke="none"
+           style="text-decoration:none;text-decoration-line:none"
+           text-decoration="none"
+           x="693"
+           y="615.5">+addBookmark()</text>
+      </g>
+    </g>
+    <g
+       id="g862"
+       transform="translate(-34,-134)">
+      <g
+         id="g860">
+        <path
+           d=""
+           fill="none"
+           id="path856"
+           stroke="none" />
+        <text
+           fill="#000000"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           id="text858"
+           stroke="none"
+           style="text-decoration:none;text-decoration-line:none"
+           text-decoration="none"
+           x="693"
+           y="630.5">+deleteBookmark()</text>
+      </g>
+    </g>
+    <g
+       id="g870"
+       transform="translate(-34,-134)">
+      <g
+         id="g868">
+        <path
+           d=""
+           fill="none"
+           id="path864"
+           stroke="none" />
+        <text
+           fill="#000000"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           id="text866"
+           stroke="none"
+           style="text-decoration:none;text-decoration-line:none"
+           text-decoration="none"
+           x="693"
+           y="645.5">+getBookmarkList()</text>
+      </g>
+    </g>
+    <g
+       id="g878"
+       transform="translate(-34,-134)">
+      <g
+         id="g876">
+        <path
+           d=""
+           fill="none"
+           id="path872"
+           stroke="none" />
+        <text
+           fill="#000000"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           id="text874"
+           stroke="none"
+           style="text-decoration:none;text-decoration-line:none"
+           text-decoration="none"
+           x="693"
+           y="660.5">+selectBookmarkNo()</text>
+      </g>
+    </g>
+    <g
+       id="g886"
+       transform="translate(-34,-134)">
+      <g
+         id="g884">
+        <path
+           d=""
+           fill="none"
+           id="path880"
+           stroke="none" />
+        <text
+           fill="#000000"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           id="text882"
+           stroke="none"
+           style="text-decoration:none;text-decoration-line:none"
+           text-decoration="none"
+           x="693"
+           y="675.5">+findBookmarkNo()</text>
+      </g>
+    </g>
+    <g
+       id="g890"
+       transform="translate(-34,-134)">
+      <rect
+         fill="#c0c0c0"
+         height="208"
+         id="rect888"
+         opacity="0.2"
+         stroke="none"
+         width="208"
+         x="687"
+         y="919" />
+    </g>
+    <g
+       id="g894"
+       transform="translate(-34,-134)">
+      <rect
+         fill="#ffffff"
+         height="208"
+         id="rect892"
+         stroke="none"
+         width="208"
+         x="680"
+         y="912" />
+    </g>
+    <g
+       id="g898"
+       transform="translate(-34,-134)">
+      <path
+         d="m 680,912 h 208 v 208 H 680 Z"
+         fill="none"
+         id="path896"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g902"
+       transform="translate(-34,-134)">
+      <path
+         d="M 680,937 H 888"
+         fill="none"
+         id="path900"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g906"
+       transform="translate(-34,-134)">
+      <path
+         d="M 680,960 H 888"
+         fill="none"
+         id="path904"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g914"
+       transform="translate(-34,-134)">
+      <g
+         id="g912">
+        <path
+           d=""
+           fill="none"
+           id="path908"
+           stroke="none" />
+        <text
+           fill="#000000"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="bold"
+           id="text910"
+           stroke="none"
+           style="text-decoration:none;text-decoration-line:none"
+           text-decoration="none"
+           x="720.78687"
+           y="931.5">BookmarkServiceImpl</text>
+      </g>
+    </g>
+    <g
+       id="g922"
+       transform="translate(-34,-134)">
+      <g
+         id="g920">
+        <path
+           d=""
+           fill="none"
+           id="path916"
+           stroke="none" />
+        <text
+           fill="#000000"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           id="text918"
+           stroke="none"
+           style="text-decoration:none;text-decoration-line:none"
+           text-decoration="none"
+           x="685"
+           y="954.5">+BookmarkDao: BookmarkDao</text>
+      </g>
+    </g>
+    <g
+       id="g926"
+       transform="translate(-34,-134)">
+      <path
+         d="M 785,912 V 768"
+         fill="none"
+         id="path924"
+         stroke="#000000"
+         stroke-dasharray="3"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g930"
+       transform="translate(-34,-134)">
+      <path
+         d="M 793.41904,788.32535 785,768 l -8.41904,20.32535"
+         fill="#ffffff"
+         id="path928"
+         stroke="none" />
+    </g>
+    <g
+       id="g934"
+       transform="translate(-34,-134)">
+      <path
+         d="M 793.41904,788.32535 785,768 l -8.41904,20.32535 h 16.83808"
+         fill="none"
+         id="path932"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g938"
+       transform="translate(-34,-134)">
+      <rect
+         fill="#c0c0c0"
+         height="208"
+         id="rect936"
+         opacity="0.2"
+         stroke="none"
+         width="208"
+         x="1119"
+         y="919" />
+    </g>
+    <g
+       id="g942"
+       transform="translate(-34,-134)">
+      <rect
+         fill="#ffffff"
+         height="208"
+         id="rect940"
+         stroke="none"
+         width="208"
+         x="1112"
+         y="912" />
+    </g>
+    <g
+       id="g946"
+       transform="translate(-34,-134)">
+      <path
+         d="m 1112,912 h 208 v 208 h -208 z"
+         fill="none"
+         id="path944"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g950"
+       transform="translate(-34,-134)">
+      <path
+         d="m 1112,950 h 208"
+         fill="none"
+         id="path948"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g958"
+       transform="translate(-34,-134)">
+      <g
+         id="g956">
+        <path
+           d=""
+           fill="none"
+           id="path952"
+           stroke="none" />
+        <text
+           fill="#000000"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           id="text954"
+           stroke="none"
+           style="text-decoration:none;text-decoration-line:none"
+           text-decoration="none"
+           x="1183.8396"
+           y="929.5">«interface»</text>
+      </g>
+    </g>
+    <g
+       id="g966"
+       transform="translate(-34,-134)">
+      <g
+         id="g964">
+        <path
+           d=""
+           fill="none"
+           id="path960"
+           stroke="none" />
+        <text
+           fill="#000000"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="bold"
+           id="text962"
+           stroke="none"
+           style="text-decoration:none;text-decoration-line:none"
+           text-decoration="none"
+           x="1174.8164"
+           y="944.5">BookmarkDao</text>
+      </g>
+    </g>
+    <g
+       id="g974"
+       transform="translate(-34,-134)">
+      <g
+         id="g972">
+        <path
+           d=""
+           fill="none"
+           id="path968"
+           stroke="none" />
+        <text
+           fill="#000000"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           id="text970"
+           stroke="none"
+           style="text-decoration:none;text-decoration-line:none"
+           text-decoration="none"
+           x="1117"
+           y="967.5">+addBookmark()</text>
+      </g>
+    </g>
+    <g
+       id="g982"
+       transform="translate(-34,-134)">
+      <g
+         id="g980">
+        <path
+           d=""
+           fill="none"
+           id="path976"
+           stroke="none" />
+        <text
+           fill="#000000"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           id="text978"
+           stroke="none"
+           style="text-decoration:none;text-decoration-line:none"
+           text-decoration="none"
+           x="1117"
+           y="982.5">+deleteBookmark()</text>
+      </g>
+    </g>
+    <g
+       id="g990"
+       transform="translate(-34,-134)">
+      <g
+         id="g988">
+        <path
+           d=""
+           fill="none"
+           id="path984"
+           stroke="none" />
+        <text
+           fill="#000000"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           id="text986"
+           stroke="none"
+           style="text-decoration:none;text-decoration-line:none"
+           text-decoration="none"
+           x="1117"
+           y="997.5">+getBookmarkList()</text>
+      </g>
+    </g>
+    <g
+       id="g998"
+       transform="translate(-34,-134)">
+      <g
+         id="g996">
+        <path
+           d=""
+           fill="none"
+           id="path992"
+           stroke="none" />
+        <text
+           fill="#000000"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           id="text994"
+           stroke="none"
+           style="text-decoration:none;text-decoration-line:none"
+           text-decoration="none"
+           x="1117"
+           y="1012.5">+getBookmarkTotalCount()</text>
+      </g>
+    </g>
+    <g
+       id="g1006"
+       transform="translate(-34,-134)">
+      <g
+         id="g1004">
+        <path
+           d=""
+           fill="none"
+           id="path1000"
+           stroke="none" />
+        <text
+           fill="#000000"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           id="text1002"
+           stroke="none"
+           style="text-decoration:none;text-decoration-line:none"
+           text-decoration="none"
+           x="1117"
+           y="1027.5">+selectBookmarkNo()</text>
+      </g>
+    </g>
+    <g
+       id="g1014"
+       transform="translate(-34,-134)">
+      <g
+         id="g1012">
+        <path
+           d=""
+           fill="none"
+           id="path1008"
+           stroke="none" />
+        <text
+           fill="#000000"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           id="text1010"
+           stroke="none"
+           style="text-decoration:none;text-decoration-line:none"
+           text-decoration="none"
+           x="1117"
+           y="1042.5">+findBookmarkNo()</text>
+      </g>
+    </g>
+    <g
+       id="g1018"
+       transform="translate(-34,-134)">
+      <path
+         d="m 889,1016 h 222"
+         fill="none"
+         id="path1016"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g1022"
+       transform="translate(-34,-134)">
+      <path
+         d="M 1100.8373,1020.2095 1111,1016 l -10.1627,-4.2095"
+         fill="none"
+         id="path1020"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g1026"
+       transform="translate(-34,-134)">
+      <rect
+         fill="#c0c0c0"
+         height="208"
+         id="rect1024"
+         opacity="0.2"
+         stroke="none"
+         width="208"
+         x="1119"
+         y="1295" />
+    </g>
+    <g
+       id="g1030"
+       transform="translate(-34,-134)">
+      <rect
+         fill="#ffffff"
+         height="208"
+         id="rect1028"
+         stroke="none"
+         width="208"
+         x="1112"
+         y="1288" />
+    </g>
+    <g
+       id="g1034"
+       transform="translate(-34,-134)">
+      <path
+         d="m 1112,1288 h 208 v 208 h -208 z"
+         fill="none"
+         id="path1032"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g1038"
+       transform="translate(-34,-134)">
+      <path
+         d="m 1112,1313 h 208"
+         fill="none"
+         id="path1036"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g1042"
+       transform="translate(-34,-134)">
+      <path
+         d="m 1112,1323 h 208"
+         fill="none"
+         id="path1040"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g1050"
+       transform="translate(-34,-134)">
+      <g
+         id="g1048">
+        <path
+           d=""
+           fill="none"
+           id="path1044"
+           stroke="none" />
+        <text
+           fill="#000000"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="bold"
+           id="text1046"
+           stroke="none"
+           style="text-decoration:none;text-decoration-line:none"
+           text-decoration="none"
+           x="1162.5369"
+           y="1307.5">BookmarkDaoImpl</text>
+      </g>
+    </g>
+    <g
+       id="g1054"
+       transform="translate(-34,-134)">
+      <path
+         d="M 1217,1288 V 1120"
+         fill="none"
+         id="path1052"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g1058"
+       transform="translate(-34,-134)">
+      <path
+         d="M 1225.419,1140.3253 1217,1120 l -8.419,20.3253"
+         fill="#ffffff"
+         id="path1056"
+         stroke="none" />
+    </g>
+    <g
+       id="g1062"
+       transform="translate(-34,-134)">
+      <path
+         d="M 1225.419,1140.3253 1217,1120 l -8.419,20.3253 h 16.838"
+         fill="none"
+         id="path1060"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g1066"
+       transform="translate(-34,-134)">
+      <rect
+         fill="#c0c0c0"
+         height="128"
+         id="rect1064"
+         opacity="0.2"
+         stroke="none"
+         width="208"
+         x="359"
+         y="1327" />
+    </g>
+    <g
+       id="g1070"
+       transform="translate(-34,-134)">
+      <rect
+         fill="#ffffff"
+         height="128"
+         id="rect1068"
+         stroke="none"
+         width="208"
+         x="352"
+         y="1320" />
+    </g>
+    <g
+       id="g1074"
+       transform="translate(-34,-134)">
+      <path
+         d="m 352,1320 h 208 v 128 H 352 Z"
+         fill="none"
+         id="path1072"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g1078"
+       transform="translate(-34,-134)">
+      <path
+         d="M 352,1345 H 560"
+         fill="none"
+         id="path1076"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g1082"
+       transform="translate(-34,-134)">
+      <path
+         d="M 352,1428 H 560"
+         fill="none"
+         id="path1080"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g1090"
+       transform="translate(-34,-134)">
+      <g
+         id="g1088">
+        <path
+           d=""
+           fill="none"
+           id="path1084"
+           stroke="none" />
+        <text
+           fill="#000000"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="bold"
+           id="text1086"
+           stroke="none"
+           style="text-decoration:none;text-decoration-line:none"
+           text-decoration="none"
+           x="426.74048"
+           y="1339.5">Bookmark</text>
+      </g>
+    </g>
+    <g
+       id="g1098"
+       transform="translate(-34,-134)">
+      <g
+         id="g1096">
+        <path
+           d=""
+           fill="none"
+           id="path1092"
+           stroke="none" />
+        <text
+           fill="#000000"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           id="text1094"
+           stroke="none"
+           style="text-decoration:none;text-decoration-line:none"
+           text-decoration="none"
+           x="357"
+           y="1362.5">+bookmarkNo: int</text>
+      </g>
+    </g>
+    <g
+       id="g1106"
+       transform="translate(-34,-134)">
+      <g
+         id="g1104">
+        <path
+           d=""
+           fill="none"
+           id="path1100"
+           stroke="none" />
+        <text
+           fill="#000000"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           id="text1102"
+           stroke="none"
+           style="text-decoration:none;text-decoration-line:none"
+           text-decoration="none"
+           x="357"
+           y="1377.5">+diaryNo: int</text>
+      </g>
+    </g>
+    <g
+       id="g1114"
+       transform="translate(-34,-134)">
+      <g
+         id="g1112">
+        <path
+           d=""
+           fill="none"
+           id="path1108"
+           stroke="none" />
+        <text
+           fill="#000000"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           id="text1110"
+           stroke="none"
+           style="text-decoration:none;text-decoration-line:none"
+           text-decoration="none"
+           x="357"
+           y="1392.5">+nickname: String</text>
+      </g>
+    </g>
+    <g
+       id="g1122"
+       transform="translate(-34,-134)">
+      <g
+         id="g1120">
+        <path
+           d=""
+           fill="none"
+           id="path1116"
+           stroke="none" />
+        <text
+           fill="#000000"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           id="text1118"
+           stroke="none"
+           style="text-decoration:none;text-decoration-line:none"
+           text-decoration="none"
+           x="357"
+           y="1407.5">+bookmarkDate: Date</text>
+      </g>
+    </g>
+    <g
+       id="g1130"
+       transform="translate(-34,-134)">
+      <g
+         id="g1128">
+        <path
+           d=""
+           fill="none"
+           id="path1124"
+           stroke="none" />
+        <text
+           fill="#000000"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           id="text1126"
+           stroke="none"
+           style="text-decoration:none;text-decoration-line:none"
+           text-decoration="none"
+           x="357"
+           y="1422.5">+diary: Diary</text>
+      </g>
+    </g>
+    <g
+       id="g1134"
+       transform="translate(-34,-134)">
+      <path
+         d="M 578,652 H 688"
+         fill="none"
+         id="path1132"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g1138"
+       transform="translate(-34,-134)">
+      <path
+         d="M 677.83733,656.20952 688,652 677.83733,647.79048"
+         fill="none"
+         id="path1136"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+  </g>
+  <g
+     id="g271">
+    <rect
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.50534;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect1020-8"
+       width="107.46639"
+       height="24.747213"
+       x="562.47028"
+       y="167.90082" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:22.0366px;line-height:1.25;font-family:'Arita-buri(OTF)';-inkscape-font-specification:'Arita-buri(OTF), Semi-Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.550915;stroke-opacity:1"
+       x="563.68219"
+       y="188.00876"
+       id="text1869-0"><tspan
+         sodipodi:role="line"
+         x="563.68219"
+         y="188.00876"
+         id="tspan1871-7"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:22.0366px;font-family:'Arita-buri(OTF)';-inkscape-font-specification:'Arita-buri(OTF), Semi-Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.550915;stroke-opacity:1">북마크관리</tspan></text>
+  </g>
+</svg>

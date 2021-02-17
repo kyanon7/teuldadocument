@@ -1,0 +1,1406 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   height="297mm"
+   id="svg1002"
+   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)"
+   sodipodi:docname="Subscribe_ClassDiagram.svg"
+   version="1.1"
+   width="210mm">
+  <metadata
+     id="metadata1006">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     bordercolor="#666666"
+     borderopacity="1"
+     gridtolerance="10"
+     guidetolerance="10"
+     id="namedview1004"
+     inkscape:current-layer="svg1002"
+     inkscape:cx="290.95517"
+     inkscape:cy="332.43334"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-height="1044"
+     inkscape:window-maximized="0"
+     inkscape:window-width="1304"
+     inkscape:window-x="2222"
+     inkscape:window-y="3"
+     inkscape:zoom="0.66460587"
+     objecttolerance="10"
+     pagecolor="#ffffff"
+     showgrid="false"
+     units="mm"
+     inkscape:document-rotation="0" />
+  <defs
+     id="defs2" />
+  <g
+     id="g1000"
+     transform="matrix(0.66676594,0,0,0.66676594,-5.371281,134.17752)">
+    <g
+       id="g534"
+       transform="translate(-94,-118)">
+      <rect
+         fill="#c0c0c0"
+         height="179"
+         id="rect532"
+         opacity="0.2"
+         stroke="none"
+         width="205"
+         x="706"
+         y="599" />
+    </g>
+    <g
+       id="g538"
+       transform="translate(-94,-118)">
+      <rect
+         fill="#ffffff"
+         height="179"
+         id="rect536"
+         stroke="none"
+         width="205"
+         x="699"
+         y="592" />
+    </g>
+    <g
+       id="g542"
+       transform="translate(-94,-118)">
+      <path
+         d="M 699,592 H 904 V 771 H 699 Z"
+         fill="none"
+         id="path540"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g546"
+       transform="translate(-94,-118)">
+      <path
+         d="M 699,630 H 904"
+         fill="none"
+         id="path544"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g554"
+       transform="translate(-94,-118)">
+      <g
+         id="g552">
+        <path
+           d=""
+           fill="none"
+           id="path548"
+           stroke="none" />
+        <text
+           fill="#000000"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           id="text550"
+           stroke="none"
+           style="text-decoration:none;text-decoration-line:none"
+           text-decoration="none"
+           x="769.3396"
+           y="609.5">«interface»</text>
+      </g>
+    </g>
+    <g
+       id="g562"
+       transform="translate(-94,-118)">
+      <g
+         id="g560">
+        <path
+           d=""
+           fill="none"
+           id="path556"
+           stroke="none" />
+        <text
+           fill="#000000"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="bold"
+           id="text558"
+           stroke="none"
+           style="text-decoration:none;text-decoration-line:none"
+           text-decoration="none"
+           x="750.92188"
+           y="624.5">SubscribeService</text>
+      </g>
+    </g>
+    <g
+       id="g570"
+       transform="translate(-94,-118)">
+      <g
+         id="g568">
+        <path
+           d=""
+           fill="none"
+           id="path564"
+           stroke="none" />
+        <text
+           fill="#000000"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           id="text566"
+           stroke="none"
+           style="text-decoration:none;text-decoration-line:none"
+           text-decoration="none"
+           x="704"
+           y="647.5">+addSubscribe()</text>
+      </g>
+    </g>
+    <g
+       id="g578"
+       transform="translate(-94,-118)">
+      <g
+         id="g576">
+        <path
+           d=""
+           fill="none"
+           id="path572"
+           stroke="none" />
+        <text
+           fill="#000000"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           id="text574"
+           stroke="none"
+           style="text-decoration:none;text-decoration-line:none"
+           text-decoration="none"
+           x="704"
+           y="662.5">+getSubscribeInfoList()</text>
+      </g>
+    </g>
+    <g
+       id="g586"
+       transform="translate(-94,-118)">
+      <g
+         id="g584">
+        <path
+           d=""
+           fill="none"
+           id="path580"
+           stroke="none" />
+        <text
+           fill="#000000"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           id="text582"
+           stroke="none"
+           style="text-decoration:none;text-decoration-line:none"
+           text-decoration="none"
+           x="704"
+           y="677.5">+getSubscriberList()</text>
+      </g>
+    </g>
+    <g
+       id="g594"
+       transform="translate(-94,-118)">
+      <g
+         id="g592">
+        <path
+           d=""
+           fill="none"
+           id="path588"
+           stroke="none" />
+        <text
+           fill="#000000"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           id="text590"
+           stroke="none"
+           style="text-decoration:none;text-decoration-line:none"
+           text-decoration="none"
+           x="704"
+           y="692.5">+deleteSubscribe()</text>
+      </g>
+    </g>
+    <g
+       id="g602"
+       transform="translate(-94,-118)">
+      <g
+         id="g600">
+        <path
+           d=""
+           fill="none"
+           id="path596"
+           stroke="none" />
+        <text
+           fill="#000000"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           id="text598"
+           stroke="none"
+           style="text-decoration:none;text-decoration-line:none"
+           text-decoration="none"
+           x="704"
+           y="707.5">+checkSubscribe()</text>
+      </g>
+    </g>
+    <g
+       id="g606"
+       transform="translate(-94,-118)">
+      <path
+         d="m 431.375,631.5 c 0,-19.67515 15.94985,-35.625 35.625,-35.625 19.67515,0 35.625,15.94985 35.625,35.625 0,19.67515 -15.94985,35.625 -35.625,35.625 -19.67515,0 -35.625,-15.94985 -35.625,-35.625 z"
+         fill="#ffffff"
+         id="path604"
+         stroke="none" />
+    </g>
+    <g
+       id="g610"
+       transform="translate(-94,-118)">
+      <path
+         d="m 431.375,631.5 c 0,-19.67515 15.94985,-35.625 35.625,-35.625 19.67515,0 35.625,15.94985 35.625,35.625 0,19.67515 -15.94985,35.625 -35.625,35.625 -19.67515,0 -35.625,-15.94985 -35.625,-35.625 z"
+         fill="none"
+         id="path608"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g614"
+       transform="translate(-94,-118)">
+      <path
+         d="M 467,595.875 478.875,584"
+         fill="none"
+         id="path612"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g618"
+       transform="translate(-94,-118)">
+      <path
+         d="m 467,595.875 11.875,11.875"
+         fill="none"
+         id="path616"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g622"
+       transform="translate(-94,-118)">
+      <path
+         d="M 355,704 H 579"
+         fill="none"
+         id="path620"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g626"
+       transform="translate(-94,-118)">
+      <path
+         d="M 355,729 H 579"
+         fill="none"
+         id="path624"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g634"
+       transform="translate(-94,-118)">
+      <g
+         id="g632">
+        <path
+           d=""
+           fill="none"
+           id="path628"
+           stroke="none" />
+        <text
+           fill="#000000"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="bold"
+           id="text630"
+           stroke="none"
+           style="text-decoration:none;text-decoration-line:none"
+           text-decoration="none"
+           x="409.9187"
+           y="698.5">SubscribeController</text>
+      </g>
+    </g>
+    <g
+       id="g642"
+       transform="translate(-94,-118)">
+      <g
+         id="g640">
+        <path
+           d=""
+           fill="none"
+           id="path636"
+           stroke="none" />
+        <text
+           fill="#000000"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           id="text638"
+           stroke="none"
+           style="text-decoration:none;text-decoration-line:none"
+           text-decoration="none"
+           x="360"
+           y="723.5">+reviewService: ReviewService</text>
+      </g>
+    </g>
+    <g
+       id="g650"
+       transform="translate(-94,-118)">
+      <g
+         id="g648">
+        <path
+           d=""
+           fill="none"
+           id="path644"
+           stroke="none" />
+        <text
+           fill="#000000"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           id="text646"
+           stroke="none"
+           style="text-decoration:none;text-decoration-line:none"
+           text-decoration="none"
+           x="360"
+           y="746.5">+getSubscribeList()</text>
+      </g>
+    </g>
+    <g
+       id="g654"
+       transform="translate(-94,-118)">
+      <path
+         d="M 579,671 H 699"
+         fill="none"
+         id="path652"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g658"
+       transform="translate(-94,-118)">
+      <path
+         d="M 688.83733,675.20952 699,671 688.83733,666.79048"
+         fill="none"
+         id="path656"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g662"
+       transform="translate(-94,-118)">
+      <rect
+         fill="#c0c0c0"
+         height="115"
+         id="rect660"
+         opacity="0.2"
+         stroke="none"
+         width="205"
+         x="367"
+         y="1047" />
+    </g>
+    <g
+       id="g666"
+       transform="translate(-94,-118)">
+      <rect
+         fill="#ffffff"
+         height="115"
+         id="rect664"
+         stroke="none"
+         width="205"
+         x="360"
+         y="1040" />
+    </g>
+    <g
+       id="g670"
+       transform="translate(-94,-118)">
+      <path
+         d="m 360,1040 h 205 v 115 H 360 Z"
+         fill="none"
+         id="path668"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g674"
+       transform="translate(-94,-118)">
+      <path
+         d="M 360,1065 H 565"
+         fill="none"
+         id="path672"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g678"
+       transform="translate(-94,-118)">
+      <path
+         d="M 360,1133 H 565"
+         fill="none"
+         id="path676"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g686"
+       transform="translate(-94,-118)">
+      <g
+         id="g684">
+        <path
+           d=""
+           fill="none"
+           id="path680"
+           stroke="none" />
+        <text
+           fill="#000000"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="bold"
+           id="text682"
+           stroke="none"
+           style="text-decoration:none;text-decoration-line:none"
+           text-decoration="none"
+           x="433.59595"
+           y="1059.5">Subscribe</text>
+      </g>
+    </g>
+    <g
+       id="g694"
+       transform="translate(-94,-118)">
+      <g
+         id="g692">
+        <path
+           d=""
+           fill="none"
+           id="path688"
+           stroke="none" />
+        <text
+           fill="#000000"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           id="text690"
+           stroke="none"
+           style="text-decoration:none;text-decoration-line:none"
+           text-decoration="none"
+           x="365"
+           y="1082.5">+subscribeNo: int</text>
+      </g>
+    </g>
+    <g
+       id="g702"
+       transform="translate(-94,-118)">
+      <g
+         id="g700">
+        <path
+           d=""
+           fill="none"
+           id="path696"
+           stroke="none" />
+        <text
+           fill="#000000"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           id="text698"
+           stroke="none"
+           style="text-decoration:none;text-decoration-line:none"
+           text-decoration="none"
+           x="365"
+           y="1097.5">+subNickname: String</text>
+      </g>
+    </g>
+    <g
+       id="g710"
+       transform="translate(-94,-118)">
+      <g
+         id="g708">
+        <path
+           d=""
+           fill="none"
+           id="path704"
+           stroke="none" />
+        <text
+           fill="#000000"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           id="text706"
+           stroke="none"
+           style="text-decoration:none;text-decoration-line:none"
+           text-decoration="none"
+           x="365"
+           y="1112.5">+subTargetNickname: String</text>
+      </g>
+    </g>
+    <g
+       id="g718"
+       transform="translate(-94,-118)">
+      <g
+         id="g716">
+        <path
+           d=""
+           fill="none"
+           id="path712"
+           stroke="none" />
+        <text
+           fill="#000000"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           id="text714"
+           stroke="none"
+           style="text-decoration:none;text-decoration-line:none"
+           text-decoration="none"
+           x="365"
+           y="1127.5">+subscribeDate: Date</text>
+      </g>
+    </g>
+    <g
+       id="g726"
+       transform="translate(-94,-118)">
+      <g
+         id="g724">
+        <path
+           d=""
+           fill="none"
+           id="path720"
+           stroke="none" />
+        <text
+           fill="#000000"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           id="text722"
+           stroke="none"
+           style="text-decoration:none;text-decoration-line:none"
+           text-decoration="none"
+           x="365"
+           y="1150.5">+toString()</text>
+      </g>
+    </g>
+    <g
+       id="g730"
+       transform="translate(-94,-118)">
+      <rect
+         fill="#c0c0c0"
+         height="179"
+         id="rect728"
+         opacity="0.2"
+         stroke="none"
+         width="205"
+         x="706"
+         y="918" />
+    </g>
+    <g
+       id="g734"
+       transform="translate(-94,-118)">
+      <rect
+         fill="#ffffff"
+         height="179"
+         id="rect732"
+         stroke="none"
+         width="205"
+         x="699"
+         y="911" />
+    </g>
+    <g
+       id="g738"
+       transform="translate(-94,-118)">
+      <path
+         d="m 699,911 h 205 v 179 H 699 Z"
+         fill="none"
+         id="path736"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g742"
+       transform="translate(-94,-118)">
+      <path
+         d="M 699,936 H 904"
+         fill="none"
+         id="path740"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g746"
+       transform="translate(-94,-118)">
+      <path
+         d="M 699,959 H 904"
+         fill="none"
+         id="path744"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g754"
+       transform="translate(-94,-118)">
+      <g
+         id="g752">
+        <path
+           d=""
+           fill="none"
+           id="path748"
+           stroke="none" />
+        <text
+           fill="#000000"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="bold"
+           id="text750"
+           stroke="none"
+           style="text-decoration:none;text-decoration-line:none"
+           text-decoration="none"
+           x="738.64233"
+           y="930.5">SubscribeServiceImpl</text>
+      </g>
+    </g>
+    <g
+       id="g762"
+       transform="translate(-94,-118)">
+      <g
+         id="g760">
+        <path
+           d=""
+           fill="none"
+           id="path756"
+           stroke="none" />
+        <text
+           fill="#000000"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           id="text758"
+           stroke="none"
+           style="text-decoration:none;text-decoration-line:none"
+           text-decoration="none"
+           x="704"
+           y="953.5">+subscribeDao: SubscribeDao</text>
+      </g>
+    </g>
+    <g
+       id="g766"
+       transform="translate(-94,-118)">
+      <path
+         d="M 803,911 V 771"
+         fill="none"
+         id="path764"
+         stroke="#000000"
+         stroke-dasharray="3"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g770"
+       transform="translate(-94,-118)">
+      <path
+         d="M 811.41904,791.32535 803,771 l -8.41904,20.32535"
+         fill="#ffffff"
+         id="path768"
+         stroke="none" />
+    </g>
+    <g
+       id="g774"
+       transform="translate(-94,-118)">
+      <path
+         d="M 811.41904,791.32535 803,771 l -8.41904,20.32535 h 16.83808"
+         fill="none"
+         id="path772"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g778"
+       transform="translate(-94,-118)">
+      <rect
+         fill="#c0c0c0"
+         height="179"
+         id="rect776"
+         opacity="0.2"
+         stroke="none"
+         width="205"
+         x="1065"
+         y="918" />
+    </g>
+    <g
+       id="g782"
+       transform="translate(-94,-118)">
+      <rect
+         fill="#ffffff"
+         height="179"
+         id="rect780"
+         stroke="none"
+         width="205"
+         x="1058"
+         y="911" />
+    </g>
+    <g
+       id="g786"
+       transform="translate(-94,-118)">
+      <path
+         d="m 1058,911 h 205 v 179 h -205 z"
+         fill="none"
+         id="path784"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g790"
+       transform="translate(-94,-118)">
+      <path
+         d="m 1058,949 h 205"
+         fill="none"
+         id="path788"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g798"
+       transform="translate(-94,-118)">
+      <g
+         id="g796">
+        <path
+           d=""
+           fill="none"
+           id="path792"
+           stroke="none" />
+        <text
+           fill="#000000"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           id="text794"
+           stroke="none"
+           style="text-decoration:none;text-decoration-line:none"
+           text-decoration="none"
+           x="1128.3396"
+           y="928.5">«interface»</text>
+      </g>
+    </g>
+    <g
+       id="g806"
+       transform="translate(-94,-118)">
+      <g
+         id="g804">
+        <path
+           d=""
+           fill="none"
+           id="path800"
+           stroke="none" />
+        <text
+           fill="#000000"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="bold"
+           id="text802"
+           stroke="none"
+           style="text-decoration:none;text-decoration-line:none"
+           text-decoration="none"
+           x="1119.6719"
+           y="943.5">SubscribeDao</text>
+      </g>
+    </g>
+    <g
+       id="g814"
+       transform="translate(-94,-118)">
+      <g
+         id="g812">
+        <path
+           d=""
+           fill="none"
+           id="path808"
+           stroke="none" />
+        <text
+           fill="#000000"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           id="text810"
+           stroke="none"
+           style="text-decoration:none;text-decoration-line:none"
+           text-decoration="none"
+           x="1063"
+           y="966.5">+addSubscribe()</text>
+      </g>
+    </g>
+    <g
+       id="g822"
+       transform="translate(-94,-118)">
+      <g
+         id="g820">
+        <path
+           d=""
+           fill="none"
+           id="path816"
+           stroke="none" />
+        <text
+           fill="#000000"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           id="text818"
+           stroke="none"
+           style="text-decoration:none;text-decoration-line:none"
+           text-decoration="none"
+           x="1063"
+           y="981.5">+getSubscribeInfoList()</text>
+      </g>
+    </g>
+    <g
+       id="g830"
+       transform="translate(-94,-118)">
+      <g
+         id="g828">
+        <path
+           d=""
+           fill="none"
+           id="path824"
+           stroke="none" />
+        <text
+           fill="#000000"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           id="text826"
+           stroke="none"
+           style="text-decoration:none;text-decoration-line:none"
+           text-decoration="none"
+           x="1063"
+           y="996.5">+deleteSubscribe()</text>
+      </g>
+    </g>
+    <g
+       id="g838"
+       transform="translate(-94,-118)">
+      <g
+         id="g836">
+        <path
+           d=""
+           fill="none"
+           id="path832"
+           stroke="none" />
+        <text
+           fill="#000000"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           id="text834"
+           stroke="none"
+           style="text-decoration:none;text-decoration-line:none"
+           text-decoration="none"
+           x="1063"
+           y="1011.5">+checkSubscribe()</text>
+      </g>
+    </g>
+    <g
+       id="g842"
+       transform="translate(-94,-118)">
+      <rect
+         fill="#c0c0c0"
+         height="179"
+         id="rect840"
+         opacity="0.2"
+         stroke="none"
+         width="205"
+         x="1066"
+         y="1230" />
+    </g>
+    <g
+       id="g846"
+       transform="translate(-94,-118)">
+      <rect
+         fill="#ffffff"
+         height="179"
+         id="rect844"
+         stroke="none"
+         width="205"
+         x="1059"
+         y="1223" />
+    </g>
+    <g
+       id="g850"
+       transform="translate(-94,-118)">
+      <path
+         d="m 1059,1223 h 205 v 179 h -205 z"
+         fill="none"
+         id="path848"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g854"
+       transform="translate(-94,-118)">
+      <path
+         d="m 1059,1248 h 205"
+         fill="none"
+         id="path852"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g858"
+       transform="translate(-94,-118)">
+      <path
+         d="m 1059,1258 h 205"
+         fill="none"
+         id="path856"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g866"
+       transform="translate(-94,-118)">
+      <g
+         id="g864">
+        <path
+           d=""
+           fill="none"
+           id="path860"
+           stroke="none" />
+        <text
+           fill="#000000"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="bold"
+           id="text862"
+           stroke="none"
+           style="text-decoration:none;text-decoration-line:none"
+           text-decoration="none"
+           x="1108.3923"
+           y="1242.5">SubscribeDaoImpl</text>
+      </g>
+    </g>
+    <g
+       id="g870"
+       transform="translate(-94,-118)">
+      <path
+         d="m 904,1000 h 154"
+         fill="none"
+         id="path868"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g874"
+       transform="translate(-94,-118)">
+      <path
+         d="M 1047.8373,1004.2095 1058,1000 l -10.1627,-4.20952"
+         fill="none"
+         id="path872"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g878"
+       transform="translate(-94,-118)">
+      <path
+         d="M 1160,1223 V 1090"
+         fill="none"
+         id="path876"
+         stroke="#000000"
+         stroke-dasharray="3"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g882"
+       transform="translate(-94,-118)">
+      <path
+         d="M 1168.419,1110.3253 1160,1090 l -8.419,20.3253"
+         fill="#ffffff"
+         id="path880"
+         stroke="none" />
+    </g>
+    <g
+       id="g886"
+       transform="translate(-94,-118)">
+      <path
+         d="M 1168.419,1110.3253 1160,1090 l -8.419,20.3253 h 16.838"
+         fill="none"
+         id="path884"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g890"
+       transform="translate(-94,-118)">
+      <path
+         d="m 141.7,411 c 0,-18.9986 15.4014,-34.4 34.4,-34.4 18.9986,0 34.4,15.4014 34.4,34.4 0,18.9986 -15.4014,34.4 -34.4,34.4 -18.9986,0 -34.4,-15.4014 -34.4,-34.4 z"
+         fill="#ffffff"
+         id="path888"
+         stroke="none" />
+    </g>
+    <g
+       id="g894"
+       transform="translate(-94,-118)">
+      <path
+         d="m 141.7,411 c 0,-18.9986 15.4014,-34.4 34.4,-34.4 18.9986,0 34.4,15.4014 34.4,34.4 0,18.9986 -15.4014,34.4 -34.4,34.4 -18.9986,0 -34.4,-15.4014 -34.4,-34.4 z"
+         fill="none"
+         id="path892"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g898"
+       transform="translate(-94,-118)">
+      <path
+         d="m 124.5,376.6 v 68.8"
+         fill="none"
+         id="path896"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g902"
+       transform="translate(-94,-118)">
+      <path
+         d="m 124.5,411 h 17.2"
+         fill="none"
+         id="path900"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g910"
+       transform="translate(-94,-118)">
+      <g
+         id="g908">
+        <path
+           d=""
+           fill="none"
+           id="path904"
+           stroke="none" />
+        <text
+           fill="#000000"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="bold"
+           id="text906"
+           stroke="none"
+           style="text-decoration:none;text-decoration-line:none"
+           text-decoration="none"
+           x="120.53687"
+           y="473.5">listSubscribe.jsp</text>
+      </g>
+    </g>
+    <g
+       id="g914"
+       transform="translate(-94,-118)">
+      <path
+         d="M 232,476 363,583"
+         fill="none"
+         id="path912"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g918"
+       transform="translate(-94,-118)">
+      <path
+         d="m 434,172 c 0,-18.2254 14.7746,-33 33,-33 18.2254,0 33,14.7746 33,33 0,18.2254 -14.7746,33 -33,33 -18.2254,0 -33,-14.7746 -33,-33 z"
+         fill="#ffffff"
+         id="path916"
+         stroke="none" />
+    </g>
+    <g
+       id="g922"
+       transform="translate(-94,-118)">
+      <path
+         d="m 434,172 c 0,-18.2254 14.7746,-33 33,-33 18.2254,0 33,14.7746 33,33 0,18.2254 -14.7746,33 -33,33 -18.2254,0 -33,-14.7746 -33,-33 z"
+         fill="none"
+         id="path920"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g926"
+       transform="translate(-94,-118)">
+      <path
+         d="m 467,139 11,-11"
+         fill="none"
+         id="path924"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g930"
+       transform="translate(-94,-118)">
+      <path
+         d="m 467,139 11,11"
+         fill="none"
+         id="path928"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g934"
+       transform="translate(-94,-118)">
+      <path
+         d="M 355,241 H 579"
+         fill="none"
+         id="path932"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g938"
+       transform="translate(-94,-118)">
+      <path
+         d="M 355,279 H 579"
+         fill="none"
+         id="path936"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+    <g
+       id="g946"
+       transform="translate(-94,-118)">
+      <g
+         id="g944">
+        <path
+           d=""
+           fill="none"
+           id="path940"
+           stroke="none" />
+        <text
+           fill="#000000"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="bold"
+           id="text942"
+           stroke="none"
+           style="text-decoration:none;text-decoration-line:none"
+           text-decoration="none"
+           x="396.55371"
+           y="235.5">SubscribeRestController</text>
+      </g>
+    </g>
+    <g
+       id="g954"
+       transform="translate(-94,-118)">
+      <g
+         id="g952">
+        <path
+           d=""
+           fill="none"
+           id="path948"
+           stroke="none" />
+        <text
+           fill="#000000"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           id="text950"
+           stroke="none"
+           style="text-decoration:none;text-decoration-line:none"
+           text-decoration="none"
+           x="360"
+           y="258.5">+subscribeService: SubscribeService</text>
+      </g>
+    </g>
+    <g
+       id="g962"
+       transform="translate(-94,-118)">
+      <g
+         id="g960">
+        <path
+           d=""
+           fill="none"
+           id="path956"
+           stroke="none" />
+        <text
+           fill="#000000"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           id="text958"
+           stroke="none"
+           style="text-decoration:none;text-decoration-line:none"
+           text-decoration="none"
+           x="360"
+           y="273.5">+diaryService: DiaryService</text>
+      </g>
+    </g>
+    <g
+       id="g970"
+       transform="translate(-94,-118)">
+      <g
+         id="g968">
+        <path
+           d=""
+           fill="none"
+           id="path964"
+           stroke="none" />
+        <text
+           fill="#000000"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           id="text966"
+           stroke="none"
+           style="text-decoration:none;text-decoration-line:none"
+           text-decoration="none"
+           x="360"
+           y="296.5">+addSubscribe()</text>
+      </g>
+    </g>
+    <g
+       id="g978"
+       transform="translate(-94,-118)">
+      <g
+         id="g976">
+        <path
+           d=""
+           fill="none"
+           id="path972"
+           stroke="none" />
+        <text
+           fill="#000000"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           id="text974"
+           stroke="none"
+           style="text-decoration:none;text-decoration-line:none"
+           text-decoration="none"
+           x="360"
+           y="311.5">+deleteSubscribe()</text>
+      </g>
+    </g>
+    <g
+       id="g986"
+       transform="translate(-94,-118)">
+      <g
+         id="g984">
+        <path
+           d=""
+           fill="none"
+           id="path980"
+           stroke="none" />
+        <text
+           fill="#000000"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           id="text982"
+           stroke="none"
+           style="text-decoration:none;text-decoration-line:none"
+           text-decoration="none"
+           x="360"
+           y="326.5">+checkSubscribe()</text>
+      </g>
+    </g>
+    <g
+       id="g994"
+       transform="translate(-94,-118)">
+      <g
+         id="g992">
+        <path
+           d=""
+           fill="none"
+           id="path988"
+           stroke="none" />
+        <text
+           fill="#000000"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           id="text990"
+           stroke="none"
+           style="text-decoration:none;text-decoration-line:none"
+           text-decoration="none"
+           x="360"
+           y="341.5">+getSubscribeList()</text>
+      </g>
+    </g>
+    <g
+       id="g998"
+       transform="translate(-94,-118)">
+      <path
+         d="M 232,383 354,307"
+         fill="none"
+         id="path996"
+         stroke="#000000"
+         stroke-miterlimit="10" />
+    </g>
+  </g>
+  <g
+     id="g306-6"
+     transform="translate(-234.14537,197.17907)">
+    <g
+       id="g256"
+       transform="translate(78,-22)">
+      <rect
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.3393;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1020-8"
+         width="84.49987"
+         height="24.913252"
+         x="649.30939"
+         y="45.10849" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:22.0366px;line-height:1.25;font-family:'Arita-buri(OTF)';-inkscape-font-specification:'Arita-buri(OTF), Semi-Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.550915;stroke-opacity:1"
+         x="650.60431"
+         y="65.299454"
+         id="text1869-0"><tspan
+           sodipodi:role="line"
+           x="650.60431"
+           y="65.299454"
+           id="tspan1871-7"
+           style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:22.0366px;font-family:'Arita-buri(OTF)';-inkscape-font-specification:'Arita-buri(OTF), Semi-Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.550915;stroke-opacity:1">구독관리</tspan></text>
+    </g>
+  </g>
+</svg>
