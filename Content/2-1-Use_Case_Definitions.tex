@@ -1,76 +1,102 @@
-% \par\
+\par\
 
-% \begin{table}
-%     \centering
-%     \arrayrulecolor{black}
-%     \begin{tabular}{!{\color{black}\vrule}l!{\color{black}\vrule}lll!{\color{black}\vrule}lll!{\color{black}\vrule}} 
-%     \hline
-%     \multicolumn{7}{!{\color{black}\vrule}l!{\color{black}\vrule}}{{\cellcolor{yellow}}USE CASE DESCRIPTION} \\ 
-%     \hline
-%     \multirow{2}{*}{USE CASE 명} & \multicolumn{1}{l!{\color{black}\vrule}}{\multirow{2}{*}{회원가입}} & \multicolumn{1}{l!{\color{black}\vrule}}{작성일} & \multicolumn{2}{l!{\color{black}\vrule}}{2020.12.23} & \multicolumn{1}{l!{\color{black}\vrule}}{작성자} & 김채경 \\ 
-%     \cline{3-7}
-%      & \multicolumn{1}{l!{\color{black}\vrule}}{} & \multicolumn{1}{l!{\color{black}\vrule}}{ACTOR명} & \multicolumn{1}{l}{비회원} & \multicolumn{1}{l!{\color{black}\vrule}}{} & \multicolumn{1}{l!{\color{black}\vrule}}{UC No} & UC01 \\ 
-%     \hline
-%     \multicolumn{1}{!{\color{black}\vrule}l}{} &  &  & \multicolumn{1}{l}{} &  &  &  \\
-%     \multicolumn{1}{!{\color{black}\vrule}l}{■ 목 적~} &  &  & \multicolumn{1}{l}{} &  &  &  \\
-%     \multicolumn{1}{!{\color{black}\vrule}l}{} & \multicolumn{5}{l}{비회원이 회원가입을 한다.} &  \\
-%     \multicolumn{1}{!{\color{black}\vrule}l}{■ 선행조건} &  &  & \multicolumn{1}{l}{} &  &  &  \\
-%     \multicolumn{1}{!{\color{black}\vrule}l}{} & \multicolumn{4}{l}{비로그인 상태이며 사이트의 회원이 아니다.} &  &  \\
-%     \multicolumn{1}{!{\color{black}\vrule}l}{■ 완료조건} &  &  & \multicolumn{1}{l}{} &  &  &  \\
-%     \multicolumn{1}{!{\color{black}\vrule}l}{} &  &  & \multicolumn{1}{l}{} &  &  &  \\
-%     \multicolumn{1}{!{\color{black}\vrule}l}{■ 설명} &  &  & \multicolumn{1}{l}{} &  &  &  \\
-%     \multicolumn{1}{!{\color{black}\vrule}l}{} & \multicolumn{6}{l!{\color{black}\vrule}}{Google, Kakao, Naver 계정으로 회원가입하거나 사이트 내에서 제공하는 회원가입 절차를 거친 후 회원등록이 된다. 자사회원가입절차는 문자본인인증, 개인정보입력, 이메일인증 순으로 진행된다. 자사회원가입으로 절차진행시 계정은 휴대전화번호 당 1개만 생성 가능하다.} \\
-%     \multicolumn{1}{!{\color{black}\vrule}l}{■ 유형} &  &  & \multicolumn{1}{l}{} &  &  &  \\
-%     \multicolumn{1}{!{\color{black}\vrule}l}{} & 필수 &  & \multicolumn{1}{l}{} &  &  &  \\
-%     \multicolumn{1}{!{\color{black}\vrule}l}{■ 흐름} &  &  & \multicolumn{1}{l}{} &  &  &  \\ 
-%     \cline{1-1}\arrayrulecolor{black}\cline{2-6}\arrayrulecolor{black}\cline{7-7}
-%     번호 & \multicolumn{3}{l!{\color{black}\vrule}}{Actor} & \multicolumn{3}{l!{\color{black}\vrule}}{System} \\ 
-%     \hline
-%     M01 & 회원가입을 요청한다. &  &  &  &  &  \\ 
-%     \cline{1-2}\arrayrulecolor{black}\cline{3-3}\arrayrulecolor{black}\cline{4-5}\arrayrulecolor{black}\cline{6-6}\arrayrulecolor{black}\cline{7-7}
-%     M02 &  &  &  & \multicolumn{3}{l!{\color{black}\vrule}}{자사 사이트가입/소셜 로그인[Google, Kakao, Naver] 중 선택할 수 있는 회원가입 페이지를 출력한다.} \\ 
-%     \cline{1-2}\arrayrulecolor{black}\cline{3-3}\arrayrulecolor{black}\cline{4-7}
-%     M03 & \multicolumn{3}{l!{\color{black}\vrule}}{사이트 내 회원가입 절차를 요청한다.} &  &  &  \\ 
-%     \cline{1-5}\arrayrulecolor{black}\cline{6-6}\arrayrulecolor{black}\cline{7-7}
-%     M04 & \multicolumn{3}{l!{\color{black}\vrule}}{Google, Kakao, Naver 계정으로 회원가입 절차를 요청한다.(A01)} &  &  &  \\ 
-%     \cline{1-5}\arrayrulecolor{black}\cline{6-6}\arrayrulecolor{black}\cline{7-7}
-%     M05 &  &  &  & \multicolumn{3}{l!{\color{black}\vrule}}{SMS인증을 위한 전화번호입력 창을 출력한다.(UC04)} \\ 
-%     \cline{1-2}\arrayrulecolor{black}\cline{3-3}\arrayrulecolor{black}\cline{4-7}
-%     M08 & \multicolumn{3}{l!{\color{black}\vrule}}{문자인증을 통해 본인인증을 한다.} &  &  &  \\ 
-%     \cline{1-5}\arrayrulecolor{black}\cline{6-6}\arrayrulecolor{black}\cline{7-7}
-%     M09 &  &  &  & \multicolumn{3}{l!{\color{black}\vrule}}{개인정보 입력 페이지를 출력한다.(필수:e-mail, 비밀번호, 닉네임, 이름, 핸드폰 번호 선택:거주지(국가, 도시), 관심 여행지역(국가, 도시), 생년월일, 프로필사진(1개))} \\ 
-%     \cline{1-2}\arrayrulecolor{black}\cline{3-3}\arrayrulecolor{black}\cline{4-7}
-%     M10 & 개인정보를 입력한다. &  &  &  &  &  \\ 
-%     \cline{1-2}\arrayrulecolor{black}\cline{3-3}\arrayrulecolor{black}\cline{4-5}\arrayrulecolor{black}\cline{6-6}\arrayrulecolor{black}\cline{7-7}
-%     M11 &  &  &  & \multicolumn{3}{l!{\color{black}\vrule}}{{[}필수 입력정보를 입력하지 않은 경우](E01)} \\ 
-%     \cline{1-2}\arrayrulecolor{black}\cline{3-3}\arrayrulecolor{black}\cline{4-7}
-%     M12 &  &  &  & \multicolumn{3}{l!{\color{black}\vrule}}{자사 사이트의 회원 식별자인 이메일과 닉네임 중복체크를 진행한다.(UC03)} \\ 
-%     \cline{1-2}\arrayrulecolor{black}\cline{3-3}\arrayrulecolor{black}\cline{4-7}
-%     M13 &  &  &  & \multicolumn{3}{l!{\color{black}\vrule}}{본인의 e-mail이 맞는지 확인하는 인증 메일을 송신한다.(UC02)} \\ 
-%     \cline{1-2}\arrayrulecolor{black}\cline{3-3}\arrayrulecolor{black}\cline{4-7}
-%     M14 & 이메일인증을 통해 본인인증을 한다. &  &  &  &  &  \\ 
-%     \cline{1-2}\arrayrulecolor{black}\cline{3-3}\arrayrulecolor{black}\cline{4-5}\arrayrulecolor{black}\cline{6-6}\arrayrulecolor{black}\cline{7-7}
-%     M15 &  &  &  & 회원 가입 완료 페이지를 출력한다.(END) &  &  \\ 
-%     \cline{1-2}\arrayrulecolor{black}\cline{3-3}\arrayrulecolor{black}\cline{4-5}\arrayrulecolor{black}\cline{6-6}\arrayrulecolor{black}\cline{7-7}
-%     A01 &  &  &  & \multicolumn{2}{l}{{[}이미 등록 된 계정 일 경우](E02)} &  \\ 
-%     \cline{1-2}\arrayrulecolor{black}\cline{3-3}\arrayrulecolor{black}\cline{4-7}
-%     A02 &  &  &  & \multicolumn{3}{l!{\color{black}\vrule}}{계정연동 동의 체크화면을 출력한다.} \\ 
-%     \cline{1-2}\arrayrulecolor{black}\cline{3-3}\arrayrulecolor{black}\cline{4-7}
-%     A03 & 사용자가 계정연동약관에 동의한다. &  &  &  &  &  \\ 
-%     \cline{1-2}\arrayrulecolor{black}\cline{3-3}\arrayrulecolor{black}\cline{4-5}\arrayrulecolor{black}\cline{6-6}\arrayrulecolor{black}\cline{7-7}
-%     A04 &  &  &  & \multicolumn{3}{l!{\color{black}\vrule}}{자사 사이트의 추가적인 입력정보 창을 출력한다(거주지, 관심 여행지역)} \\ 
-%     \cline{1-2}\arrayrulecolor{black}\cline{3-3}\arrayrulecolor{black}\cline{4-7}
-%     A05 & 추가 입력정보 절차를 완료한다. &  &  &  &  &  \\ 
-%     \cline{1-2}\arrayrulecolor{black}\cline{3-3}\arrayrulecolor{black}\cline{4-5}\arrayrulecolor{black}\cline{6-6}\arrayrulecolor{black}\cline{7-7}
-%     A06 &  &  &  & M15(END) &  &  \\ 
-%     \cline{1-2}\arrayrulecolor{black}\cline{3-3}\arrayrulecolor{black}\cline{4-5}\arrayrulecolor{black}\cline{6-6}\arrayrulecolor{black}\cline{7-7}
-%     E01 &  &  &  & \multicolumn{3}{l!{\color{black}\vrule}}{필수 입력정보를 입력하라는 안내창이 출력된다.(M10)} \\ 
-%     \cline{1-2}\arrayrulecolor{black}\cline{3-3}\arrayrulecolor{black}\cline{4-7}
-%     E02 &  &  &  & \multicolumn{3}{l!{\color{black}\vrule}}{이미 등록된 계정임을 알리는 안내창이 출력된다.(A02)} \\
-%     \cline{1-2}\arrayrulecolor{black}\cline{3-3}\arrayrulecolor{black}\cline{4-7}
-%     \end{tabular}
-%     \arrayrulecolor{black}
-% \end{table}
+\arrayrulecolor{black}
+\begin{longtable}
+    {
+        |>{\centering\hspace{0pt}}m{0.100\linewidth}
+        |>{\hspace{0pt}}m{0.100\linewidth}
+        >{\hspace{0pt}}m{0.100\linewidth}
+        >{\hspace{0pt}}m{0.050\linewidth}
+        >{\hspace{0pt}}m{0.100\linewidth}
+        >{\hspace{0pt}}m{0.100\linewidth}
+        >{\hspace{0pt}}m{0.100\linewidth}|} 
+    \hline
+    \multicolumn{7}{|c|}{\cellcolor{yellow}{\large\textbf{USE CASE DESCRIPTION}}} \\
+    \hline
+    \multirow{2}[0]{=}{\Centering{}USE CASE 명}
+    & \multicolumn{1}{>{\Centering\hspace{0pt}}m{0.100\linewidth}|}
+    {\multirow{2}[0]{=}{\Centering{}회원가입}}
+    % {\multirow{2}{0.100\linewidth}{\hspace{0pt}\Centering{}회원가입}} 
+    & \multicolumn{1}{c|}{작성일} 
+    & \multicolumn{2}{c|}{2020.12.23} 
+    & \multicolumn{1}{c|}{작성자} 
+    & \multicolumn{1}{c|}{김채경} \\* 
+    \hline    
+    % \hhline{|>}{|~|~|-|-|-|-|-|-|-|}
+    & \multicolumn{1}{c|}{} 
+    & \multicolumn{1}{c|}{ACTOR명} 
+    & \multicolumn{2}{c|}{비회원} 
+    & \multicolumn{1}{c|}{UC No} 
+    & \multicolumn{1}{c|}{UC01} \endfirsthead 
+    \hline
+    \multicolumn{1}{|>{\hspace{0pt}}m{0.100\linewidth}}{} &  &  &  &  &  &  \\
+    \multicolumn{1}{|>{\hspace{0pt}}m{0.100\linewidth}}{■ 목 적} &  &  &  &  &  &  \\
+    \multicolumn{1}{|>{\hspace{0pt}}m{0.100\linewidth}}{} 
+    & \multicolumn{6}{
+        >{\hspace{0pt}}m{0.550\linewidth}|}{비회원이 회원가입을 한다.} \\
+    \multicolumn{1}{|>{\hspace{0pt}}m{0.100\linewidth}}{■ 선행조건} &  &  &  &  &  &  \\
+    \multicolumn{1}{|>{\hspace{0pt}}m{0.100\linewidth}}{} 
+    & \multicolumn{6}{
+        >{\hspace{0pt}}m{0.550\linewidth}|}{비로그인 상태이며 사이트의 회원이 아니다.} \\
+    \multicolumn{1}{|>{\hspace{0pt}}m{0.100\linewidth}}{■ 완료조건} &  &  &  &  &  &  \\
+    \multicolumn{1}{|>{\hspace{0pt}}m{0.100\linewidth}}{} 
+    & \multicolumn{6}{
+        >{\hspace{0pt}}m{0.550\linewidth}|}{} \\
+    \multicolumn{1}{|>{\hspace{0pt}}m{0.100\linewidth}}{■ 설명} &  &  &  &  &  &  \\
+    \multicolumn{1}{|>{\hspace{0pt}}m{0.100\linewidth}}{} 
+    & \multicolumn{6}{
+        >{\hspace{0pt}}m{0.550\linewidth}|}{Google, Kakao, Naver 계정으로 회원가입하거나 사이트 내에서 제공하는 회원가입 절차를 거친 후 회원등록이 된다. 자사회원가입절차는 문자본인인증, 개인정보입력, 이메일인증 순으로 진행된다. 자사회원가입으로 절차진행시 계정은 휴대전화번호 당 1개만 생성 가능하다.} \\
+    \multicolumn{1}{|>{\hspace{0pt}}m{0.100\linewidth}}{■ 유형} &  &  &  &  &  &  \\
+    \multicolumn{1}{|>{\hspace{0pt}}m{0.100\linewidth}}{} & 필수 &  &  &  &  &  \\
+    \multicolumn{1}{|>{\hspace{0pt}}m{0.100\linewidth}}{■ 흐름} &  &  &  &  &  &  \\ 
+    \hline
+    % 번호 & \multicolumn{3}{>{\Centering\hspace{0pt}}m{0.257\linewidth}|}{Actor} & \multicolumn{3}{>{\Centering\hspace{0pt}}m{0.629\linewidth}|}{System} \\ 
+    % \hline
+    % M01 & \multicolumn{1}{>{\hspace{0pt}}m{0.100\linewidth}|}{회원가입을 요청한다.} &  &  &  &  &  \\ 
+    % \hline
+    % M02 &  &  &  & \multicolumn{3}{>{\hspace{0pt}}m{0.629\linewidth}|}{자사 사이트가입/소셜 로그인[Google, Kakao, Naver] 중 선택할 수 있는 회원가입 페이지를 출력한다.} \\ 
+    % \hline
+    % M03 & \multicolumn{3}{>{\hspace{0pt}}m{0.257\linewidth}|}{사이트 내 회원가입 절차를 요청한다.} &  &  &  \\ 
+    % \hline
+    % M04 & \multicolumn{3}{>{\hspace{0pt}}m{0.257\linewidth}|}{Google, Kakao, Naver 계정으로 회원가입 절차를 요청한다.(A01)} &  &  &  \\ 
+    % \hline
+    % M05 &  &  &  & \multicolumn{3}{>{\hspace{0pt}}m{0.629\linewidth}|}{SMS인증을 위한 전화번호입력 창을 출력한다.(UC04)} \\ 
+    % \hline
+    % M08 & \multicolumn{3}{>{\hspace{0pt}}m{0.257\linewidth}|}{문자인증을 통해 본인인증을 한다.} &  &  &  \\ 
+    % \hline
+    % M09 &  &  &  & \multicolumn{3}{>{\hspace{0pt}}m{0.629\linewidth}|}{개인정보 입력 페이지를 출력한다.(필수:e-mail, 비밀번호, 닉네임, 이름, 핸드폰 번호 선택:거주지(국가, 도시), 관심 여행지역(국가, 도시), 생년월일, 프로필사진(1개))} \\ 
+    % \hline
+    % M10 & \multicolumn{1}{>{\hspace{0pt}}m{0.100\linewidth}|}{개인정보를 입력한다.} &  &  &  &  &  \\ 
+    % \hline
+    % M11 &  &  &  & \multicolumn{3}{>{\hspace{0pt}}m{0.629\linewidth}|}{{[}필수 입력정보를 입력하지 않은 경우](E01)} \\ 
+    % \hline
+    % M12 &  &  &  & \multicolumn{3}{>{\hspace{0pt}}m{0.629\linewidth}|}{자사 사이트의 회원 식별자인 이메일과 닉네임 중복체크를 진행한다.(UC03)} \\ 
+    % \hline
+    % M13 &  &  &  & \multicolumn{3}{>{\hspace{0pt}}m{0.629\linewidth}|}{본인의 e-mail이 맞는지 확인하는 인증 메일을 송신한다.(UC02)} \\ 
+    % \hline
+    % M14 & \multicolumn{1}{>{\hspace{0pt}}m{0.100\linewidth}|}{이메일인증을 통해 본인인증을 한다.} & \multicolumn{1}{>{\hspace{0pt}}m{0.050\linewidth}|}{} &  &  &  &  \\ 
+    % \hline
+    % M15 &  &  &  & \multicolumn{1}{>{\hspace{0pt}}m{0.400\linewidth}|}{회원 가입 완료 페이지를 출력한다.(END)} & \multicolumn{1}{>{\hspace{0pt}}m{0.080\linewidth}|}{} &  \\ 
+    % \hline
+    % A01 &  &  &  & \multicolumn{1}{>{\hspace{0pt}}m{0.400\linewidth}|}{{[}이미 등록 된 계정 일 경우](E02)} & \multicolumn{1}{>{\hspace{0pt}}m{0.080\linewidth}|}{} &  \\ 
+    % \hline
+    % A02 &  &  &  & \multicolumn{3}{>{\hspace{0pt}}m{0.629\linewidth}|}{계정연동 동의 체크화면을 출력한다.} \\ 
+    % \hline
+    % A03 & \multicolumn{1}{>{\hspace{0pt}}m{0.100\linewidth}|}{사용자가 계정연동약관에 동의한다.} & \multicolumn{1}{>{\hspace{0pt}}m{0.050\linewidth}|}{} &  &  &  &  \\ 
+    % \hline
+    % A04 &  &  &  & \multicolumn{3}{>{\hspace{0pt}}m{0.629\linewidth}|}{자사 사이트의 추가적인 입력정보 창을 출력한다(거주지, 관심 여행지역)} \\ 
+    % \hline
+    % A05 & \multicolumn{1}{>{\hspace{0pt}}m{0.100\linewidth}|}{추가 입력정보 절차를 완료한다.} & \multicolumn{1}{>{\hspace{0pt}}m{0.050\linewidth}|}{} &  &  &  &  \\ 
+    % \hline
+    % A06 &  &  &  & M15(END) &  &  \\ 
+    % \hline
+    % E01 &  &  &  & \multicolumn{3}{>{\hspace{0pt}}m{0.629\linewidth}|}{필수 입력정보를 입력하라는 안내창이 출력된다.(M10)} \\ 
+    % \hline
+    % E02 &  &  &  & \multicolumn{3}{>{\hspace{0pt}}m{0.629\linewidth}|}{이미 등록된 계정임을 알리는 안내창이 출력된다.(A02)} \\
+    \hline
+\end{longtable}
+\arrayrulecolor{black}
 
-% \par\
-% \newpage
+
+\par\
+\newpage
