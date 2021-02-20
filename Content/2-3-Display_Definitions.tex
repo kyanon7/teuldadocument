@@ -910,33 +910,27 @@
     \hline
     \rowcolor{maize} 항목명(한글) & 컨트롤(영문) & 필수 & 수정여부 & \centering{설명} & \centering{비고/제약사항} \endhead 
     \hline
-    아이디 & userId & Y & N & 사용자 아이디(이메일) 출력 & 소셜 로그인 시 입력 불가 \\ 
+    비밀번호 & password & Y & Y & 사용자 비밀번호 입력 & 6자 이상 입력, 소셜로그인 시 입력불가 \\
     \hline
-    이름 & userName & Y & Y & 사용자 이름 출력 & 특수문자 사용 불가 \\ 
+    휴대전화번호 & userPhone & Y & Y & 사용자 휴대전화번호 입력 & 숫자만 입력 가능 \\ 
     \hline
-    닉네임 & userNick & Y & N & 사용자 닉네임 출력 & 특수문자 사용 불가 \\ 
+    생년월일 & birthday & Y & Y & 사용자 생년월일 입력 &  \\ 
     \hline
-    생년월일 & birthday & Y & Y & 사용자 생년월일 출력 &  \\ 
+    거주지 & resi & Y & Y & 사용자 거주지 입력 &  \\ 
     \hline
-    거주지 & resi & Y & Y & 사용자 거주지 출력 &  \\ 
+    관심 여행지역 & interest & Y & Y & 사용자 관심지역 입력 &  \\ 
     \hline
-    관심 여행지역 & interest & Y & Y & 사용자 관심지역 출력 &  \\ 
+    프로필 사진 & myPhoto & Y & Y & 사용자 프로필사진 업로드 &  \\ 
     \hline
-    프로필 사진 & myPhoto & Y & Y & 사용자 프로필사진 출력 &  \\ 
+    인증번호 & conNumber & Y & Y & 전화번호 변경 시 본인 핸드폰번호 인증~ & ~세션시간 5분 제공 \\ 
     \hline
-    프로필 공개 여부 & openPro & N & Y & 해당 계정을 다른 사용자에 공개 할 지 여부 &  \\ 
+    프로필 공개 여부 & openPro & N & Y & 해당 계정을 다른 사용자에 공개 할 지 여부 결정 &  \\ 
     \hline
-    구독자 목록 & subscribeList & N & Y & 사용자가 구독하는 목록 출력 &  \\ 
+    계정 상태 & status & Y & N & 활성화, 정지, 휴면 세가지 상태로 구분 & Hidden,계정 생성시 '활성화' default \\ 
     \hline
-    도장 id & stampId & N & N & 랜드마크 방문 인증시 얻은 도장을 식별하기 위한 id &  \\ 
+    계정 상태 변경일 & statusDate & Y & N & 계정 상태가 정지, 혹은 휴면상태로 바뀌었을 때 각 상태에 따른 조치 자동화를 위한 데이터 & Hidden,정지 상태에서 2주 경과시 자동 활성화 휴면상태에서 1달 이내로 접속 시 자동 활성화, 그렇지 않을 경우 데이터 삭제 \\ 
     \hline
-    도장 이름 & stamp & N & N & 랜드마크 방문 인증 시 도장이 하나씩 추가 &  \\ 
-    \hline
-    계정 상태 & status & Y & N & 활성화, 정지, 휴면 세가지 상태로 구분 & Hidden,계정 생성시 `활성화' default \\ 
-    \hline
-    계정 상태 변경일 & statusDate & Y & N & 계정 상태가 정지, 혹은 휴면상태로 바뀌었을 때 각 상태에 따른 조치 자동화를 위한 데이터 & Hidden,정지 상태에서 2주 경과시 자동 활성화휴면상태에서 1달 이내로 접속 시 자동 활성화, 그렇지 않을 경우 데이터 삭제 \\ 
-    \hline
-    역할 & role & Y & N & 사용자의 계정 역할 구분 & Hidden, 사용자와 관리자 구분 \\
+    역할 & role & Y & Y & 사용자의 계정 역할 구분 & Hidden, 사용자와 관리자 구분 \\
     \hline
 \end{longtable}
 
@@ -970,90 +964,40 @@
      \arrayrulecolor[rgb]{0.8,0.8,0.8}\cline{2-2}\arrayrulecolor[rgb]{0.8,0.8,0.8}\cline{4-4}
      &  &  &  &  \\* 
     \arrayrulecolor{black}\cline{2-5}
-     & \multicolumn{1}{>{\hspace{0pt}}m{0.140\linewidth}|}{개인프로필 조회 UI} & \multicolumn{1}{>{\hspace{0pt}}m{0.300\linewidth}|}{Path : URI} & 로그인 UI &  \\* 
+     & \multicolumn{1}{>{\hspace{0pt}}m{0.140\linewidth}|}{updateUser.jsp} & \multicolumn{1}{>{\hspace{0pt}}m{0.300\linewidth}|}{Path : /user/updateUser : POST} & updateUser.jsp &  \\* 
      \arrayrulecolor[rgb]{0.8,0.8,0.8}\cline{2-2}\arrayrulecolor{black}\cline{3-3}\arrayrulecolor[rgb]{0.8,0.8,0.8}\cline{4-4}\arrayrulecolor{black}
-     &  & \multicolumn{1}{>{\hspace{0pt}}m{0.300\linewidth}|}{Controller : 회원관리Ctrl} &  &  \\* 
+     &  & \multicolumn{1}{>{\hspace{0pt}}m{0.300\linewidth}|}{Controller : com.teulda.web.user.UserCont
+     roller.updateUser()} &  &  \\* 
     \arrayrulecolor{black}\hline
 
-    \multirow{4}{=}{수정하기.onClick()} & 이메일 & \multirow{2}{=}{정보 입력사항을 수정할 수 있는 개인프로필 수정 UI로 Navigation} &  &  \\* 
+    \multirow{4}{=}{인증하기.onClick()} & 전화번호 & \multirow{2}{=}{미리 입력한 전화번호로 인증번호문자 전송 및 팝업창으로 인증문자전송 안내} &  & \multirow{4.5}{=}{변경하는 전화번호가 본인 전화번호인지 확인하는 절차} \\* 
+     \arrayrulecolor[rgb]{0.8,0.8,0.8}\cline{2-2}\arrayrulecolor[rgb]{0.8,0.8,0.8}\cline{4-4}
+     &  &  &  &  \\* 
+    \arrayrulecolor{black}\cline{2-4}
+     & \multicolumn{1}{>{\hspace{0pt}}m{0.140\linewidth}|}{updateUser.jsp} & \multicolumn{1}{>{\hspace{0pt}}m{0.300\linewidth}|}{Path : /user/updateUser : POST} & updateUser.jsp &  \\* 
+     \arrayrulecolor[rgb]{0.8,0.8,0.8}\cline{2-2}\arrayrulecolor{black}\cline{3-3}\arrayrulecolor[rgb]{0.8,0.8,0.8}\cline{4-4}\arrayrulecolor{black}
+     &  & Controller : com.teulda.web.user.UserCont
+     roller.checkPhone() &  &  \\ 
+    \arrayrulecolor{black}\hline
+
+    \multirow{4}{=}{프로필 사진 업로드.onClick()} & 사진 파일 & \multirow{2}{=}{프로필 사진 업로드 팝업창 출력} &  &  \\* 
      \arrayrulecolor[rgb]{0.8,0.8,0.8}\cline{2-2}\arrayrulecolor[rgb]{0.8,0.8,0.8}\cline{4-4}
      &  &  &  &  \\* 
     \arrayrulecolor{black}\cline{2-5}
-     & \multicolumn{1}{>{\hspace{0pt}}m{0.140\linewidth}|}{개인프로필 조회 UI} & \multicolumn{1}{>{\hspace{0pt}}m{0.300\linewidth}|}{Path : URI} & 개인프로필 수정 UI &  \\* 
+     & \multicolumn{1}{>{\hspace{0pt}}m{0.140\linewidth}|}{updateUser.jsp} & \multicolumn{1}{>{\hspace{0pt}}m{0.300\linewidth}|}{Path : /user/updateUser : POST} & updateUser.jsp &  \\* 
      \arrayrulecolor[rgb]{0.8,0.8,0.8}\cline{2-2}\arrayrulecolor{black}\cline{3-3}\arrayrulecolor[rgb]{0.8,0.8,0.8}\cline{4-4}\arrayrulecolor{black}
-     &  & Controller : 회원관리Ctrl &  &  \\ 
+     &  & Controller : com.teulda.web.user.UserCont
+     roller.updateUser() &  &  \\ 
     \arrayrulecolor{black}\hline
 
-    \multirow{4}{=}{회원탈퇴.onClick()} & 이메일 & \multirow{2}{=}{이메일 인증 UI로 Navigation} &  &  \\* 
+    \multirow{4}{=}{수정완료.onClick()} &  & \multirow{2}{=}{데이터를 업데이트하고 개인프로필조회 UI로 Navigation} & 개인프로필 조회화면으로 이동 & \multirow{4.5}{=}{필수 입력 사항을 입력하지 않거나 인증번호가 틀렸을 경우 재입력 요구 팝업창 출력} \\* 
      \arrayrulecolor[rgb]{0.8,0.8,0.8}\cline{2-2}\arrayrulecolor[rgb]{0.8,0.8,0.8}\cline{4-4}
      &  &  &  &  \\* 
-    \arrayrulecolor{black}\cline{2-5}
-     & \multicolumn{1}{>{\hspace{0pt}}m{0.140\linewidth}|}{개인프로필 조회 UI(본인)} & \multicolumn{1}{>{\hspace{0pt}}m{0.300\linewidth}|}{Path : URI} & 이메일 인증 UI	 &  \\* 
+    \arrayrulecolor{black}\cline{2-4}
+     & \multicolumn{1}{>{\hspace{0pt}}m{0.140\linewidth}|}{updateUser.jsp} & \multicolumn{1}{>{\hspace{0pt}}m{0.300\linewidth}|}{Path : /user/updateUser : POST} & getUser.jsp &  \\* 
      \arrayrulecolor[rgb]{0.8,0.8,0.8}\cline{2-2}\arrayrulecolor{black}\cline{3-3}\arrayrulecolor[rgb]{0.8,0.8,0.8}\cline{4-4}\arrayrulecolor{black}
-     &  & Controller : 회원관리Ctrl &  &  \\ 
-    \arrayrulecolor{black}\hline
-
-    \multirow{4}{=}{구독버튼.onClick()} & 내 닉네임, 구독대상 닉네임 & \multirow{2}{=}{해당 버튼을 눌러서 구독/구독 취소} & 기록 상세조회 화면 이동 &  \\* 
-     \arrayrulecolor[rgb]{0.8,0.8,0.8}\cline{2-2}\arrayrulecolor[rgb]{0.8,0.8,0.8}\cline{4-4}
-     &  &  &  &  \\* 
-    \arrayrulecolor{black}\cline{2-5}
-     & \multicolumn{1}{>{\hspace{0pt}}m{0.140\linewidth}|}{개인프로필 조회 UI(타인)} & \multicolumn{1}{>{\hspace{0pt}}m{0.300\linewidth}|}{Path : URI} & 개인프로필 UI(타인) &  \\* 
-     \arrayrulecolor[rgb]{0.8,0.8,0.8}\cline{2-2}\arrayrulecolor{black}\cline{3-3}\arrayrulecolor[rgb]{0.8,0.8,0.8}\cline{4-4}\arrayrulecolor{black}
-     &  & Controller : 커뮤니티관리Ctrl &  &  \\ 
-    \arrayrulecolor{black}\hline
-
-    \multirow{4}{=}{신고하기.onClick()} & 신고자 이메일, 신고대상 이메일 & \multirow{2}{=}{계정 신고화면 UI로 Navigation} & 회원 프로필 화면 이동 &  \\* 
-     \arrayrulecolor[rgb]{0.8,0.8,0.8}\cline{2-2}\arrayrulecolor[rgb]{0.8,0.8,0.8}\cline{4-4}
-     &  &  &  &  \\* 
-    \arrayrulecolor{black}\cline{2-5}
-     & \multicolumn{1}{>{\hspace{0pt}}m{0.140\linewidth}|}{개인프로필 조회 UI(타인)} & \multicolumn{1}{>{\hspace{0pt}}m{0.300\linewidth}|}{Path : URI} & 계정 신고화면 UI &  \\* 
-     \arrayrulecolor[rgb]{0.8,0.8,0.8}\cline{2-2}\arrayrulecolor{black}\cline{3-3}\arrayrulecolor[rgb]{0.8,0.8,0.8}\cline{4-4}\arrayrulecolor{black}
-     &  & Controller : 회원관리Ctrl &  &  \\ 
-    \arrayrulecolor{black}\hline
-
-    \multirow{4}{=}{구독자.onClick()} & 구독대상 닉네임 & \multirow{2}{=}{해당 계정의 개인프로필 UI로 Navigation} & 회원 프로필 화면 이동 &  \\* 
-     \arrayrulecolor[rgb]{0.8,0.8,0.8}\cline{2-2}\arrayrulecolor[rgb]{0.8,0.8,0.8}\cline{4-4}
-     &  &  &  &  \\* 
-    \arrayrulecolor{black}\cline{2-5}
-     & \multicolumn{1}{>{\hspace{0pt}}m{0.140\linewidth}|}{개인프로필 조회 UI} & \multicolumn{1}{>{\hspace{0pt}}m{0.300\linewidth}|}{Path : URI} & 개인프로필 UI(타인) &  \\* 
-     \arrayrulecolor[rgb]{0.8,0.8,0.8}\cline{2-2}\arrayrulecolor{black}\cline{3-3}\arrayrulecolor[rgb]{0.8,0.8,0.8}\cline{4-4}\arrayrulecolor{black}
-     &  & Controller : 회원관리Ctrl &  &  \\ 
-    \arrayrulecolor{black}\hline
-
-    \multirow{4}{=}{구독취소.onClick()} & 내 닉네임, 구독대상 닉네임 & \multirow{2}{=}{더 이상 구독 하고 싶지 않은 사용자목록 옆의 x아이콘을 눌러 구독 취소, 취소시 페이지를 reload하여 갱신해서 출력} & 회원 프로필 화면 이동 &  \\* 
-     \arrayrulecolor[rgb]{0.8,0.8,0.8}\cline{2-2}\arrayrulecolor[rgb]{0.8,0.8,0.8}\cline{4-4}
-     &  &  &  &  \\* 
-    \arrayrulecolor{black}\cline{2-5}
-     & \multicolumn{1}{>{\hspace{0pt}}m{0.140\linewidth}|}{개인프로필 조회 UI(본인)} & \multicolumn{1}{>{\hspace{0pt}}m{0.300\linewidth}|}{Path : URI} & 개인프로필 UI(개인) &  \\* 
-     \arrayrulecolor[rgb]{0.8,0.8,0.8}\cline{2-2}\arrayrulecolor{black}\cline{3-3}\arrayrulecolor[rgb]{0.8,0.8,0.8}\cline{4-4}\arrayrulecolor{black}
-     &  & Controller : 회원관리Ctrl &  &  \\ 
-    \arrayrulecolor{black}\hline
-
-    \multirow{4}{=}{최근 쓴 기록.onClick()} & 대상 닉네임 & \multirow{2}{=}{해당 기록 상세조회UI로 Navigation} & 회원 프로필 화면 이동 &  \\* 
-     \arrayrulecolor[rgb]{0.8,0.8,0.8}\cline{2-2}\arrayrulecolor[rgb]{0.8,0.8,0.8}\cline{4-4}
-     &  &  &  &  \\* 
-    \arrayrulecolor{black}\cline{2-5}
-     & \multicolumn{1}{>{\hspace{0pt}}m{0.140\linewidth}|}{개인프로필 조회 UI(타인)} & \multicolumn{1}{>{\hspace{0pt}}m{0.300\linewidth}|}{Path : URI} & 기록상세조회 UI(타인) &  \\* 
-     \arrayrulecolor[rgb]{0.8,0.8,0.8}\cline{2-2}\arrayrulecolor{black}\cline{3-3}\arrayrulecolor[rgb]{0.8,0.8,0.8}\cline{4-4}\arrayrulecolor{black}
-     &  & Controller : 기록관리Ctrl &  &  \\ 
-    \arrayrulecolor{black}\hline
-
-    \multirow{4}{=}{회원목록조회.onClick()} &  & \multirow{2}{=}{회원목록 조회 UI로 Navigation} & 회원 프로필 화면 이동 &  \\* 
-     \arrayrulecolor[rgb]{0.8,0.8,0.8}\cline{2-2}\arrayrulecolor[rgb]{0.8,0.8,0.8}\cline{4-4}
-     &  &  &  &  \\* 
-    \arrayrulecolor{black}\cline{2-5}
-     & \multicolumn{1}{>{\hspace{0pt}}m{0.140\linewidth}|}{개인프로필 조회 UI(관리자)} & \multicolumn{1}{>{\hspace{0pt}}m{0.300\linewidth}|}{Path : URI} & 회원목록 조회UI &  \\* 
-     \arrayrulecolor[rgb]{0.8,0.8,0.8}\cline{2-2}\arrayrulecolor{black}\cline{3-3}\arrayrulecolor[rgb]{0.8,0.8,0.8}\cline{4-4}\arrayrulecolor{black}
-     &  & Controller : 회원관리Ctrl &  &  \\ 
-    \arrayrulecolor{black}\hline
-
-    \multirow{4}{=}{블랙리스트 목록 조회.onClick()} &  & \multirow{2}{=}{신고 횟수가 10회 이상인 사용자 목록만 출력하는 블랙리스트 목록 UI로 Navigation} &  &  \\* 
-     \arrayrulecolor[rgb]{0.8,0.8,0.8}\cline{2-2}\arrayrulecolor[rgb]{0.8,0.8,0.8}\cline{4-4}
-     &  &  &  &  \\* 
-    \arrayrulecolor{black}\cline{2-5}
-     & \multicolumn{1}{>{\hspace{0pt}}m{0.140\linewidth}|}{개인프로필 조회 UI(관리자))} & \multicolumn{1}{>{\hspace{0pt}}m{0.300\linewidth}|}{Path : URI} & 블랙리스트목록 조회 UI &  \\* 
-     \arrayrulecolor[rgb]{0.8,0.8,0.8}\cline{2-2}\arrayrulecolor{black}\cline{3-3}\arrayrulecolor[rgb]{0.8,0.8,0.8}\cline{4-4}\arrayrulecolor{black}
-     &  & Controller : 회원관리Ctrl &  &  \\ 
+     &  & Controller : com.teulda.web.user.UserCont
+     roller.updateUser() &  &  \\ 
     \arrayrulecolor{black}\hline
 \end{longtable}
 \newpage
@@ -1102,33 +1046,13 @@
     \hline
     \rowcolor{maize} 항목명(한글) & 컨트롤(영문) & 필수 & 수정여부 & \centering{설명} & \centering{비고/제약사항} \endhead 
     \hline
-    아이디 & userId & Y & N & 사용자 아이디(이메일) 출력 & 소셜 로그인 시 입력 불가 \\ 
+    항목명(한글) & 컨트롤(영문) & 필수 & 수정여부 & 설명 & 비고/제약사항 \\
     \hline
-    이름 & userName & Y & Y & 사용자 이름 출력 & 특수문자 사용 불가 \\ 
+    신고사유 & reason & Y & Y & 신고사유 입력 & 글자제한 50자 \\ 
     \hline
-    닉네임 & userNick & Y & N & 사용자 닉네임 출력 & 특수문자 사용 불가 \\ 
+    증빙자료 & proof & Y & Y & 사용자 생년월일 입력 &  \\ 
     \hline
-    생년월일 & birthday & Y & Y & 사용자 생년월일 출력 &  \\ 
-    \hline
-    거주지 & resi & Y & Y & 사용자 거주지 출력 &  \\ 
-    \hline
-    관심 여행지역 & interest & Y & Y & 사용자 관심지역 출력 &  \\ 
-    \hline
-    프로필 사진 & myPhoto & Y & Y & 사용자 프로필사진 출력 &  \\ 
-    \hline
-    프로필 공개 여부 & openPro & N & Y & 해당 계정을 다른 사용자에 공개 할 지 여부 &  \\ 
-    \hline
-    구독자 목록 & subscribeList & N & Y & 사용자가 구독하는 목록 출력 &  \\ 
-    \hline
-    도장 id & stampId & N & N & 랜드마크 방문 인증시 얻은 도장을 식별하기 위한 id &  \\ 
-    \hline
-    도장 이름 & stamp & N & N & 랜드마크 방문 인증 시 도장이 하나씩 추가 &  \\ 
-    \hline
-    계정 상태 & status & Y & N & 활성화, 정지, 휴면 세가지 상태로 구분 & Hidden,계정 생성시 `활성화' default \\ 
-    \hline
-    계정 상태 변경일 & statusDate & Y & N & 계정 상태가 정지, 혹은 휴면상태로 바뀌었을 때 각 상태에 따른 조치 자동화를 위한 데이터 & Hidden,정지 상태에서 2주 경과시 자동 활성화휴면상태에서 1달 이내로 접속 시 자동 활성화, 그렇지 않을 경우 데이터 삭제 \\ 
-    \hline
-    역할 & role & Y & N & 사용자의 계정 역할 구분 & Hidden, 사용자와 관리자 구분 \\
+    신고날짜 & reportDate & Y & N & 신고한 날짜 등록 & Hidden \\
     \hline
 \end{longtable}
 
@@ -1162,90 +1086,30 @@
      \arrayrulecolor[rgb]{0.8,0.8,0.8}\cline{2-2}\arrayrulecolor[rgb]{0.8,0.8,0.8}\cline{4-4}
      &  &  &  &  \\* 
     \arrayrulecolor{black}\cline{2-5}
-     & \multicolumn{1}{>{\hspace{0pt}}m{0.140\linewidth}|}{개인프로필 조회 UI} & \multicolumn{1}{>{\hspace{0pt}}m{0.300\linewidth}|}{Path : URI} & 로그인 UI &  \\* 
+     & \multicolumn{1}{>{\hspace{0pt}}m{0.140\linewidth}|}{reportUser.jsp} & \multicolumn{1}{>{\hspace{0pt}}m{0.300\linewidth}|}{Path : /user/reportUser : GET} & reportUser.jsp &  \\* 
      \arrayrulecolor[rgb]{0.8,0.8,0.8}\cline{2-2}\arrayrulecolor{black}\cline{3-3}\arrayrulecolor[rgb]{0.8,0.8,0.8}\cline{4-4}\arrayrulecolor{black}
-     &  & \multicolumn{1}{>{\hspace{0pt}}m{0.300\linewidth}|}{Controller : 회원관리Ctrl} &  &  \\* 
+     &  & \multicolumn{1}{>{\hspace{0pt}}m{0.300\linewidth}|}{Controller : com.teulda.web.user.UserCont
+     roller.reportUser()} &  &  \\* 
     \arrayrulecolor{black}\hline
 
-    \multirow{4}{=}{수정하기.onClick()} & 이메일 & \multirow{2}{=}{정보 입력사항을 수정할 수 있는 개인프로필 수정 UI로 Navigation} &  &  \\* 
+    \multirow{4}{=}{파일업로드.onClick()} & 사진파일 & \multirow{2}{=}{신고사유 증빙자료 첨부} &  &  \\* 
      \arrayrulecolor[rgb]{0.8,0.8,0.8}\cline{2-2}\arrayrulecolor[rgb]{0.8,0.8,0.8}\cline{4-4}
      &  &  &  &  \\* 
     \arrayrulecolor{black}\cline{2-5}
-     & \multicolumn{1}{>{\hspace{0pt}}m{0.140\linewidth}|}{개인프로필 조회 UI} & \multicolumn{1}{>{\hspace{0pt}}m{0.300\linewidth}|}{Path : URI} & 개인프로필 수정 UI &  \\* 
+     & \multicolumn{1}{>{\hspace{0pt}}m{0.140\linewidth}|}{reportUser.jsp} & \multicolumn{1}{>{\hspace{0pt}}m{0.300\linewidth}|}{Path : /user/reportUser : GET} & reportUser.jsp &  \\* 
      \arrayrulecolor[rgb]{0.8,0.8,0.8}\cline{2-2}\arrayrulecolor{black}\cline{3-3}\arrayrulecolor[rgb]{0.8,0.8,0.8}\cline{4-4}\arrayrulecolor{black}
-     &  & Controller : 회원관리Ctrl &  &  \\ 
+     &  & Controller : com.teulda.web.user.UserCont
+     roller.reportUser() &  &  \\ 
     \arrayrulecolor{black}\hline
 
-    \multirow{4}{=}{회원탈퇴.onClick()} & 이메일 & \multirow{2}{=}{이메일 인증 UI로 Navigation} &  &  \\* 
+    \multirow{4}{=}{신고완료.onClick()} & 신고사유, 신고유형, 증빙자료, 신고날짜 & \multirow{2}{=}{신고가 완료되었다는 안내창 출력 및 신고한 계정의 개인프로필 UI로 Navigation} & 신고했던 개인프로필 조회화면으로 이동 & \multirow{4}{=}{신고사유 및 신고유형을 입력하지 않았을 경우 입력해달라는 안내창 출력} \\* 
      \arrayrulecolor[rgb]{0.8,0.8,0.8}\cline{2-2}\arrayrulecolor[rgb]{0.8,0.8,0.8}\cline{4-4}
      &  &  &  &  \\* 
-    \arrayrulecolor{black}\cline{2-5}
-     & \multicolumn{1}{>{\hspace{0pt}}m{0.140\linewidth}|}{개인프로필 조회 UI(본인)} & \multicolumn{1}{>{\hspace{0pt}}m{0.300\linewidth}|}{Path : URI} & 이메일 인증 UI	 &  \\* 
+    \arrayrulecolor{black}\cline{2-4}
+     & \multicolumn{1}{>{\hspace{0pt}}m{0.140\linewidth}|}{reportUser.jsp} & \multicolumn{1}{>{\hspace{0pt}}m{0.300\linewidth}|}{Path : /user/reportUser : POST} & reportUser.jsp &  \\* 
      \arrayrulecolor[rgb]{0.8,0.8,0.8}\cline{2-2}\arrayrulecolor{black}\cline{3-3}\arrayrulecolor[rgb]{0.8,0.8,0.8}\cline{4-4}\arrayrulecolor{black}
-     &  & Controller : 회원관리Ctrl &  &  \\ 
-    \arrayrulecolor{black}\hline
-
-    \multirow{4}{=}{구독버튼.onClick()} & 내 닉네임, 구독대상 닉네임 & \multirow{2}{=}{해당 버튼을 눌러서 구독/구독 취소} & 기록 상세조회 화면 이동 &  \\* 
-     \arrayrulecolor[rgb]{0.8,0.8,0.8}\cline{2-2}\arrayrulecolor[rgb]{0.8,0.8,0.8}\cline{4-4}
-     &  &  &  &  \\* 
-    \arrayrulecolor{black}\cline{2-5}
-     & \multicolumn{1}{>{\hspace{0pt}}m{0.140\linewidth}|}{개인프로필 조회 UI(타인)} & \multicolumn{1}{>{\hspace{0pt}}m{0.300\linewidth}|}{Path : URI} & 개인프로필 UI(타인) &  \\* 
-     \arrayrulecolor[rgb]{0.8,0.8,0.8}\cline{2-2}\arrayrulecolor{black}\cline{3-3}\arrayrulecolor[rgb]{0.8,0.8,0.8}\cline{4-4}\arrayrulecolor{black}
-     &  & Controller : 커뮤니티관리Ctrl &  &  \\ 
-    \arrayrulecolor{black}\hline
-
-    \multirow{4}{=}{신고하기.onClick()} & 신고자 이메일, 신고대상 이메일 & \multirow{2}{=}{계정 신고화면 UI로 Navigation} & 회원 프로필 화면 이동 &  \\* 
-     \arrayrulecolor[rgb]{0.8,0.8,0.8}\cline{2-2}\arrayrulecolor[rgb]{0.8,0.8,0.8}\cline{4-4}
-     &  &  &  &  \\* 
-    \arrayrulecolor{black}\cline{2-5}
-     & \multicolumn{1}{>{\hspace{0pt}}m{0.140\linewidth}|}{개인프로필 조회 UI(타인)} & \multicolumn{1}{>{\hspace{0pt}}m{0.300\linewidth}|}{Path : URI} & 계정 신고화면 UI &  \\* 
-     \arrayrulecolor[rgb]{0.8,0.8,0.8}\cline{2-2}\arrayrulecolor{black}\cline{3-3}\arrayrulecolor[rgb]{0.8,0.8,0.8}\cline{4-4}\arrayrulecolor{black}
-     &  & Controller : 회원관리Ctrl &  &  \\ 
-    \arrayrulecolor{black}\hline
-
-    \multirow{4}{=}{구독자.onClick()} & 구독대상 닉네임 & \multirow{2}{=}{해당 계정의 개인프로필 UI로 Navigation} & 회원 프로필 화면 이동 &  \\* 
-     \arrayrulecolor[rgb]{0.8,0.8,0.8}\cline{2-2}\arrayrulecolor[rgb]{0.8,0.8,0.8}\cline{4-4}
-     &  &  &  &  \\* 
-    \arrayrulecolor{black}\cline{2-5}
-     & \multicolumn{1}{>{\hspace{0pt}}m{0.140\linewidth}|}{개인프로필 조회 UI} & \multicolumn{1}{>{\hspace{0pt}}m{0.300\linewidth}|}{Path : URI} & 개인프로필 UI(타인) &  \\* 
-     \arrayrulecolor[rgb]{0.8,0.8,0.8}\cline{2-2}\arrayrulecolor{black}\cline{3-3}\arrayrulecolor[rgb]{0.8,0.8,0.8}\cline{4-4}\arrayrulecolor{black}
-     &  & Controller : 회원관리Ctrl &  &  \\ 
-    \arrayrulecolor{black}\hline
-
-    \multirow{4}{=}{구독취소.onClick()} & 내 닉네임, 구독대상 닉네임 & \multirow{2}{=}{더 이상 구독 하고 싶지 않은 사용자목록 옆의 x아이콘을 눌러 구독 취소, 취소시 페이지를 reload하여 갱신해서 출력} & 회원 프로필 화면 이동 &  \\* 
-     \arrayrulecolor[rgb]{0.8,0.8,0.8}\cline{2-2}\arrayrulecolor[rgb]{0.8,0.8,0.8}\cline{4-4}
-     &  &  &  &  \\* 
-    \arrayrulecolor{black}\cline{2-5}
-     & \multicolumn{1}{>{\hspace{0pt}}m{0.140\linewidth}|}{개인프로필 조회 UI(본인)} & \multicolumn{1}{>{\hspace{0pt}}m{0.300\linewidth}|}{Path : URI} & 개인프로필 UI(개인) &  \\* 
-     \arrayrulecolor[rgb]{0.8,0.8,0.8}\cline{2-2}\arrayrulecolor{black}\cline{3-3}\arrayrulecolor[rgb]{0.8,0.8,0.8}\cline{4-4}\arrayrulecolor{black}
-     &  & Controller : 회원관리Ctrl &  &  \\ 
-    \arrayrulecolor{black}\hline
-
-    \multirow{4}{=}{최근 쓴 기록.onClick()} & 대상 닉네임 & \multirow{2}{=}{해당 기록 상세조회UI로 Navigation} & 회원 프로필 화면 이동 &  \\* 
-     \arrayrulecolor[rgb]{0.8,0.8,0.8}\cline{2-2}\arrayrulecolor[rgb]{0.8,0.8,0.8}\cline{4-4}
-     &  &  &  &  \\* 
-    \arrayrulecolor{black}\cline{2-5}
-     & \multicolumn{1}{>{\hspace{0pt}}m{0.140\linewidth}|}{개인프로필 조회 UI(타인)} & \multicolumn{1}{>{\hspace{0pt}}m{0.300\linewidth}|}{Path : URI} & 기록상세조회 UI(타인) &  \\* 
-     \arrayrulecolor[rgb]{0.8,0.8,0.8}\cline{2-2}\arrayrulecolor{black}\cline{3-3}\arrayrulecolor[rgb]{0.8,0.8,0.8}\cline{4-4}\arrayrulecolor{black}
-     &  & Controller : 기록관리Ctrl &  &  \\ 
-    \arrayrulecolor{black}\hline
-
-    \multirow{4}{=}{회원목록조회.onClick()} &  & \multirow{2}{=}{회원목록 조회 UI로 Navigation} & 회원 프로필 화면 이동 &  \\* 
-     \arrayrulecolor[rgb]{0.8,0.8,0.8}\cline{2-2}\arrayrulecolor[rgb]{0.8,0.8,0.8}\cline{4-4}
-     &  &  &  &  \\* 
-    \arrayrulecolor{black}\cline{2-5}
-     & \multicolumn{1}{>{\hspace{0pt}}m{0.140\linewidth}|}{개인프로필 조회 UI(관리자)} & \multicolumn{1}{>{\hspace{0pt}}m{0.300\linewidth}|}{Path : URI} & 회원목록 조회UI &  \\* 
-     \arrayrulecolor[rgb]{0.8,0.8,0.8}\cline{2-2}\arrayrulecolor{black}\cline{3-3}\arrayrulecolor[rgb]{0.8,0.8,0.8}\cline{4-4}\arrayrulecolor{black}
-     &  & Controller : 회원관리Ctrl &  &  \\ 
-    \arrayrulecolor{black}\hline
-
-    \multirow{4}{=}{블랙리스트 목록 조회.onClick()} &  & \multirow{2}{=}{신고 횟수가 10회 이상인 사용자 목록만 출력하는 블랙리스트 목록 UI로 Navigation} &  &  \\* 
-     \arrayrulecolor[rgb]{0.8,0.8,0.8}\cline{2-2}\arrayrulecolor[rgb]{0.8,0.8,0.8}\cline{4-4}
-     &  &  &  &  \\* 
-    \arrayrulecolor{black}\cline{2-5}
-     & \multicolumn{1}{>{\hspace{0pt}}m{0.140\linewidth}|}{개인프로필 조회 UI(관리자))} & \multicolumn{1}{>{\hspace{0pt}}m{0.300\linewidth}|}{Path : URI} & 블랙리스트목록 조회 UI &  \\* 
-     \arrayrulecolor[rgb]{0.8,0.8,0.8}\cline{2-2}\arrayrulecolor{black}\cline{3-3}\arrayrulecolor[rgb]{0.8,0.8,0.8}\cline{4-4}\arrayrulecolor{black}
-     &  & Controller : 회원관리Ctrl &  &  \\ 
+     &  & Controller : com.teulda.web.user.UserCont
+     roller.reportUser() &  &  \\ 
     \arrayrulecolor{black}\hline
 \end{longtable}
 \newpage
@@ -1294,35 +1158,28 @@
     \hline
     \rowcolor{maize} 항목명(한글) & 컨트롤(영문) & 필수 & 수정여부 & \centering{설명} & \centering{비고/제약사항} \endhead 
     \hline
-    아이디 & userId & Y & N & 사용자 아이디(이메일) 출력 & 소셜 로그인 시 입력 불가 \\ 
+    블랙리스트 No & blackListNo & Y & Y & 블랙리스트 유저 넘버링 &  \\ 
     \hline
-    이름 & userName & Y & Y & 사용자 이름 출력 & 특수문자 사용 불가 \\ 
+    이름 & name & Y & Y & 블랙리스트 유저 이름 출력 &  \\ 
     \hline
-    닉네임 & userNick & Y & N & 사용자 닉네임 출력 & 특수문자 사용 불가 \\ 
+    이메일 & e-mail & Y & Y & 블랙리스트 유저 이메일 출력 &  \\ 
     \hline
-    생년월일 & birthday & Y & Y & 사용자 생년월일 출력 &  \\ 
+    신고 횟수 & reportCount & Y & Y & 신고당한 횟수 출력 &  \\ 
     \hline
-    거주지 & resi & Y & Y & 사용자 거주지 출력 &  \\ 
+    계정 상태 변경일 & statusDate & Y & N & 계정 상태가 정지, 혹은 휴면상태로 바뀌었을 때 각 상태에 따른 조치 자동화를 위한 데이터 & Hidden,정지 상태에서 2주 경과시 자동 활성화 \\ 
     \hline
-    관심 여행지역 & interest & Y & Y & 사용자 관심지역 출력 &  \\ 
-    \hline
-    프로필 사진 & myPhoto & Y & Y & 사용자 프로필사진 출력 &  \\ 
-    \hline
-    프로필 공개 여부 & openPro & N & Y & 해당 계정을 다른 사용자에 공개 할 지 여부 &  \\ 
-    \hline
-    구독자 목록 & subscribeList & N & Y & 사용자가 구독하는 목록 출력 &  \\ 
-    \hline
-    도장 id & stampId & N & N & 랜드마크 방문 인증시 얻은 도장을 식별하기 위한 id &  \\ 
-    \hline
-    도장 이름 & stamp & N & N & 랜드마크 방문 인증 시 도장이 하나씩 추가 &  \\ 
-    \hline
-    계정 상태 & status & Y & N & 활성화, 정지, 휴면 세가지 상태로 구분 & Hidden,계정 생성시 `활성화' default \\ 
-    \hline
-    계정 상태 변경일 & statusDate & Y & N & 계정 상태가 정지, 혹은 휴면상태로 바뀌었을 때 각 상태에 따른 조치 자동화를 위한 데이터 & Hidden,정지 상태에서 2주 경과시 자동 활성화휴면상태에서 1달 이내로 접속 시 자동 활성화, 그렇지 않을 경우 데이터 삭제 \\ 
-    \hline
-    역할 & role & Y & N & 사용자의 계정 역할 구분 & Hidden, 사용자와 관리자 구분 \\
+    계정 상태 & status & Y & Y & 현재 계정 상태 출력 &  \\
     \hline
 \end{longtable}
+
+\par\
+\par\
+\par\
+\par\
+\par\
+\par\
+\par\
+\par\
 
 \textbf{3. 처리 로직}
 
@@ -1350,95 +1207,46 @@
         & \multicolumn{1}{>{\Centering\hspace{0pt}}m{0.140\linewidth}|}{출력 JSP} 
         & \multicolumn{1}{>{\Centering\hspace{0pt}}m{0.140\linewidth}|}{\multirow{-2}{=}{\cellcolor{maize}\Centering{}비고}} \endhead
     \hline
-    \multirow{4}{=}{Client 요청시(onLoad()시)} &  & \multirow{2}{=}{} &  &  \\* 
+    \multirow{4}{=}{Client 요청시(onLoad()시)} &  & \multirow{2}{=}{} &  & \multirow{5}{=}{관리자권한으로만 접속가능한 페이지} \\* 
      \arrayrulecolor[rgb]{0.8,0.8,0.8}\cline{2-2}\arrayrulecolor[rgb]{0.8,0.8,0.8}\cline{4-4}
      &  &  &  &  \\* 
-    \arrayrulecolor{black}\cline{2-5}
-     & \multicolumn{1}{>{\hspace{0pt}}m{0.140\linewidth}|}{개인프로필 조회 UI} & \multicolumn{1}{>{\hspace{0pt}}m{0.300\linewidth}|}{Path : URI} & 로그인 UI &  \\* 
+    \arrayrulecolor{black}\cline{2-4}
+     & \multicolumn{1}{>{\hspace{0pt}}m{0.140\linewidth}|}{listBlacklist.jsp} & \multicolumn{1}{>{\hspace{0pt}}m{0.300\linewidth}|}{Path : /user/getBlackList : GET} & listBlacklist.jsp &  \\* 
      \arrayrulecolor[rgb]{0.8,0.8,0.8}\cline{2-2}\arrayrulecolor{black}\cline{3-3}\arrayrulecolor[rgb]{0.8,0.8,0.8}\cline{4-4}\arrayrulecolor{black}
-     &  & \multicolumn{1}{>{\hspace{0pt}}m{0.300\linewidth}|}{Controller : 회원관리Ctrl} &  &  \\* 
+     &  & \multicolumn{1}{>{\hspace{0pt}}m{0.300\linewidth}|}{Controller : com.teulda.web.user.UserCont
+     roller.getReportlist()} &  &  \\* 
     \arrayrulecolor{black}\hline
 
-    \multirow{4}{=}{수정하기.onClick()} & 이메일 & \multirow{2}{=}{정보 입력사항을 수정할 수 있는 개인프로필 수정 UI로 Navigation} &  &  \\* 
+    \multirow{4}{=}{상태.onClick()} &  & \multirow{2}{=}{상태 클릭 시 '활성화/정지' 변경} &  &  \\* 
      \arrayrulecolor[rgb]{0.8,0.8,0.8}\cline{2-2}\arrayrulecolor[rgb]{0.8,0.8,0.8}\cline{4-4}
      &  &  &  &  \\* 
     \arrayrulecolor{black}\cline{2-5}
-     & \multicolumn{1}{>{\hspace{0pt}}m{0.140\linewidth}|}{개인프로필 조회 UI} & \multicolumn{1}{>{\hspace{0pt}}m{0.300\linewidth}|}{Path : URI} & 개인프로필 수정 UI &  \\* 
+     & \multicolumn{1}{>{\hspace{0pt}}m{0.140\linewidth}|}{listBlacklist.jsp} & \multicolumn{1}{>{\hspace{0pt}}m{0.300\linewidth}|}{Path : /user/getBlackList : GET} & listBlacklist.jsp &  \\* 
      \arrayrulecolor[rgb]{0.8,0.8,0.8}\cline{2-2}\arrayrulecolor{black}\cline{3-3}\arrayrulecolor[rgb]{0.8,0.8,0.8}\cline{4-4}\arrayrulecolor{black}
-     &  & Controller : 회원관리Ctrl &  &  \\ 
+     &  & Controller : com.teulda.web.user.UserCont
+     roller.getReportlist() &  &  \\ 
     \arrayrulecolor{black}\hline
 
-    \multirow{4}{=}{회원탈퇴.onClick()} & 이메일 & \multirow{2}{=}{이메일 인증 UI로 Navigation} &  &  \\* 
+    \multirow{4}{=}{확인.onClick()} &  & \multirow{2}{=}{변경한 상태 DB 갱신 및 페이지 reload} &  &  \\* 
      \arrayrulecolor[rgb]{0.8,0.8,0.8}\cline{2-2}\arrayrulecolor[rgb]{0.8,0.8,0.8}\cline{4-4}
      &  &  &  &  \\* 
     \arrayrulecolor{black}\cline{2-5}
-     & \multicolumn{1}{>{\hspace{0pt}}m{0.140\linewidth}|}{개인프로필 조회 UI(본인)} & \multicolumn{1}{>{\hspace{0pt}}m{0.300\linewidth}|}{Path : URI} & 이메일 인증 UI	 &  \\* 
+     & \multicolumn{1}{>{\hspace{0pt}}m{0.140\linewidth}|}{listBlacklist.jsp} & \multicolumn{1}{>{\hspace{0pt}}m{0.300\linewidth}|}{Path : /user/getBlackList : GET} & listBlacklist.jsp	 &  \\* 
      \arrayrulecolor[rgb]{0.8,0.8,0.8}\cline{2-2}\arrayrulecolor{black}\cline{3-3}\arrayrulecolor[rgb]{0.8,0.8,0.8}\cline{4-4}\arrayrulecolor{black}
-     &  & Controller : 회원관리Ctrl &  &  \\ 
+     &  & Controller : com.teulda.web.user.UserCont
+     roller.getBlacklist() &  &  \\ 
     \arrayrulecolor{black}\hline
 
-    \multirow{4}{=}{구독버튼.onClick()} & 내 닉네임, 구독대상 닉네임 & \multirow{2}{=}{해당 버튼을 눌러서 구독/구독 취소} & 기록 상세조회 화면 이동 &  \\* 
+    \multirow{4}{=}{회원이름.onClick()} &  & \multirow{2}{=}{해당 계정의 블랙리스트 상세조회 UI로 Navigation} &  &  \\* 
      \arrayrulecolor[rgb]{0.8,0.8,0.8}\cline{2-2}\arrayrulecolor[rgb]{0.8,0.8,0.8}\cline{4-4}
      &  &  &  &  \\* 
     \arrayrulecolor{black}\cline{2-5}
-     & \multicolumn{1}{>{\hspace{0pt}}m{0.140\linewidth}|}{개인프로필 조회 UI(타인)} & \multicolumn{1}{>{\hspace{0pt}}m{0.300\linewidth}|}{Path : URI} & 개인프로필 UI(타인) &  \\* 
+     & \multicolumn{1}{>{\hspace{0pt}}m{0.140\linewidth}|}{listBlacklist.jsp} & \multicolumn{1}{>{\hspace{0pt}}m{0.300\linewidth}|}{Path : /user/getBlackList : GET} & listBlacklist.jsp &  \\* 
      \arrayrulecolor[rgb]{0.8,0.8,0.8}\cline{2-2}\arrayrulecolor{black}\cline{3-3}\arrayrulecolor[rgb]{0.8,0.8,0.8}\cline{4-4}\arrayrulecolor{black}
-     &  & Controller : 커뮤니티관리Ctrl &  &  \\ 
+     &  & Controller : com.teulda.web.user.UserCont
+     roller.getReportlist() &  &  \\ 
     \arrayrulecolor{black}\hline
 
-    \multirow{4}{=}{신고하기.onClick()} & 신고자 이메일, 신고대상 이메일 & \multirow{2}{=}{계정 신고화면 UI로 Navigation} & 회원 프로필 화면 이동 &  \\* 
-     \arrayrulecolor[rgb]{0.8,0.8,0.8}\cline{2-2}\arrayrulecolor[rgb]{0.8,0.8,0.8}\cline{4-4}
-     &  &  &  &  \\* 
-    \arrayrulecolor{black}\cline{2-5}
-     & \multicolumn{1}{>{\hspace{0pt}}m{0.140\linewidth}|}{개인프로필 조회 UI(타인)} & \multicolumn{1}{>{\hspace{0pt}}m{0.300\linewidth}|}{Path : URI} & 계정 신고화면 UI &  \\* 
-     \arrayrulecolor[rgb]{0.8,0.8,0.8}\cline{2-2}\arrayrulecolor{black}\cline{3-3}\arrayrulecolor[rgb]{0.8,0.8,0.8}\cline{4-4}\arrayrulecolor{black}
-     &  & Controller : 회원관리Ctrl &  &  \\ 
-    \arrayrulecolor{black}\hline
-
-    \multirow{4}{=}{구독자.onClick()} & 구독대상 닉네임 & \multirow{2}{=}{해당 계정의 개인프로필 UI로 Navigation} & 회원 프로필 화면 이동 &  \\* 
-     \arrayrulecolor[rgb]{0.8,0.8,0.8}\cline{2-2}\arrayrulecolor[rgb]{0.8,0.8,0.8}\cline{4-4}
-     &  &  &  &  \\* 
-    \arrayrulecolor{black}\cline{2-5}
-     & \multicolumn{1}{>{\hspace{0pt}}m{0.140\linewidth}|}{개인프로필 조회 UI} & \multicolumn{1}{>{\hspace{0pt}}m{0.300\linewidth}|}{Path : URI} & 개인프로필 UI(타인) &  \\* 
-     \arrayrulecolor[rgb]{0.8,0.8,0.8}\cline{2-2}\arrayrulecolor{black}\cline{3-3}\arrayrulecolor[rgb]{0.8,0.8,0.8}\cline{4-4}\arrayrulecolor{black}
-     &  & Controller : 회원관리Ctrl &  &  \\ 
-    \arrayrulecolor{black}\hline
-
-    \multirow{4}{=}{구독취소.onClick()} & 내 닉네임, 구독대상 닉네임 & \multirow{2}{=}{더 이상 구독 하고 싶지 않은 사용자목록 옆의 x아이콘을 눌러 구독 취소, 취소시 페이지를 reload하여 갱신해서 출력} & 회원 프로필 화면 이동 &  \\* 
-     \arrayrulecolor[rgb]{0.8,0.8,0.8}\cline{2-2}\arrayrulecolor[rgb]{0.8,0.8,0.8}\cline{4-4}
-     &  &  &  &  \\* 
-    \arrayrulecolor{black}\cline{2-5}
-     & \multicolumn{1}{>{\hspace{0pt}}m{0.140\linewidth}|}{개인프로필 조회 UI(본인)} & \multicolumn{1}{>{\hspace{0pt}}m{0.300\linewidth}|}{Path : URI} & 개인프로필 UI(개인) &  \\* 
-     \arrayrulecolor[rgb]{0.8,0.8,0.8}\cline{2-2}\arrayrulecolor{black}\cline{3-3}\arrayrulecolor[rgb]{0.8,0.8,0.8}\cline{4-4}\arrayrulecolor{black}
-     &  & Controller : 회원관리Ctrl &  &  \\ 
-    \arrayrulecolor{black}\hline
-
-    \multirow{4}{=}{최근 쓴 기록.onClick()} & 대상 닉네임 & \multirow{2}{=}{해당 기록 상세조회UI로 Navigation} & 회원 프로필 화면 이동 &  \\* 
-     \arrayrulecolor[rgb]{0.8,0.8,0.8}\cline{2-2}\arrayrulecolor[rgb]{0.8,0.8,0.8}\cline{4-4}
-     &  &  &  &  \\* 
-    \arrayrulecolor{black}\cline{2-5}
-     & \multicolumn{1}{>{\hspace{0pt}}m{0.140\linewidth}|}{개인프로필 조회 UI(타인)} & \multicolumn{1}{>{\hspace{0pt}}m{0.300\linewidth}|}{Path : URI} & 기록상세조회 UI(타인) &  \\* 
-     \arrayrulecolor[rgb]{0.8,0.8,0.8}\cline{2-2}\arrayrulecolor{black}\cline{3-3}\arrayrulecolor[rgb]{0.8,0.8,0.8}\cline{4-4}\arrayrulecolor{black}
-     &  & Controller : 기록관리Ctrl &  &  \\ 
-    \arrayrulecolor{black}\hline
-
-    \multirow{4}{=}{회원목록조회.onClick()} &  & \multirow{2}{=}{회원목록 조회 UI로 Navigation} & 회원 프로필 화면 이동 &  \\* 
-     \arrayrulecolor[rgb]{0.8,0.8,0.8}\cline{2-2}\arrayrulecolor[rgb]{0.8,0.8,0.8}\cline{4-4}
-     &  &  &  &  \\* 
-    \arrayrulecolor{black}\cline{2-5}
-     & \multicolumn{1}{>{\hspace{0pt}}m{0.140\linewidth}|}{개인프로필 조회 UI(관리자)} & \multicolumn{1}{>{\hspace{0pt}}m{0.300\linewidth}|}{Path : URI} & 회원목록 조회UI &  \\* 
-     \arrayrulecolor[rgb]{0.8,0.8,0.8}\cline{2-2}\arrayrulecolor{black}\cline{3-3}\arrayrulecolor[rgb]{0.8,0.8,0.8}\cline{4-4}\arrayrulecolor{black}
-     &  & Controller : 회원관리Ctrl &  &  \\ 
-    \arrayrulecolor{black}\hline
-
-    \multirow{4}{=}{블랙리스트 목록 조회.onClick()} &  & \multirow{2}{=}{신고 횟수가 10회 이상인 사용자 목록만 출력하는 블랙리스트 목록 UI로 Navigation} &  &  \\* 
-     \arrayrulecolor[rgb]{0.8,0.8,0.8}\cline{2-2}\arrayrulecolor[rgb]{0.8,0.8,0.8}\cline{4-4}
-     &  &  &  &  \\* 
-    \arrayrulecolor{black}\cline{2-5}
-     & \multicolumn{1}{>{\hspace{0pt}}m{0.140\linewidth}|}{개인프로필 조회 UI(관리자))} & \multicolumn{1}{>{\hspace{0pt}}m{0.300\linewidth}|}{Path : URI} & 블랙리스트목록 조회 UI &  \\* 
-     \arrayrulecolor[rgb]{0.8,0.8,0.8}\cline{2-2}\arrayrulecolor{black}\cline{3-3}\arrayrulecolor[rgb]{0.8,0.8,0.8}\cline{4-4}\arrayrulecolor{black}
-     &  & Controller : 회원관리Ctrl &  &  \\ 
-    \arrayrulecolor{black}\hline
 \end{longtable}
 \newpage
 
@@ -1484,35 +1292,15 @@
         |>{\arraybackslash\hspace{0pt}}m{0.190\linewidth}|
     } 
     \hline
-    \rowcolor{maize} 항목명(한글) & 컨트롤(영문) & 필수 & 수정여부 & \centering{설명} & \centering{비고/제약사항} \endhead 
+    신고자 & name & Y & Y & 신고자 이름 출력 &  \\ 
     \hline
-    아이디 & userId & Y & N & 사용자 아이디(이메일) 출력 & 소셜 로그인 시 입력 불가 \\ 
+    신고사유 & reason & Y & Y & 신고사유 출력 &  \\ 
     \hline
-    이름 & userName & Y & Y & 사용자 이름 출력 & 특수문자 사용 불가 \\ 
+    신고유형 & reportType & Y & Y & 신고유형 출력 &  \\ 
     \hline
-    닉네임 & userNick & Y & N & 사용자 닉네임 출력 & 특수문자 사용 불가 \\ 
+    신고날짜 & reportDate & Y & Y & 신고날짜 출력 &  \\ 
     \hline
-    생년월일 & birthday & Y & Y & 사용자 생년월일 출력 &  \\ 
-    \hline
-    거주지 & resi & Y & Y & 사용자 거주지 출력 &  \\ 
-    \hline
-    관심 여행지역 & interest & Y & Y & 사용자 관심지역 출력 &  \\ 
-    \hline
-    프로필 사진 & myPhoto & Y & Y & 사용자 프로필사진 출력 &  \\ 
-    \hline
-    프로필 공개 여부 & openPro & N & Y & 해당 계정을 다른 사용자에 공개 할 지 여부 &  \\ 
-    \hline
-    구독자 목록 & subscribeList & N & Y & 사용자가 구독하는 목록 출력 &  \\ 
-    \hline
-    도장 id & stampId & N & N & 랜드마크 방문 인증시 얻은 도장을 식별하기 위한 id &  \\ 
-    \hline
-    도장 이름 & stamp & N & N & 랜드마크 방문 인증 시 도장이 하나씩 추가 &  \\ 
-    \hline
-    계정 상태 & status & Y & N & 활성화, 정지, 휴면 세가지 상태로 구분 & Hidden,계정 생성시 `활성화' default \\ 
-    \hline
-    계정 상태 변경일 & statusDate & Y & N & 계정 상태가 정지, 혹은 휴면상태로 바뀌었을 때 각 상태에 따른 조치 자동화를 위한 데이터 & Hidden,정지 상태에서 2주 경과시 자동 활성화휴면상태에서 1달 이내로 접속 시 자동 활성화, 그렇지 않을 경우 데이터 삭제 \\ 
-    \hline
-    역할 & role & Y & N & 사용자의 계정 역할 구분 & Hidden, 사용자와 관리자 구분 \\
+    신고자료 & proof & Y & Y & 신고자료 링크 형식으로 출력 & 링크 클릭시 사진파일 출력 \\
     \hline
 \end{longtable}
 
@@ -1542,94 +1330,34 @@
         & \multicolumn{1}{>{\Centering\hspace{0pt}}m{0.140\linewidth}|}{출력 JSP} 
         & \multicolumn{1}{>{\Centering\hspace{0pt}}m{0.140\linewidth}|}{\multirow{-2}{=}{\cellcolor{maize}\Centering{}비고}} \endhead
     \hline
-    \multirow{4}{=}{Client 요청시(onLoad()시)} &  & \multirow{2}{=}{} &  &  \\* 
+    \multirow{4}{=}{Client 요청시(onLoad()시)} &  & \multirow{2}{=}{} &  & \multirow{5}{=}{관리자권한으로만 접속가능한 페이지} \\* 
      \arrayrulecolor[rgb]{0.8,0.8,0.8}\cline{2-2}\arrayrulecolor[rgb]{0.8,0.8,0.8}\cline{4-4}
      &  &  &  &  \\* 
-    \arrayrulecolor{black}\cline{2-5}
-     & \multicolumn{1}{>{\hspace{0pt}}m{0.140\linewidth}|}{개인프로필 조회 UI} & \multicolumn{1}{>{\hspace{0pt}}m{0.300\linewidth}|}{Path : URI} & 로그인 UI &  \\* 
+    \arrayrulecolor{black}\cline{2-4}
+     & \multicolumn{1}{>{\hspace{0pt}}m{0.140\linewidth}|}{getBlacklist.jsp} & \multicolumn{1}{>{\hspace{0pt}}m{0.300\linewidth}|}{Path : /user/getReportList : GET} & getBlacklist.jsp &  \\* 
      \arrayrulecolor[rgb]{0.8,0.8,0.8}\cline{2-2}\arrayrulecolor{black}\cline{3-3}\arrayrulecolor[rgb]{0.8,0.8,0.8}\cline{4-4}\arrayrulecolor{black}
-     &  & \multicolumn{1}{>{\hspace{0pt}}m{0.300\linewidth}|}{Controller : 회원관리Ctrl} &  &  \\* 
+     &  & \multicolumn{1}{>{\hspace{0pt}}m{0.300\linewidth}|}{Controller : com.teulda.web.user.UserCont
+     roller.getReportlist()} &  &  \\* 
     \arrayrulecolor{black}\hline
 
-    \multirow{4}{=}{수정하기.onClick()} & 이메일 & \multirow{2}{=}{정보 입력사항을 수정할 수 있는 개인프로필 수정 UI로 Navigation} &  &  \\* 
+    \multirow{4}{=}{삭제.onClick()} & 이메일 & \multirow{2}{=}{신고내역 삭제 및 신고횟수 하락} &  &  \\* 
      \arrayrulecolor[rgb]{0.8,0.8,0.8}\cline{2-2}\arrayrulecolor[rgb]{0.8,0.8,0.8}\cline{4-4}
      &  &  &  &  \\* 
     \arrayrulecolor{black}\cline{2-5}
-     & \multicolumn{1}{>{\hspace{0pt}}m{0.140\linewidth}|}{개인프로필 조회 UI} & \multicolumn{1}{>{\hspace{0pt}}m{0.300\linewidth}|}{Path : URI} & 개인프로필 수정 UI &  \\* 
+     & \multicolumn{1}{>{\hspace{0pt}}m{0.140\linewidth}|}{getBlacklist.jsp} & \multicolumn{1}{>{\hspace{0pt}}m{0.300\linewidth}|}{Path : /user/getReportList : GET} & getBlacklist.jsp &  \\* 
      \arrayrulecolor[rgb]{0.8,0.8,0.8}\cline{2-2}\arrayrulecolor{black}\cline{3-3}\arrayrulecolor[rgb]{0.8,0.8,0.8}\cline{4-4}\arrayrulecolor{black}
-     &  & Controller : 회원관리Ctrl &  &  \\ 
+     &  & Controller : com.teulda.web.user.UserCont
+     roller.getReportlist() &  &  \\ 
     \arrayrulecolor{black}\hline
 
-    \multirow{4}{=}{회원탈퇴.onClick()} & 이메일 & \multirow{2}{=}{이메일 인증 UI로 Navigation} &  &  \\* 
+    \multirow{4}{=}{확인.onClick()} & 이메일 & \multirow{2}{=}{수정내역을 갱신하고 블랙리스트 목록UI 로 Navigation} &  & \multirow{4.5}{=}{신고내역 삭제로 인해 해당 계정의 신고횟수가 10미만이 되면 자동으로 블랙리스트에서 제외} \\* 
      \arrayrulecolor[rgb]{0.8,0.8,0.8}\cline{2-2}\arrayrulecolor[rgb]{0.8,0.8,0.8}\cline{4-4}
      &  &  &  &  \\* 
-    \arrayrulecolor{black}\cline{2-5}
-     & \multicolumn{1}{>{\hspace{0pt}}m{0.140\linewidth}|}{개인프로필 조회 UI(본인)} & \multicolumn{1}{>{\hspace{0pt}}m{0.300\linewidth}|}{Path : URI} & 이메일 인증 UI	 &  \\* 
+    \arrayrulecolor{black}\cline{2-4}
+     & \multicolumn{1}{>{\hspace{0pt}}m{0.140\linewidth}|}{getBlacklist.jsp} & \multicolumn{1}{>{\hspace{0pt}}m{0.300\linewidth}|}{Path : /user/getReportList : GET} & getBlacklist.jsp	 &  \\* 
      \arrayrulecolor[rgb]{0.8,0.8,0.8}\cline{2-2}\arrayrulecolor{black}\cline{3-3}\arrayrulecolor[rgb]{0.8,0.8,0.8}\cline{4-4}\arrayrulecolor{black}
-     &  & Controller : 회원관리Ctrl &  &  \\ 
-    \arrayrulecolor{black}\hline
-
-    \multirow{4}{=}{구독버튼.onClick()} & 내 닉네임, 구독대상 닉네임 & \multirow{2}{=}{해당 버튼을 눌러서 구독/구독 취소} & 기록 상세조회 화면 이동 &  \\* 
-     \arrayrulecolor[rgb]{0.8,0.8,0.8}\cline{2-2}\arrayrulecolor[rgb]{0.8,0.8,0.8}\cline{4-4}
-     &  &  &  &  \\* 
-    \arrayrulecolor{black}\cline{2-5}
-     & \multicolumn{1}{>{\hspace{0pt}}m{0.140\linewidth}|}{개인프로필 조회 UI(타인)} & \multicolumn{1}{>{\hspace{0pt}}m{0.300\linewidth}|}{Path : URI} & 개인프로필 UI(타인) &  \\* 
-     \arrayrulecolor[rgb]{0.8,0.8,0.8}\cline{2-2}\arrayrulecolor{black}\cline{3-3}\arrayrulecolor[rgb]{0.8,0.8,0.8}\cline{4-4}\arrayrulecolor{black}
-     &  & Controller : 커뮤니티관리Ctrl &  &  \\ 
-    \arrayrulecolor{black}\hline
-
-    \multirow{4}{=}{신고하기.onClick()} & 신고자 이메일, 신고대상 이메일 & \multirow{2}{=}{계정 신고화면 UI로 Navigation} & 회원 프로필 화면 이동 &  \\* 
-     \arrayrulecolor[rgb]{0.8,0.8,0.8}\cline{2-2}\arrayrulecolor[rgb]{0.8,0.8,0.8}\cline{4-4}
-     &  &  &  &  \\* 
-    \arrayrulecolor{black}\cline{2-5}
-     & \multicolumn{1}{>{\hspace{0pt}}m{0.140\linewidth}|}{개인프로필 조회 UI(타인)} & \multicolumn{1}{>{\hspace{0pt}}m{0.300\linewidth}|}{Path : URI} & 계정 신고화면 UI &  \\* 
-     \arrayrulecolor[rgb]{0.8,0.8,0.8}\cline{2-2}\arrayrulecolor{black}\cline{3-3}\arrayrulecolor[rgb]{0.8,0.8,0.8}\cline{4-4}\arrayrulecolor{black}
-     &  & Controller : 회원관리Ctrl &  &  \\ 
-    \arrayrulecolor{black}\hline
-
-    \multirow{4}{=}{구독자.onClick()} & 구독대상 닉네임 & \multirow{2}{=}{해당 계정의 개인프로필 UI로 Navigation} & 회원 프로필 화면 이동 &  \\* 
-     \arrayrulecolor[rgb]{0.8,0.8,0.8}\cline{2-2}\arrayrulecolor[rgb]{0.8,0.8,0.8}\cline{4-4}
-     &  &  &  &  \\* 
-    \arrayrulecolor{black}\cline{2-5}
-     & \multicolumn{1}{>{\hspace{0pt}}m{0.140\linewidth}|}{개인프로필 조회 UI} & \multicolumn{1}{>{\hspace{0pt}}m{0.300\linewidth}|}{Path : URI} & 개인프로필 UI(타인) &  \\* 
-     \arrayrulecolor[rgb]{0.8,0.8,0.8}\cline{2-2}\arrayrulecolor{black}\cline{3-3}\arrayrulecolor[rgb]{0.8,0.8,0.8}\cline{4-4}\arrayrulecolor{black}
-     &  & Controller : 회원관리Ctrl &  &  \\ 
-    \arrayrulecolor{black}\hline
-
-    \multirow{4}{=}{구독취소.onClick()} & 내 닉네임, 구독대상 닉네임 & \multirow{2}{=}{더 이상 구독 하고 싶지 않은 사용자목록 옆의 x아이콘을 눌러 구독 취소, 취소시 페이지를 reload하여 갱신해서 출력} & 회원 프로필 화면 이동 &  \\* 
-     \arrayrulecolor[rgb]{0.8,0.8,0.8}\cline{2-2}\arrayrulecolor[rgb]{0.8,0.8,0.8}\cline{4-4}
-     &  &  &  &  \\* 
-    \arrayrulecolor{black}\cline{2-5}
-     & \multicolumn{1}{>{\hspace{0pt}}m{0.140\linewidth}|}{개인프로필 조회 UI(본인)} & \multicolumn{1}{>{\hspace{0pt}}m{0.300\linewidth}|}{Path : URI} & 개인프로필 UI(개인) &  \\* 
-     \arrayrulecolor[rgb]{0.8,0.8,0.8}\cline{2-2}\arrayrulecolor{black}\cline{3-3}\arrayrulecolor[rgb]{0.8,0.8,0.8}\cline{4-4}\arrayrulecolor{black}
-     &  & Controller : 회원관리Ctrl &  &  \\ 
-    \arrayrulecolor{black}\hline
-
-    \multirow{4}{=}{최근 쓴 기록.onClick()} & 대상 닉네임 & \multirow{2}{=}{해당 기록 상세조회UI로 Navigation} & 회원 프로필 화면 이동 &  \\* 
-     \arrayrulecolor[rgb]{0.8,0.8,0.8}\cline{2-2}\arrayrulecolor[rgb]{0.8,0.8,0.8}\cline{4-4}
-     &  &  &  &  \\* 
-    \arrayrulecolor{black}\cline{2-5}
-     & \multicolumn{1}{>{\hspace{0pt}}m{0.140\linewidth}|}{개인프로필 조회 UI(타인)} & \multicolumn{1}{>{\hspace{0pt}}m{0.300\linewidth}|}{Path : URI} & 기록상세조회 UI(타인) &  \\* 
-     \arrayrulecolor[rgb]{0.8,0.8,0.8}\cline{2-2}\arrayrulecolor{black}\cline{3-3}\arrayrulecolor[rgb]{0.8,0.8,0.8}\cline{4-4}\arrayrulecolor{black}
-     &  & Controller : 기록관리Ctrl &  &  \\ 
-    \arrayrulecolor{black}\hline
-
-    \multirow{4}{=}{회원목록조회.onClick()} &  & \multirow{2}{=}{회원목록 조회 UI로 Navigation} & 회원 프로필 화면 이동 &  \\* 
-     \arrayrulecolor[rgb]{0.8,0.8,0.8}\cline{2-2}\arrayrulecolor[rgb]{0.8,0.8,0.8}\cline{4-4}
-     &  &  &  &  \\* 
-    \arrayrulecolor{black}\cline{2-5}
-     & \multicolumn{1}{>{\hspace{0pt}}m{0.140\linewidth}|}{개인프로필 조회 UI(관리자)} & \multicolumn{1}{>{\hspace{0pt}}m{0.300\linewidth}|}{Path : URI} & 회원목록 조회UI &  \\* 
-     \arrayrulecolor[rgb]{0.8,0.8,0.8}\cline{2-2}\arrayrulecolor{black}\cline{3-3}\arrayrulecolor[rgb]{0.8,0.8,0.8}\cline{4-4}\arrayrulecolor{black}
-     &  & Controller : 회원관리Ctrl &  &  \\ 
-    \arrayrulecolor{black}\hline
-
-    \multirow{4}{=}{블랙리스트 목록 조회.onClick()} &  & \multirow{2}{=}{신고 횟수가 10회 이상인 사용자 목록만 출력하는 블랙리스트 목록 UI로 Navigation} &  &  \\* 
-     \arrayrulecolor[rgb]{0.8,0.8,0.8}\cline{2-2}\arrayrulecolor[rgb]{0.8,0.8,0.8}\cline{4-4}
-     &  &  &  &  \\* 
-    \arrayrulecolor{black}\cline{2-5}
-     & \multicolumn{1}{>{\hspace{0pt}}m{0.140\linewidth}|}{개인프로필 조회 UI(관리자))} & \multicolumn{1}{>{\hspace{0pt}}m{0.300\linewidth}|}{Path : URI} & 블랙리스트목록 조회 UI &  \\* 
-     \arrayrulecolor[rgb]{0.8,0.8,0.8}\cline{2-2}\arrayrulecolor{black}\cline{3-3}\arrayrulecolor[rgb]{0.8,0.8,0.8}\cline{4-4}\arrayrulecolor{black}
-     &  & Controller : 회원관리Ctrl &  &  \\ 
+     &  & Controller : com.teulda.web.user.UserCont
+     roller.getReportlist() &  &  \\ 
     \arrayrulecolor{black}\hline
 \end{longtable}
 \newpage
