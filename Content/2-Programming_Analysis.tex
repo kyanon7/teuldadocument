@@ -6,6 +6,7 @@
 
 % \hiddensection{업무 분석: Use Case Modeling}
 % \SectionTitle{\thesection}{업무 분석 : Use Case Modeling}
+\newpage
 
 \begin{landscape}
     \hiddenchapter{분석 산출물}
@@ -56,8 +57,8 @@
         \multirow{-3}{=}{{\cellcolor{aliceblue}}\Centering{}회원관리} & R103 & 기능 &  & SMS 문자 인증 & 핸드폰 번호 1개 당 하나의 아이디만 생성할 수 있도록 체크를 하고 본인 확인을 위한 sms 인증을 진행한다. & 전화번호, 인증번호 & 중복 여부 메세지, 본인확인 메세지 & o & \multicolumn{1}{>{\Centering\hspace{0pt}}m{0.038\linewidth}|}{청기와 Lab} \\* \hhline{|>{\arrayrulecolor{aliceblue}}->{\arrayrulecolor{black}}|-|-|~|-|-|-|-|-|-|}
         {\cellcolor{aliceblue}} & R104 & 기능 &  & 이메일 인증 & 본인의 e-mail이 맞는지 확인을 위한 인증을 진행한다. & e-mail, 인증번호 & 본인확인 메세지 & o & \multicolumn{1}{>{\Centering\hspace{0pt}}m{0.038\linewidth}|}{} \\* \hhline{|>{\arrayrulecolor{aliceblue}}->{\arrayrulecolor{black}}|-|-|-|-|-|-|-|-|-|}
         {\cellcolor{aliceblue}} &  &  &  & Google & Google 계정으로 회원가입 가능. 계정 로그인 시 계정 연동 동의 체크 화면이 노출되며 '동의' 시 정보 입력으로 이동 & Google 아이디, 비밀번호, 닉네임, 이름, 핸드폰 번호, 거주지, 관심 여행지역, 생년월일, 프로필사진, 가입날짜 & 닉네임, 환영 메세지 & o & \multicolumn{1}{>{\Centering\hspace{0pt}}m{0.038\linewidth}|}{Google Login Api} \\* \hhline{|>{\arrayrulecolor{aliceblue}}->{\arrayrulecolor{black}}|~|~|~|-|-|-|-|-|-|}
-        {\cellcolor{aliceblue}} & \multirow{2}{=}{\Centering{}R105} & \multirow{2}{=}{\Centering{}기능} & \multirow{2}{=}{\Centering{}소셜 연동 회원가입} & Kakao & Kakao 계정으로 회원가입 가능. 계정 로그인 시 계정 연동 동의 체크 화면이 노출되며 '동의' 시 정보 입력으로 이동 & Kakao 아이디, 비밀번호, 닉네임, 이름, 핸드폰 번호, 거주지, 관심 여행지역, 생년월일, 프로필사진, 가입날짜 & 닉네임, 환영 메세지 & o & \multicolumn{1}{>{\Centering\hspace{0pt}}m{0.038\linewidth}|}{Kakao Login Api} \\* \hhline{|>{\arrayrulecolor{aliceblue}}->{\arrayrulecolor{black}}|~|~|~|-|-|-|-|-|-|}
-        {\cellcolor{aliceblue}} &  &  &  & Naver & Naver 계정으로 회원가입 가능. 계정 로그인 시 계정 연동 동의 체크 화면이 노출되며 '동의' 시 정보 입력으로 이동 & Naver 아이디, 비밀번호, 닉네임, 이름, 핸드폰 번호, 거주지, 관심 여행지역, 생년월일, 프로필사진, 가입날짜 & 닉네임, 환영 메세지 & o & \multicolumn{1}{>{\Centering\hspace{0pt}}m{0.038\linewidth}|}{Naver Login Api} \\* \hhline{|>{\arrayrulecolor{aliceblue}}->{\arrayrulecolor{black}}|-|-|-|-|-|-|-|-|-|}
+        {\cellcolor{aliceblue}} & \multirow{-6}{=}{\Centering{}R105} & \multirow{-6}{=}{\Centering{}기능} & \multirow{-6}{=}{\Centering{}소셜 연동 회원가입} & Kakao & Kakao 계정으로 회원가입 가능. 계정 로그인 시 계정 연동 동의 체크 화면이 노출되며 '동의' 시 정보 입력으로 이동 & Kakao 아이디, 비밀번호, 닉네임, 이름, 핸드폰 번호, 거주지, 관심 여행지역, 생년월일, 프로필사진, 가입날짜 & 닉네임, 환영 메세지 & o & \multicolumn{1}{>{\Centering\hspace{0pt}}m{0.038\linewidth}|}{Kakao Login Api} \\* \hhline{|>{\arrayrulecolor{aliceblue}}->{\arrayrulecolor{black}}|~|~|~|-|-|-|-|-|-|}
+        {\cellcolor{aliceblue}} & \multirow{2}{=}{\Centering{}R105} & \multirow{2}{=}{\Centering{}기능} & \multirow{2}{=}{\Centering{}소셜 연동 회원가입} & Naver & Naver 계정으로 회원가입 가능. 계정 로그인 시 계정 연동 동의 체크 화면이 노출되며 '동의' 시 정보 입력으로 이동 & Naver 아이디, 비밀번호, 닉네임, 이름, 핸드폰 번호, 거주지, 관심 여행지역, 생년월일, 프로필사진, 가입날짜 & 닉네임, 환영 메세지 & o & \multicolumn{1}{>{\Centering\hspace{0pt}}m{0.038\linewidth}|}{Naver Login Api} \\* \hhline{|>{\arrayrulecolor{aliceblue}}->{\arrayrulecolor{black}}|-|-|-|-|-|-|-|-|-|}
         {\cellcolor{aliceblue}} & \multirow{11}{=}{\Centering{}R106} & \multirow{11}{=}{\Centering{}기능} & \multirow{19}{=}{\Centering{}로그인} & 계정 로그인 & 자사 사이트에서 가입한 계정으로 로그인 & e-mail, 비밀번호 &  & o & \multicolumn{1}{>{\Centering\hspace{0pt}}m{0.038\linewidth}|}{} \\* \hhline{|>{\arrayrulecolor{aliceblue}}->{\arrayrulecolor{black}}|~|~|~|-|-|-|-|-|-|}
         {\cellcolor{aliceblue}} &  &  &  & Google & Google 계정으로 로그인 & Google 아이디, 비밀번호 &  & o & \multicolumn{1}{>{\Centering\hspace{0pt}}m{0.038\linewidth}|}{Google Login Api} \\* \hhline{|>{\arrayrulecolor{aliceblue}}->{\arrayrulecolor{black}}|~|~|~|-|-|-|-|-|-|}
         {\cellcolor{aliceblue}} &  &  &  & Kakao & Kakao 계정으로 로그인 & Kakao 아이디, 비밀번호 &  & o & \multicolumn{1}{>{\Centering\hspace{0pt}}m{0.038\linewidth}|}{Kakao Login Api} \\* \hhline{|>{\arrayrulecolor{aliceblue}}->{\arrayrulecolor{black}}|~|~|~|-|-|-|-|-|-|}
@@ -67,19 +68,19 @@
         {\cellcolor{aliceblue}} & R109 & 기능 &  & 아이디(e-mail) 찾기 & sms 인증을 통해 본인 확인이 완료되면 아이디를 보여준다. & 전화번호, 인증번호, 이름 & 아이디(e-mail) & o & \multicolumn{1}{>{\Centering\hspace{0pt}}m{0.038\linewidth}|}{} \\* \hhline{|>{\arrayrulecolor{aliceblue}}->{\arrayrulecolor{black}}|-|-|~|-|-|-|-|-|-|}
         {\cellcolor{aliceblue}} & R110 & 기능 &  & 비밀번호 찾기 & sms 인증을 통해 본인 확인이 완료되면 비밀번호 재설정 페이지로 넘어간다. & 아이디(e-mail), 전화번호, 인증번호 &  & o & \multicolumn{1}{>{\Centering\hspace{0pt}}m{0.038\linewidth}|}{} \\* \hhline{|>{\arrayrulecolor{aliceblue}}->{\arrayrulecolor{black}}|-|-|-|-|-|-|-|-|-|}
         {\cellcolor{aliceblue}} & R111 & 기능 & 로그아웃 & 로그아웃 & 로그아웃이 이루어진다. &  & 로그아웃 메세지 & o & \multicolumn{1}{>{\Centering\hspace{0pt}}m{0.038\linewidth}|}{} \\* \hhline{|>{\arrayrulecolor{aliceblue}}->{\arrayrulecolor{black}}|-|-|-|-|-|-|-|-|-|}
-        {\cellcolor{aliceblue}} & R112 & 기능 & \multirow{6}{=}{\Centering{}내 정보 관리} & 내 정보 조회 & 로그인한 사용자는 내 정보 조회를 통해 등록해 놓은 정보를 조회할 수 있다. & e-mail & e-mail, 비밀번호, 닉네임, 이름, 핸드폰 번호, 거주지, 관심 여행지역, 생년월일, 프로필사진 & o & \multicolumn{1}{>{\Centering\hspace{0pt}}m{0.038\linewidth}|}{} \\* \hhline{|>{\arrayrulecolor{aliceblue}}->{\arrayrulecolor{black}}|-|-|~|-|-|-|-|-|-|}
-        {\cellcolor{aliceblue}} & R113 & 기능 &  & 내 정보 수정 & 개인 정보 수정 시 필수 정보는 비밀번호를 재입력하여 본인인증을 마친 후 각각의 항목들을 수정할 수 있고 선택 정보는 본인인증 없이 수정 가능하다. 각각의 항목들은 팝업창을 통해 하나하나 수정, 저장할 수 있다. & e-mail, 비밀번호, 닉네임, 이름, 핸드폰 번호, 거주지, 관심 여행지역, 생년월일 & 수정 완료 메세지 & o & \multicolumn{1}{>{\Centering\hspace{0pt}}m{0.038\linewidth}|}{} \\* \hhline{|>{\arrayrulecolor{aliceblue}}->{\arrayrulecolor{black}}|-|-|~|-|-|-|-|-|-|}
+        {\cellcolor{aliceblue}} & R112 & 기능 & \multirow{-2}{=}{\Centering{}내 정보 관리} & 내 정보 조회 & 로그인한 사용자는 내 정보 조회를 통해 등록해 놓은 정보를 조회할 수 있다. & e-mail & e-mail, 비밀번호, 닉네임, 이름, 핸드폰 번호, 거주지, 관심 여행지역, 생년월일, 프로필사진 & o & \multicolumn{1}{>{\Centering\hspace{0pt}}m{0.038\linewidth}|}{} \\* \hhline{|>{\arrayrulecolor{aliceblue}}->{\arrayrulecolor{black}}|-|-|~|-|-|-|-|-|-|}
+        {\cellcolor{aliceblue}} & R113 & 기능 & \multirow{5}{=}{\Centering{}내 정보 관리} & 내 정보 수정 & 개인 정보 수정 시 필수 정보는 비밀번호를 재입력하여 본인인증을 마친 후 각각의 항목들을 수정할 수 있고 선택 정보는 본인인증 없이 수정 가능하다. 각각의 항목들은 팝업창을 통해 하나하나 수정, 저장할 수 있다. & e-mail, 비밀번호, 닉네임, 이름, 핸드폰 번호, 거주지, 관심 여행지역, 생년월일 & 수정 완료 메세지 & o & \multicolumn{1}{>{\Centering\hspace{0pt}}m{0.038\linewidth}|}{} \\* \hhline{|>{\arrayrulecolor{aliceblue}}->{\arrayrulecolor{black}}|-|-|~|-|-|-|-|-|-|}
         {\cellcolor{aliceblue}} & R114 & 기능 &  & 회원 탈퇴 & 회원 탈퇴는 본인인증(sms 인증)을 마친 후에 비활성화할 수 있고 비활성화가 1달동안 지속되면 영구 삭제가 된다. 1달 이내에 재접속 시에 계정은 복구된다. & 핸드폰 번호, 인증번호, e-mail, 계정 활성화 여부코드 & 회원탈퇴 재확인 메세지, 탈퇴 완료 메세지 & o & \multicolumn{1}{>{\Centering\hspace{0pt}}m{0.038\linewidth}|}{플래그 처리} \\* \hhline{|>{\arrayrulecolor{aliceblue}}->{\arrayrulecolor{black}}|---------|}
         {\cellcolor{aliceblue}} & \multicolumn{9}{>{\hspace{0pt}}m{0.885\linewidth}|}{ ADMIN } \\* \hhline{|>{\arrayrulecolor{aliceblue}}->{\arrayrulecolor{black}}|-|-|-|-|-|-|-|-|-|}
         \multirow{-10}{=}{{\cellcolor{aliceblue}}\Centering{}회원관리} & R115 & 기능 & \multirow{4}{=}{\Centering{}관리자 권한} & 회원 정보 조회 & 관리자 계정으로 로그인 시 모든 회원의 정보를 조회할 수 있다. & e-mail & e-mail, 비밀번호, 닉네임, 이름, 핸드폰 번호, 거주지, 관심 여행지역, 생년월일, 프로필사진 & o & \multicolumn{1}{>{\Centering\hspace{0pt}}m{0.038\linewidth}|}{Ajax} \\* \hhline{|>{\arrayrulecolor{aliceblue}}->{\arrayrulecolor{black}}|-|-|~|-|-|-|-|-|-|}
         {\cellcolor{aliceblue}} & R116 & 기능 &  & 블랙리스트 회원 계정 정지 & 누적 신고 10회 이상이면 계정이 2주간 정지된다. & 신고 횟수, e-mail &  & o & \multicolumn{1}{>{\Centering\hspace{0pt}}m{0.038\linewidth}|}{} \\* \hline
         {\cellcolor{aliceblue}} & \multicolumn{9}{>{\hspace{0pt}}m{0.885\linewidth}|}{ USER } \\* \hhline{|>{\arrayrulecolor{aliceblue}}->{\arrayrulecolor{black}}|-|-|-|-|-|-|-|-|-|}
         {\cellcolor{aliceblue}} & R201 & 기능 &  & 지도에 등록 & 화면에 표시된 세계지도에 자신이 여행한 장소(범위 제한없이)를 선택하거나 검색하면 깃발로 표시되고 글을 등록할 수 있는 페이지로 넘어가게 된다. & 여행지 위치(GPS) &  & o & \multicolumn{1}{>{\Centering\hspace{0pt}}m{0.038\linewidth}|}{Google Map Api} \\* \hhline{|>{\arrayrulecolor{aliceblue}}->{\arrayrulecolor{black}}|-|-|~|-|-|-|-|-|-|}
-        \multirow{2}{=}{{\cellcolor{aliceblue}}\Centering{}기록 관리} & R202 & 기능 &  &  & 작성자는 블로그 형식(자유롭게 글, 사진, 동영상을 올릴 수 있는 형식)으로 기록을 작성할 수 있다. & e-mail, 제목, 내용, 사진, 동영상, 등록 날짜, 기록 식별번호 & 등록 완료 메세지 & o &  \\* \hhline{|>{\arrayrulecolor{aliceblue}}->{\arrayrulecolor{black}}|-|-|~|~|-|-|-|-|-|}
-        {\cellcolor{aliceblue}} & R203 & 기능 &  & \multirow{3}{=}{\Centering{}내용등록} & 작성자는 여행에서 사용한 지출 내역을 간단하게 작성할 수 있다. & 지출내역(지출 카테고리(교통비, 숙박비, 식비, 기타), 통화(원, 달러, 엔, 유로, 위안, 기타), 금액, 합계) &  & o & \multicolumn{1}{>{\Centering\hspace{0pt}}m{0.038\linewidth}|}{} \\* \hhline{|>{\arrayrulecolor{aliceblue}}->{\arrayrulecolor{black}}|-|-|~|~|-|-|-|-|-|}
-        {\cellcolor{aliceblue}} & R204 & 기능 &  &  & 작성자는 여행 중 구매한 기념품의 사진과 간략한 설명을 등록할 수 있다. & 사진, 사진설명 글 &  & o & \multicolumn{1}{>{\Centering\hspace{0pt}}m{0.038\linewidth}|}{} \\* \hhline{|>{\arrayrulecolor{aliceblue}}->{\arrayrulecolor{black}}|-|-|~|~|-|-|-|-|-|}
-        {\cellcolor{aliceblue}} & R205 & 기능 & \multirow{-5}{=}{\Centering{}기록 작성} &  & 작성자는 글에 어울리는 해시태그를 자유롭게 등록할 수 있다. 해시태그의 형식은 \#\textasciitilde{}\textasciitilde{}\textasciitilde{} {[}, \#\textasciitilde{}\textasciitilde{}\textasciitilde{}] 으로 작성할 수 있다. & \#\textasciitilde{}\textasciitilde{}\textasciitilde{} 형식의 해시태그 &  & o &  \\* \hhline{|>{\arrayrulecolor{aliceblue}}->{\arrayrulecolor{black}}|-|-|~|-|-|-|-|-|-|}
-        {\cellcolor{aliceblue}} & R206 & 기능 &  & 후기 작성 & 내용 등록과 다르게 형식에 맞춰서 작성을 하며 여행지, 식당, 숙소 등의 간단한 한줄평과 평점을 남길 수 있다. & e-mail, 후기, 평점, 후기 식별번호 & 등록 완료 메세지 & o &  \\* \hhline{|>{\arrayrulecolor{aliceblue}}->{\arrayrulecolor{black}}|-|-|~|-|-|-|-|-|-|}
+        \multirow{2}{=}{{\cellcolor{aliceblue}}\Centering{}기록 관리} & R202 & 기능 & \multirow{2}{=}{\Centering{}기록 작성} &  & 작성자는 블로그 형식(자유롭게 글, 사진, 동영상을 올릴 수 있는 형식)으로 기록을 작성할 수 있다. & e-mail, 제목, 내용, 사진, 동영상, 등록 날짜, 기록 식별번호 & 등록 완료 메세지 & o &  \\* \hhline{|>{\arrayrulecolor{aliceblue}}->{\arrayrulecolor{black}}|-|-|~|~|-|-|-|-|-|}
+        {\cellcolor{aliceblue}} & R203 & 기능 &  & \multirow{-3}{=}{\Centering{}내용등록} & 작성자는 여행에서 사용한 지출 내역을 간단하게 작성할 수 있다. & 지출내역(지출 카테고리(교통비, 숙박비, 식비, 기타), 통화(원, 달러, 엔, 유로, 위안, 기타), 금액, 합계) &  & o & \multicolumn{1}{>{\Centering\hspace{0pt}}m{0.038\linewidth}|}{} \\* \hhline{|>{\arrayrulecolor{aliceblue}}->{\arrayrulecolor{black}}|-|-|~|~|-|-|-|-|-|}
+        {\cellcolor{aliceblue}} & R204 & 기능 &  & \multirow{3}{=}{\Centering{}내용등록} & 작성자는 여행 중 구매한 기념품의 사진과 간략한 설명을 등록할 수 있다. & 사진, 사진설명 글 &  & o & \multicolumn{1}{>{\Centering\hspace{0pt}}m{0.038\linewidth}|}{} \\* \hhline{|>{\arrayrulecolor{aliceblue}}->{\arrayrulecolor{black}}|-|-|~|~|-|-|-|-|-|}
+        {\cellcolor{aliceblue}} & R205 & 기능 &  &  & 작성자는 글에 어울리는 해시태그를 자유롭게 등록할 수 있다. 해시태그의 형식은 \#\textasciitilde{}\textasciitilde{}\textasciitilde{} {[}, \#\textasciitilde{}\textasciitilde{}\textasciitilde{}] 으로 작성할 수 있다. & \#\textasciitilde{}\textasciitilde{}\textasciitilde{} 형식의 해시태그 &  & o &  \\* \hhline{|>{\arrayrulecolor{aliceblue}}->{\arrayrulecolor{black}}|-|-|~|-|-|-|-|-|-|}
+        {\cellcolor{aliceblue}} & R206 & 기능 & \multirow{2}{=}{\Centering{}기록 작성} & 후기 작성 & 내용 등록과 다르게 형식에 맞춰서 작성을 하며 여행지, 식당, 숙소 등의 간단한 한줄평과 평점을 남길 수 있다. & e-mail, 후기, 평점, 후기 식별번호 & 등록 완료 메세지 & o &  \\* \hhline{|>{\arrayrulecolor{aliceblue}}->{\arrayrulecolor{black}}|-|-|~|-|-|-|-|-|-|}
         {\cellcolor{aliceblue}} & R207 & 기능 &  & 공개 / 비공개 설정 & 작성지는 글을 등록할 때 공개 / 비공개 여부를 결정할 수 있다. 공개 선택 시 커뮤니티에서 다른 사람들이 볼 수 있고, 비공개 설정 시 자신 외에는 볼 수 없는 상태가 된다. & 공개 여부 식별번호 &  & o &  \\* \hhline{|>{\arrayrulecolor{aliceblue}}->{\arrayrulecolor{black}}|-|-|~|-|-|-|-|-|-|}
         {\cellcolor{aliceblue}} & R208 & 기능 &  & 책 형식으로 인쇄 & 자신이 작성한 블로그 형식의 글을 주어진 틀에 맞춰서 인쇄할 수 있는 기능을 제공한다. & 기록 식별번호 & 출력 미리보기 & △ &  \\* \hhline{|>{\arrayrulecolor{aliceblue}}->{\arrayrulecolor{black}}|-|-|-|-|-|-|-|-|-|}
         \multirow{-2}{=}{{\cellcolor{aliceblue}}\Centering{}기록 관리} & \multirow{17}{=}{\Centering{}R209} & 비기능 & \multirow{17}{=}{\Centering{}마이 페이지} & 마이페이지 & 사용자는 마이페이지에서 자신의 기록을 지도와 목록형식으로 조회 할 수 있다. 또한 커뮤니티를 통해 북마크, 스크랩, 구독한 타인의 기록도 조회할 수 있다. &  &  & o &  \\* \hhline{|>{\arrayrulecolor{aliceblue}}->{\arrayrulecolor{black}}|~|-|~|-|-|-|-|-|-|}
@@ -87,7 +88,7 @@
         {\cellcolor{aliceblue}} &  & 기능 &  &  & 목록으로 보기 사용자가 작성한 기록은 목록으로 보여지며 한 항목을 선택하여 기록을 조회할 수 있다. 사용자가 원하는 그룹으로 묶어 분류 가능하다. 제목, 해시태그, 작성일, 여행지등의 조건으로 검색을 하면 검색 조건에 알맞는 기록이 조회된다. 기본 정렬 방식은 최신순이며 사용자가 원하는 조건(장소, 시간, 가나다 순 등)으로 정렬할 수 있다. & e-mail, 기록 식별번호, 기록 그룹번호, 검색 조건(제목, 해시태그, 작성일, 여행지) & 내 기록 목록 & o &  \\* \hhline{|>{\arrayrulecolor{aliceblue}}->{\arrayrulecolor{black}}|~|-|~|-|-|-|-|-|-|}
         {\cellcolor{aliceblue}} &  & 기능 &  & 북마크 & 사용자는 북마크한 기록을 마이페이지에서 볼 수 있다. & e-mail(본인, 타인), 기록 식별번호(타인), 북마크 식별번호(본인) & 북마크 목록 & o &  \\* \hhline{|>{\arrayrulecolor{aliceblue}}->{\arrayrulecolor{black}}|~|-|~|-|-|-|-|-|-|}
         {\cellcolor{aliceblue}} &  & 기능 &  & 스크랩 & 사용자는 스크랩한 기록을 마이페이지에서 볼 수 있고 수정 가능하다. & e-mail(본인, 타인), 기록 식별번호(타인), 스크랩 식별번호(본인) & 스크랩 목록 & o &  \\* \hhline{|>{\arrayrulecolor{aliceblue}}->{\arrayrulecolor{black}}|~|-|~|-|-|-|-|-|-|}
-        {\cellcolor{aliceblue}} &  & 기능 &  & 구독 & 자신이 구독한 사용자의 목록과 글을 마이페이지에서 볼 수 있다. & e-mail(본인, 타인), 기록 식별번호(타인), 구독 식별번호(본인) & 구독 목록 & o &  \\* \hhline{|>{\arrayrulecolor{aliceblue}}->{\arrayrulecolor{black}}|-|-|-|-|-|-|-|-|-|}
+        {\cellcolor{aliceblue}} & R209 & 기능 & 마이 페이지 & 구독 & 자신이 구독한 사용자의 목록과 글을 마이페이지에서 볼 수 있다. & e-mail(본인, 타인), 기록 식별번호(타인), 구독 식별번호(본인) & 구독 목록 & o &  \\* \hhline{|>{\arrayrulecolor{aliceblue}}->{\arrayrulecolor{black}}|-|-|-|-|-|-|-|-|-|}
         \multirow{3}{=}{{\cellcolor{aliceblue}}\Centering{}기록 관리} & R210 & 기능 & 기록 수정 & 기록 수정 & 사용자는 자신의 기록과 후기를 언제든 수정할 수 있다. & e-mail, 기록 식별번호, 여행지 위치(GPS), 제목, 내용작성, 동영상, 지출내역, 사진, 사진설명 글, 해시태그, 후기 식별번호, 후기, 평점 & 수정 완료 메세지 & o &  \\* \hhline{|>{\arrayrulecolor{aliceblue}}->{\arrayrulecolor{black}}|-|-|-|-|-|-|-|-|-|}
         {\cellcolor{aliceblue}} & R211 & 기능 & \multirow{4}{=}{\Centering{}기록 삭제} & 기록 삭제 & 사용자는 자신의 기록을 삭제할 수 있고 삭제 시 정말 삭제하는 것이 맞는지 재확인 한 후 휴지통으로 이동한다. & 기록 식별번호, 후기 식별번호, 삭제여부 식별번호 & 삭제여부 재확인 메세지 & o &  \\* \hhline{|>{\arrayrulecolor{aliceblue}}->{\arrayrulecolor{black}}|-|-|~|-|-|-|-|-|-|}
         {\cellcolor{aliceblue}} & R212 & 기능 &  & 휴지통 & 휴지통 안에 들어간 기록은 7일간 보관되고 사용자가 비우지 않으면 7일 후 영구 삭제된다. & 기록 식별번호, 후기 식별번호, 삭제여부 식별번호 & 삭제여부 재확인 메세지 & o &  \\* \hline
@@ -365,7 +366,7 @@
     \hline
 \end{longtable}
 \renewcommand{\arraystretch}{1}
-\newpage
+\clearpage\newpage
 
 
 \small
@@ -493,8 +494,8 @@
 \newpage
 
 \hiddensubsection{Use Case 정의서}
-\import{Content/}{2-1-Use_Case_Definitions.tex}
-
+% \import{Content/}{2-1-Use_Case_Definitions.tex}
+\import{Content/}{2-1-Use_Case_Definitions_pdf.tex}
 
 
 \newpage
